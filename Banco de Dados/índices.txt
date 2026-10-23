@@ -1,0 +1,5 @@
+https://pt.stackoverflow.com/questions/27877/pra-que-serve-%C3%ADndices-no-sql-server
+https://www.devmedia.com.br/indices-clusterizados-e-nao-clusterizados-no-sql-server/30288#ixzz39XFTkuzg
+https://www.youtube.com/watch?v=anKA5m1Nqsg
+http://wiki.icmc.usp.br/images/8/8e/SCC578920131-B.pdf
+http://www.inf.unioeste.br/~olguin/4458-semin/G7-monografia.pdf

@@ -1,0 +1,8 @@
+MAP
+a função map recebe dois argumentos, o primeiro deles é o nome de uma função e o segundo uma lista, então map retorna uma outra lista que contem os resultados provenientes da ação daquela função sobre cada ítem da lista.
+
+LISTER
+Irá iterar e retornar um iterador para os elementos de uma lista, caso a condição da função
+passada como primeiro argumento seja satisfatória
+
+operation,type,manufacturer,engine_type,engines,year_manufacturing,seating,fatalities

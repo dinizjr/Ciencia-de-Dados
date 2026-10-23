@@ -1,0 +1,23 @@
+http://blog.aprendapython.com.br/articles/rapidinha-strings-em-python-1fr65/
+
+https://br.ccm.net/faq/10376-python-ler-e-gravar-arquivos-csv
+
+https://www.youtube.com/watch?v=q5uM4VKywbA
+
+https://pt.stackoverflow.com/questions/129085/agrupar-e-agregar-dados
+
+https://books.google.com.br/books?id=XL46DwAAQBAJ&pg=PT87&lpg=PT87&dq=converter+string+em+float+em+arquivo+csv+no+python&source=bl&ots=ZJ2UaSSdOc&sig=bQXmtOYhB6p1r-7JDAe9DFa8C8c&hl=pt-BR&sa=X&ved=0ahUKEwic9rnhuKfcAhWxxVkKHQ-lAZEQ6AEIZjAG#v=onepage&q=float&f=false
+
+https://cadernoscicomp.com.br/tutorial/introducao-a-programacao-em-python-3/funcoes-print-input-e-o-metodo-format/
+
+http://mindbending.org/pt/corrigindo-arquivos-csv-com-python
+
+https://imasters.com.br/back-end/data-science-importando-dados-com-python(json)
+
+https://paulovasconcellos.com.br/28-comandos-%C3%BAteis-de-pandas-que-talvez-voc%C3%AA-n%C3%A3o-conhe%C3%A7a-6ab64beefa93(pandas)
+
+https://www.youtube.com/watch?v=k22I3q5vz8w(convert csv to json)
+
+https://www.youtube.com/watch?v=z5Ozsx-7704
+
+http://www.devfuria.com.br/python/convertendo-listas/

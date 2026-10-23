@@ -1,0 +1,38 @@
+--- Resumo das aulas
+Aula 1
+- Visualização de dados no ciclo de vida de um projeto de Ciência de Dados
+- Introdução aos princípios do Design
+- A roda da visualização
+- Abstração vs. Figuração
+- Funcionalidade vs. Decoração
+- Data-ink Ratio
+- Visualização de Dados na Análise Exploratória
+- Tipos de variáveis
+- Tipos de gráficos: Linha, Dispersão, Barras, Colunas, Setores
+- Matplotlib
+
+Aula 2
+- Pandas.plot()
+- Variáveis quantitativas contínuas e estratégias para definição de classes
+- Tipos de gráficos: Histograma, Curva Densidade, Gráfico de Caixa, Barras de Erro
+- Ferramentas de visualização parte 1: Análise Exploratória usando Data Voyager
+- Visualização realtime/streaming
+- Ferramentas de visualização parte 2: Dashboards com Grafana
+- Introdução a Grafos e GDBs para visualização
+
+Aula 3
+- Gráfico de Violino: kde vs. histograma, amplitude vs. outiliers
+- Visualização de modelos de regressão linear
+- Seaborn
+- Tipos de gráficos: Bolha, Bullet, Diagrama de Área Polar, Coordenadas Paralelas, Pirâmide Populacional, Radar, Barras Radiais, Colunas Radiais, Diagrama de Cordas
+- Ferramentas de visualização parte 3: Tableau
+- Tipos de gráficos: Tree Map e Sunburst, Mapa de Calor, Diagrama de Venn, Mapa coroplético, Diagrama de ramos e folhas, Candlestick, Diagrama de Arcos
+- Plotly
+- Encerramento
+
+---- Repositórios
+[Github] Exemplos, Demonstrações, Docker, Datasets, Integração com o Binder
+https://github.com/matheusmota/dataviz2018
+
+[Kaggle] Exercícios
+https://www.kaggle.com/dataviz2018

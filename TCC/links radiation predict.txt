@@ -1,0 +1,5 @@
+https://machinelearningmastery.com/time-series-prediction-lstm-recurrent-neural-networks-python-keras/
+
+https://www.kaggle.com/wglacier/solar-radiation-predict
+
+https://www.kaggle.com/dronio/SolarEnergy/kernels

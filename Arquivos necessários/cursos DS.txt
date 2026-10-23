@@ -1,0 +1,59 @@
+UDACITY
+⚫Introdução à Estatística Descritiva
+Aprenda os conceitos de estatística necessários para analisar dados.
+https://br.udacity.com/course/intro-to-descriptive-statistics--ud827
+⚫Introdução ao Aprendizado de Máquina
+Reconhecimento de Padrões para diversão e lucro
+https://br.udacity.com/course/intro-to-machine-learning--ud120
+⚫Introduction to Python
+Starting Out in Python 3
+https://br.udacity.com/course/introduction-to-python--ud1110
+⚫Introdução à Estatística
+Tomando Decisões Com Base Em Dados
+https://br.udacity.com/course/intro-to-statistics--st101
+⚫Introdução à Análise de Dados
+Análise de Dados Usando NumPy e Pandas
+https://br.udacity.com/course/intro-to-data-analysis--ud170
+⚫SQL for Data Analysis
+Databases, SQL, and More!
+https://br.udacity.com/course/sql-for-data-analysis--ud198
+⚫Introdução à Ciência de Dados
+O Que é Preciso Para Se Tornar Um Cientista de Dados
+https://br.udacity.com/course/intro-to-data-science--ud359
+⚫Introdução à Estatística Inferencial
+Fazer previsões a partir de dados
+https://br.udacity.com/course/intro-to-inferential-statistics--ud201
+⚫Aprendizado por Reforço
+by Georgia Institute of Technology
+Estude aprendizado de máquina mais a fundo e torne-se um participante na comunidade de pesquisa de aprendizado por reforço.
+https://br.udacity.com/course/reinforcement-learning--ud600
+⚫Tratamento de Dados com MongoDB
+by MongoDB
+Manipulação de Dados e Recuperação
+https://br.udacity.com/course/data-wrangling-with-mongodb--ud032
+⚫Statistics
+by San Jose State University
+The Science of Decisions
+https://br.udacity.com/course/statistics--st095
+⚫Artificial Intelligence
+by Georgia Institute of Technology
+Offered at Georgia Tech as CS 6601
+https://br.udacity.com/course/artificial-intelligence--ud954
+⚫Data Analysis and Visualization
+byGeorgia Institute of Technology
+Offered at Georgia Tech as CSE 6242
+https://br.udacity.com/course/data-analysis-and-visualization--ud404
+⚫Aprendizado de Máquina
+by Georgia Institute of Technology
+Supervisionado, Não-Supervisionado e Por Reforço
+https://br.udacity.com/course/machine-learning--ud262
+⚫Fundamentos da Programação com Python
+Aprenda Programacao Orientada a Objetos
+https://br.udacity.com/course/programming-foundations-with-python--ud036
+⚫Introdução à Inteligência Artificial
+Aprenda os fundamentos da IA
+https://br.udacity.com/course/intro-to-artificial-intelligence--cs271
+⚫Deep Learning
+by Google
+Leve o aprendizado de máquina ao próximo nível
+https://br.udacity.com/course/deep-learning--ud730

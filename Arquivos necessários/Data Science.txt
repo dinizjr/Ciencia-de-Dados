@@ -1,0 +1,91 @@
+﻿[11:41, 23/8/2018] Diniz: http://www.dontpad.com/gdsa
+[11:41, 23/8/2018] Diniz: https://drive.google.com/file/d/1KWZAHaQ5P9uF46cVVsobygU6F0H77Nnk/view
+[11:41, 23/8/2018] William CCO: Que isso ?
+[12:48, 23/8/2018] Diniz: [11:41, 23/8/2018] +55 11 96167-1640: Introdução a Chatbot: Conversas Inteligentes Usando o Watson - Alura:
+
+brupload: http://www.brupload.net/x332yfvihtr4/chbot.doritangos.therebels.rar.html
+Brfiles: http://brfiles.com/f/yvUO5Dz5/chbot.doritangos.therebels.rar
+[11:42, 23/8/2018] +55 11 96167-1640: Banco de dados e SQL sem mistérios - Felipe Mafra:
+
+
+Katfiles
+Parte 1: http://katfile.com/vgds8qht4r4l/bddsmist.doritangos.therebels.part1.rar.html
+Parte 2: http://katfile.com/9dpzuty15v3t/bddsmist.doritangos.therebels.part2.rar.html
+Parte 3: http://katfile.com/m6gy32808r5s/bddsmist.doritangos.therebels.part3.rar.html
+
+brupload
+Parte 1: http://www.brupload.net/2swiawzbciiu/bddsmist.doritangos.therebels.part1.rar.html
+Parte 2: http://www.brupload.net/k34pow8z49s8/bddsmist.doritangos.therebels.part2.rar.html
+Parte 3: http://www.brupload.net/744l86pk57vi/bddsmist.doritangos.therebels.part3.rar.html
+
+brfiles
+Parte 1: http://brfiles.com/f/SJvtWEQM/bddsmist.doritangos.therebels.part1.rar
+Parte 2: http://brfiles.com/f/gAM5v19s/bddsmist.doritangos.therebels.part2.rar
+Parte 3: http://brfiles.com/f/HUKeekGg/bddsmist.doritangos.therebels.part3.rar
+[11:42, 23/8/2018] +55 15 99630-5589: brunão
+[11:42, 23/8/2018] +55 11 96167-1640: Python para Data Science e Machine Learning - Rodrigo Soares Tadewald:
+
+
+katfile
+Parte 1: http://katfile.com/k70lz4e51q1o/pdcml.doritangos.therebels.part1.rar.html
+Parte 2: http://katfile.com/mnduumarmygd/pdcml.doritangos.therebels.part2.rar.html
+Parte 3: http://katfile.com/rwbu86gwdqdi/pdcml.doritangos.therebels.part3.rar.html
+
+brfiles
+Parte 1: http://brfiles.com/f/Ax1VcEir/pdcml.doritangos.therebels.part1.rar
+Parte 2: http://brfiles.com/f/95Jh4RFM/pdcml.doritangos.therebels.part2.rar
+Parte 3: http://brfiles.com/f/NuUVWuCC/pdcml.doritangos.therebels.part3.rar
+
+brupload
+Parte 1: http://www.brupload.net/lvw4uc2h6hf2/pdcml.doritangos.therebels.part1.rar.html
+Parte 2: http://www.brupload.net/23l3c0xfblq3/pdcml.doritangos.therebels.part2.rar.html
+Parte 3: http://www.brupload.net/ce22hwtb09m8/pdcml.doritangos.therebels.part3.rar.html
+[12:56, 23/8/2018] William CCO: Quanta coisa
+[12:56, 23/8/2018] William CCO: Vii
+[12:56, 23/8/2018] William CCO: Vixi
+[12:56, 23/8/2018] William CCO: Watson é a inteligência da IBM
+[13:23, 23/8/2018] Diniz: Estudar lixão
+[13:27, 23/8/2018] William CCO: 😂😂😂
+[16:10, 23/8/2018] Diniz: TRILHA INICIAÇÃO A DATA SCIENCE:
+DICAS VALIOSAS:
+1) Conheça a trilha feita por leonardo ferreira que em 1 ano e meio se tornou cientista de dados e está na posição 30 mundial como cientista de dados Kaggle: https://www.linkedin.com/pulse/data-science-from-zero-kaggle-kernel-master-leonardo-ferreira/
+2) Organize seus estudos e não misture os ensinamentos: estudar Python e R pode ser mais complexo do que deveria ser e a chance de desistência aumenta.
+3) Tenha perfis no linkedin, github, Kaggle e Hacker Rank. Possua uma conta no twitter developer para text mining
+4) Aprofunde-se bebendo ensinamento de varias fontes! exemplo: ao estudar python, leia ebooks e diversos outros materiais de diversas fontes pois cada curso possui uma didática diferente e se você "empacar" em alguma matéria ok, é comum: busque outras didáticas até entender.
+5) se quiser investir em cursos pagos, dsa e udemy são as melhores escolhas;
+6) se o seu inglês for intermediário, acesse datacamp.com e principalmente https://www.edx.org/course
+
+
+======PROGRAMAÇÃO======
+1.1 PYTHON
+Solyd(com certificado) https://solyd.com.br/ead/course/python-basico/
+DSA Python para data science https://www.datascienceacademy.com.br/course?courseid=python-fundamentos
+exercícios python: https://wiki.python.org.br/ListaDeExercicios / https://www.youtube.com/watch?v=nIHq1MtJaKs&list=PLHz_AreHm4dm6wYOIW20Nyg12TAjmMGT- / https://www.udemy.com/aprenda-python-atraves-de-exercicios/
+1.2 R
+https://www.youtube.com/watch?v=plJw9QFew5A&list=PL4OAe-tL47sbzCgtBTthtX50T30CLToEZ
+
+======PROBABILIDADE & ESTATÍSTICA======
+VEDUCA: https://veduca.org/p/probabilidade-e-estatistica
+
+======BUSINESS======
+POWER BI para visualização de dados e dashboards: https://www.datascienceacademy.com.br/pages/curso-microsoft-power-bi-para-data-science
+
+Bônus:
+[BANCO DE DADOS SQL] curso gratuito com certificado FUNDAÇÃO BRADESCO https://www.ev.org.br/cursos
+[CIÊNCIA DE DADOS INTRODUÇÃO] https://www.datascienceacademy.com.br/course?courseid=introduo--cincia-de-dados
+[BIG DATA FUNDAMENTOS] https://www.datascienceacademy.com.br/course?courseid=big-data-fundamentos
+[INTELIGENCIA ARTIFICIAL] https://www.datascienceacademy.com.br/course?courseid=inteligencia-artificial-fundamentos
+
+http://minerandodados.kpages.online/curso-datascience-do-zero
+
+https://download-cdn.resilio.com/stable/windows64/Resilio-Sync_x64.exe
+
+- client free
+- instala com next, next, finish
+- adiciona uma pasta
+- blablabla
+- cada pasta tem uma hash READ ONLY e outra READ & WRITE
+- so divulgar a chave pra galera e sucesso
+- cada chave eh uma pasta; na pratica, como se cada uma fosse um torrent
+
+nao tenho espaco no laptop pra baixar tudo que vcs ja disponibilizaram, mas to montando um storage aqui e ai posso deixar replicando

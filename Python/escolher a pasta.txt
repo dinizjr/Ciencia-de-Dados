@@ -1,0 +1,15 @@
+
+Se você deseja escolher o local onde o arquivo será salvo você pode usar o método asksaveasfile do modulo tkFileDielog, bastar fazer a importação das bibliotecas necessarias do  TKinter.
+
+Aqui segue um exemplo para você:
+
+import Tkinter, tkFileDialog
+
+def salvaarquivo(texto):
+    f = tkFileDialog.asksaveasfile(mode="w", )#A foi opcao definida para escrita.
+    if f is None:
+        return
+    f.write(texto)
+    f.close()
+
+salvaarquivo(raw_input("Digite um texto para ser salvo:"))

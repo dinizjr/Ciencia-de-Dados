@@ -1,0 +1,333 @@
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login - Solyd - Painel do Aluno</title>
+
+    <meta charset="utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+
+    <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-41476380-4', 'auto');
+  ga('send', 'pageview');
+</script>
+
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <!-- jQuery Cookie Plugin-->
+    <script src="https://cdn.jsdelivr.net/npm/jquery.cookie@1.4.1/jquery.cookie.min.js"></script>
+    <!-- Semantic Main CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.3.1/dist/semantic.min.css">
+    <!-- Main Semantic JS  -->
+    <script src="https://cdn.jsdelivr.net/npm/semantic-ui@2.3.1/dist/semantic.min.js"></script>
+    <!-- Moment JS  -->
+    <script src="https://cdn.solyd.com.br/static/js/moment.min.js"></script>
+    <!-- Custom CSS  -->
+    <link rel="stylesheet" href="https://cdn.solyd.com.br/static/css/custom.css">
+    <link rel="stylesheet" href="https://cdn.solyd.com.br/static/css/footer.css">
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="https://cdn.solyd.com.br/static/website/images/favicon16-01.png"
+          type="image/x-icon"/>
+    <link rel="apple-touch-icon-precomposed" href="https://cdn.solyd.com.br/static/website/images/favicon57-01.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114"
+          href="https://cdn.solyd.com.br/static/website/images/favicon114-01.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72"
+          href="https://cdn.solyd.com.br/static/website/images/favicon72-01.png">
+    <link rel="apple-touch-icon-precomposed" sizes="144x144"
+          href="https://cdn.solyd.com.br/static/website/images/favicon144-01.png">
+
+    <!-- AJAX AND CSRF -->
+    <script>
+        var csrftoken = $.cookie('csrftoken');
+
+        function csrfSafeMethod(method) {
+            // these HTTP methods do not require CSRF protection
+            return (/^(GET|HEAD|OPTIONS|TRACE)$/.test(method));
+        }
+
+        $.ajaxSetup({
+            beforeSend: function (xhr, settings) {
+                if (!csrfSafeMethod(settings.type) && !this.crossDomain) {
+                    xhr.setRequestHeader("X-CSRFToken", csrftoken);
+                }
+            }
+        });
+    </script>
+
+    
+    
+</head>
+<body>
+<!-- Sidebar -->
+
+
+<!-- PUSHER -->
+<div class="pusher" id="wrapper">
+    <!-- Navbar -->
+    <header>
+        <div class="ui large secondary network menu">
+            <div class="ui container">
+
+                <div class="item logo">
+                    <a href="/ead/">
+                        <img class="ui tiny image" src="https://cdn.solyd.com.br/static/website/images/logo_small.png">
+                    </a>
+                </div>
+
+                
+
+                
+
+                <div class="ui right item">
+                    <div class="ui right top pointing dropdown">
+                        
+                            <i class="user icon"></i>
+                        
+                        <div class="menu">
+                            <!-- User is logged in -->
+                            
+                                <a class="active item"
+                                   href="/ead/account/login/">Login</a>
+                                <a class=" item"
+                                   href="/ead/account/signup/">Registrar</a>
+                            
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </header>
+    <main>
+        
+        <div class="ui container">
+            
+    <div class="ui form-user center raised very padded text segment">
+        <form class="ui error fluid form" method="POST" novalidate>
+            <h3 class="ui dividing header">Login</h3>
+            <input type='hidden' name='csrfmiddlewaretoken' value='KnhrP3zyA6vfwY7gUfgh8MJVU9lfAZpPQ7GHs0YsqZUWs9fMdPp803J4noOaFOYn' />
+            
+
+
+
+
+    
+        
+            <div class="field">
+            <input type="text" name="username" autofocus maxlength="254" placeholder="Username ou email" required id="id_username" />
+        
+    
+
+</div>
+
+    
+        
+            <div class="field">
+            <input type="password" name="password" placeholder="Senha" required id="id_password" />
+        
+    
+
+</div>
+
+
+<script>
+$('.field')
+  .popup()
+;
+</script>
+            <button class="ui primary submit button">Login</button>
+            <div class="ui error message"></div>
+        </form>
+
+        <div class="ui divider"></div>
+        <p><a href="/ead/account/reset/">Esqueceu sua senha?</a></p>
+        <p>Não possui uma conta? <a href="/ead/account/signup/">Registrar-se!</a></p>
+    </div>
+
+    
+    <script type="text/javascript">
+        $(function () {
+            $('.ui.form')
+                .form({
+                    fields: {
+                        username: {
+                            identifier: 'username',
+                            rules: [
+                                {
+                                    type: 'empty',
+                                    prompt: 'Digite seu username'
+                                }
+                            ]
+                        },
+                        password: {
+                            identifier: 'password',
+                            rules: [
+                                {
+                                    type: 'empty',
+                                    prompt: 'Digite sua senha'
+                                },
+                            ]
+                        },
+                    }
+                })
+            ;
+        });
+    </script>
+
+        </div>
+    </main>
+    
+    
+
+<footer class="footer">
+    <div class="ui container">
+        <div class="ui doubling stackable inverted four column grid" id="footer-principal">
+            <div class="column">
+                <a href="/"><img src="https://cdn.solyd.com.br/static/website/images/logo_white.png"
+                                                        class="ui tiny image"></a>
+                <h4 class="ui inverted header"><p>Solyd Tecnologia</br>CNPJ 26.493.837/0001-03</p></h4>
+            </div>
+            <div class="column">
+                <div class="ui link inverted list">
+                    <a href="/" class="item">Home</a>
+                    <a href="/ead/" class="item">
+                        
+                            Login / Registrar
+                        </a>
+                    <a href="/treinamentos/" class="item">Treinamentos</a>
+                    <a href="/contato/" class="item">Contato</a>
+                    <a href="/termos/" class="item">Termos de uso</a>
+                    <a href="/seja-um-instrutor/" class="item">Seja um instrutor</a>
+                    <a href="/trabalhe-conosco/" class="item">Trabalhe conosco</a>
+                </div>
+            </div>
+            <div class="column">
+                <form class="ui error form" novalidate id="newsletter_form">
+                    <h4 class="ui inverted header">Receba novidades e promoções</h4>
+                    <input type='hidden' name='csrfmiddlewaretoken' value='KnhrP3zyA6vfwY7gUfgh8MJVU9lfAZpPQ7GHs0YsqZUWs9fMdPp803J4noOaFOYn' />
+                    <div class="ui action fluid input">
+                        <input type="email" placeholder="Email" name="email">
+                        <button class="ui button" id="newsletter_button">OK</button>
+                    </div>
+                    <div class="ui error message" id="newsletter_error"></div>
+                    <div class="ui success message" id="newsletter_success"></div>
+                </form>
+            </div>
+            <div class="column">
+                <h4 class="ui inverted header">Nossas redes sociais</h4>
+                <p>
+                    <a href="https://www.facebook.com/solydbr/"><i
+                            class="circular inverted blue link facebook f icon"></i></a>
+                    <a href="https://www.linkedin.com/company/solyd-treinamentos"><i
+                            class="circular inverted black link linkedin in icon"></i></a>
+                </p>
+
+                <h4 class="ui inverted header">Formas de pagamento</h4>
+                <div class="ui flowing popup">
+                    <h2 class='ui header'>PagSeguro</h2>
+                    <div class='content'><img src='https://cdn.solyd.com.br/static/website/images/pagseguro_brands.png'
+                                              class='ui medium image'></div>
+                    <h2 class='ui header'>PayPal</h2>
+                    <div class='content'><img src='https://cdn.solyd.com.br/static/website/images/paypal_brands.jpg'
+                                              class='ui medium image'></div>
+                </div>
+                <div id="payments_popup">
+                    <div class="ui tiny images ">
+                        <img src="https://cdn.solyd.com.br/static/website/images/pagseguro_white.png" class="ui image">
+                        <img src="https://cdn.solyd.com.br/static/website/images/paypal_white.svg" class="ui image">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="ui divider"></div>
+    <div class="ui container" id="footer-extra">
+        <span><p>Copyright 2015-2018 Solyd | Treinamentos e cursos online</p></span>
+    </div>
+</footer>
+
+<script type="text/javascript">
+    $('#newsletter_form').form({
+            email: {
+                identifier: 'email',
+                rules: [
+                    {
+                        type: 'email',
+                        prompt: 'Digite um email válido'
+                    }
+                ]
+            }
+        }, {
+            onSuccess: function() {
+                $.ajax({
+                    method:'POST',
+                    url: "/newsletter/subscribe",
+                    data:  $("#newsletter_form").serialize(),
+                    async: true,
+                    beforeSend: function() {
+                        document.getElementById("newsletter_button").classList.add("loading");
+                        console.log("teste")
+                    },
+                    dataType: "json",
+                    // the success function is called in the case of an http 200 response
+                    success: function(response){
+                        if(response["valid"]) {
+                            document.getElementById("newsletter_success").innerHTML = "Inscrição efetuada!";
+                            document.getElementById("newsletter_success").style.display = "block";
+                            document.getElementById("newsletter_button").classList.remove("loading");
+                        }else{
+                            document.getElementById("newsletter_error").innerHTML = "Inscrição não pode ser efetuada. " +
+                            "Por favor tente novamente mais tarde";
+                        document.getElementById("newsletter_error").style.display = "block";
+                        document.getElementById("newsletter_button").classList.remove("loading");
+                        }
+                     },
+                    error: function(xhr, ajaxOptions, thrownError){
+                        document.getElementById("newsletter_error").innerHTML = "Inscrição não pode ser efetuada. " +
+                            "Por favor tente novamente mais tarde";
+                        document.getElementById("newsletter_error").style.display = "block";
+                        document.getElementById("newsletter_button").classList.remove("loading");
+                    }
+                });
+                return false;
+            }
+        });
+</script>
+</div>
+
+
+
+<script type="text/javascript">
+    $('.ui.dropdown').dropdown();
+
+    $('.close.icon').on('click', function () {
+        $(this).parent().transition('fade');
+    });
+
+    $('.sidebar.vertical.menu').sidebar({
+        dimPage: false,
+        transition: 'overlay',
+        mobileTransition: 'overlay',
+    });
+    $('.sidebar.vertical.menu').first().sidebar('attach events', '.item.toggle');
+
+    $('.item.toggle').removeClass('disabled');
+
+
+</script>
+
+
+
+
+</body>
+</html>

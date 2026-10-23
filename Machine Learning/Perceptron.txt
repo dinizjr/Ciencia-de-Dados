@@ -1,0 +1,9 @@
+http://aimotion.blogspot.com/2008/12/funes-de-ativao-para-redes-neurais.html
+
+https://www.embarcados.com.br/rede-perceptron-de-uma-unica-camada/
+
+http://deeplearningbook.com.br/o-neuronio-biologico-e-matematico/
+
+https://www.monolitonimbus.com.br/perceptron-redes-neurais/
+
+https://www.cs.utexas.edu/~teammco/misc/perceptron/

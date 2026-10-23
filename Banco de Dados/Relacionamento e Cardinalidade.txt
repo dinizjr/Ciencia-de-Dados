@@ -1,0 +1,4 @@
+RELACIONAMENTO E CARDIONALIDADE 
+(1,1) 1 = Campo obrigatorio , 1 = aceita apenas 1 cadastro "EXEMPLO CPF"
+(1,n) 1 = Campo obrigatorio , n =  aceita mais de um cadastro "EXEMPLO ENDEREÇO"
+(0,n) 0 = Campo NÃO obrigatorio, n = aceita mais de um cadastro "EXEMPLO TELEFONE"

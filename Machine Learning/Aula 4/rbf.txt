@@ -1,0 +1,42 @@
+dataD = dfOperationFile.copy
+
+for r in hidden:
+    for i in range(1,4):
+        dfOperationFile
+        nSamples = len(dfOperationFile)
+    
+        vInputs  = np.array(dfOperationFile.loc[: , 'x1':'x3'])
+        vOutputs = np.array(dfOperationFile.loc[: , 'yd'])
+    
+        dfOperationFile.loc[:,'R'+str(i)+':y(T'+str(i)+')'] = listout[0][5]['W_1'].flatten()
+        #dfOperationFile.loc[:,'R1:y(T2)'] = listout[3][5]['W_1'].flatten()
+        
+        #PRIMEIRO ESTAGIO DE OPERAÇÃO
+        Y_1 = rbf_stage1_operation(vInputs, W_1, sigmaSquared)
+    
+        nSamples = Y_1.shape[0]
+        col0 = np.ones((nSamples, 1)) * (-1)
+        vInputsWithBias = np.array(col0)
+        vInputsWithBias = np.append(vInputsWithBias, Y_1, axis=1)
+    
+        #SEGUNDO ESTAGIO DE OPERAÇÃO
+        Y_2 = rbf_stage2_operation(vInputsWithBias.T, W_2)
+    
+        print(Y_2)
+        print(vOutputs)
+        y=[]
+        match = 0
+        for k in range(nSamples):
+            if (Y_2[:,[k]] == vOutputs[k]) :
+                match += 1
+    
+        accuracy = match / nSamples * 100
+    
+    
+        #Adicionando todas as colunas ao dataframe
+        #dataD['y'] = Y_2
+        #dataD = dataD.assign(y=pd.Series(Y_2[0,:]))
+        dataD
+    
+        print('Taxa de acerto do conjunto de teste: {}%'.format(accuracy))
+        print(dfOperationFile)

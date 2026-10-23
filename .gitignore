@@ -1,0 +1,19 @@
+# Repositório separado
+Trilha-IA/
+
+# Arquivos temporários e checkpoints
+.ipynb_checkpoints/
+.idea/
+*.tmp
+~$*
+
+# Instaladores e arquivos compactados
+*.exe
+*.msi
+*.rar
+*.7z
+**/training_data.csv
+
+# Ambientes virtuais Python
+.venv/
+venv

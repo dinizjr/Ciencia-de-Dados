@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<architect-project version="1.0" appversion="1.0.8">
+ <project-name>Exercício 1</project-name>
+ <print-settings numCopies="1" zoom="1.0" pageNumbersPrinted="true" orientation="1" paperWidth="612.0" paperHeight="792.0" leftBorder="50.0" rightBorder="50.0" topBorder="50.0" bottomBorder="50.0" />
+ <project-data-sources>
+  <data-source id="DS0">
+   <property key="Logical" value="Modelo de Dados" />
+  </data-source>
+ </project-data-sources>
+ <source-databases>
+ </source-databases>
+ <target-database id="ppdb" dbcs-ref="DS0">
+  <table id="TAB1" populated="true" UUID="8070548d-80aa-498b-83a3-9f3e26260cc2" name="VENDEDOR" objectType="TABLE" physicalName="VENDEDOR" >
+   <remarks></remarks>
+   <folder id="FOLTAB11" populated="true" name="Columns" physicalName="Columns" type="1">
+    <column id="COL2" populated="true" UUID="6485533e-5174-478d-9ec1-6b8ff1c961af" autoIncrement="false" autoIncrementSequenceName="VENDEDOR_CPF_seq" defaultValue="" name="CPF" nullable="0" physicalName="CPF" precision="11" primaryKeySeq="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="1" userDefinedTypeUUID="67ddc63f-5541-4dd1-9236-632d9d155e80" >
+     <remarks></remarks>
+    </column>
+    <column id="COL3" populated="true" UUID="1a580d7d-5563-4356-b8f5-8ca3c8f981f2" autoIncrement="false" autoIncrementSequenceName="VENDEDOR_NOME_seq" defaultValue="" name="NOME" nullable="0" physicalName="NOME" precision="30" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+     <remarks></remarks>
+    </column>
+    <column id="COL4" populated="true" UUID="0ecee81e-a6fd-4c96-a8ca-02b0ef846f62" autoIncrement="false" autoIncrementSequenceName="VENDEDOR_NUMERO_DEPARTAMENTO_seq" defaultValue="" name="NUMERO_DEPARTAMENTO" nullable="0" physicalName="NUMERO_DEPARTAMENTO" precision="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="3" userDefinedTypeUUID="cc1304ea-628a-4fc5-a84a-06ba14759152" >
+     <remarks></remarks>
+    </column>
+    <column id="COL5" populated="true" UUID="fbe0321d-71bb-40b1-aa9f-a944fb534145" autoIncrement="false" autoIncrementSequenceName="VENDEDOR_ANO_INICIO_seq" defaultValue="" name="ANO_INICIO" nullable="0" physicalName="ANO_INICIO" precision="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="91" userDefinedTypeUUID="ee349be3-6af2-46e1-b305-975f5354b009" >
+     <remarks></remarks>
+    </column>
+    </folder>
+    <folder id="FOLTAB13" populated="true" name="Exported Keys" physicalName="Exported Keys" type="3">
+    </folder>
+    <folder id="FOLTAB12" populated="true" name="Imported Keys" physicalName="Imported Keys" type="2">
+    </folder>
+    <folder id="FOLTAB14" populated="true" name="Indices" physicalName="Indices" type="4">
+    <index id="IDX6" populated="true" UUID="bb167269-7da7-44a2-a111-12f97ba1d475" clustered="false" name="CPF" physicalName="CPF" primaryKeyIndex="true" unique="false" >
+     <index-column id="IDC7" populated="true" UUID="86d2df92-1997-43f2-a30a-80042a08a297" ascendingOrDescending="UNSPECIFIED" column-ref="COL2" name="CPF" physicalName="CPF" />
+    </index>
+   </folder>
+  </table>
+  <table id="TAB8" populated="true" UUID="cbf0e3cf-12ff-4a6d-a1a7-af3c46f82e23" name="VIAGEM" objectType="TABLE" physicalName="VIAGEM" >
+   <remarks></remarks>
+   <folder id="FOLTAB81" populated="true" name="Columns" physicalName="Columns" type="1">
+    <column id="COL9" populated="true" UUID="d61a16c8-7d95-4293-9467-3ade482d3530" autoIncrement="false" autoIncrementSequenceName="VIAGEM_COD_VIAGEM_seq" defaultValue="" name="COD_VIAGEM" nullable="0" physicalName="COD_VIAGEM" precision="0" primaryKeySeq="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="4" userDefinedTypeUUID="63b011c7-c81f-4c75-8271-632b3c87f727" >
+     <remarks></remarks>
+    </column>
+    <column id="COL10" populated="true" UUID="a5b2e10c-3d5f-40ac-95c8-20d54e39d69a" autoIncrement="false" autoIncrementSequenceName="VIAGEM_CPF_seq" defaultValue="" name="CPF" nullable="0" physicalName="CPF" precision="11" primaryKeySeq="1" referenceCount="2" scale="0" sourceDataTypeName="UserDefinedSQLType" type="1" userDefinedTypeUUID="67ddc63f-5541-4dd1-9236-632d9d155e80" >
+     <remarks></remarks>
+    </column>
+    <column id="COL11" populated="true" UUID="9dcbb4e8-4526-4689-b19a-309d0798acc4" autoIncrement="false" autoIncrementSequenceName="VIAGEM_NOME_seq" defaultValue="" name="CIDADE_ORIGEM" nullable="0" physicalName="CIDADE_ORIGEM" precision="30" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+     <remarks></remarks>
+    </column>
+    <column id="COL12" populated="true" UUID="eedfbd76-a20d-415a-a5d4-9b7c3e4c9941" autoIncrement="false" autoIncrementSequenceName="VIAGEM_DATA_RETORNO_seq" defaultValue="" name="DATA_RETORNO" nullable="0" physicalName="DATA_RETORNO" precision="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="91" userDefinedTypeUUID="ee349be3-6af2-46e1-b305-975f5354b009" >
+     <remarks></remarks>
+    </column>
+    <column id="COL13" populated="true" UUID="77b735e5-bc49-4b27-882f-9ba6721e1429" autoIncrement="false" autoIncrementSequenceName="VIAGEM_DATA_PARTIDA_seq" defaultValue="" name="DATA_PARTIDA" nullable="0" physicalName="DATA_PARTIDA" precision="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="91" userDefinedTypeUUID="ee349be3-6af2-46e1-b305-975f5354b009" >
+     <remarks></remarks>
+    </column>
+    <column id="COL14" populated="true" UUID="905e8f26-5326-4f22-9087-e2e27f4a633b" autoIncrement="false" autoIncrementSequenceName="VIAGEM_CIDADE_DESTINO_seq" defaultValue="" name="CIDADE_DESTINO" nullable="0" physicalName="CIDADE_DESTINO" precision="30" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+     <remarks></remarks>
+    </column>
+    </folder>
+    <folder id="FOLTAB83" populated="true" name="Exported Keys" physicalName="Exported Keys" type="3">
+    </folder>
+    <folder id="FOLTAB82" populated="true" name="Imported Keys" physicalName="Imported Keys" type="2">
+    </folder>
+    <folder id="FOLTAB84" populated="true" name="Indices" physicalName="Indices" type="4">
+    <index id="IDX15" populated="true" UUID="999883aa-101d-450f-9126-d1286ff20aaa" clustered="false" name="CPF" physicalName="CPF" primaryKeyIndex="true" unique="false" >
+     <index-column id="IDC16" populated="true" UUID="afc09d04-d48a-4bf9-bf04-60a091267a50" ascendingOrDescending="UNSPECIFIED" column-ref="COL9" name="COD_VIAGEM" physicalName="COD_VIAGEM" />
+     <index-column id="IDC17" populated="true" UUID="b3c1557c-13ba-4fc3-84de-a7167614d6f5" ascendingOrDescending="UNSPECIFIED" column-ref="COL10" name="CPF" physicalName="CPF" />
+    </index>
+   </folder>
+  </table>
+  <table id="TAB18" populated="true" UUID="4892ee54-2bed-49f7-8a74-ddd002796738" name="DESPESA" objectType="TABLE" physicalName="DESPESA" >
+   <remarks></remarks>
+   <folder id="FOLTAB181" populated="true" name="Columns" physicalName="Columns" type="1">
+    <column id="COL19" populated="true" UUID="ecfce6c2-d0e3-4f8d-a8af-a655dbdb3315" autoIncrement="false" autoIncrementSequenceName="DESPESA_COD_VIAGEM_seq" defaultValue="" name="COD_VIAGEM" nullable="0" physicalName="COD_VIAGEM" precision="0" primaryKeySeq="0" referenceCount="2" scale="0" sourceDataTypeName="UserDefinedSQLType" type="4" userDefinedTypeUUID="63b011c7-c81f-4c75-8271-632b3c87f727" >
+     <remarks></remarks>
+    </column>
+    <column id="COL20" populated="true" UUID="6d926d60-34a4-4076-b14b-909a90a83afe" autoIncrement="false" autoIncrementSequenceName="DESPESA_NUM_CONTA_seq" defaultValue="" name="NUM_CONTA" nullable="0" physicalName="NUM_CONTA" precision="0" primaryKeySeq="1" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="3" userDefinedTypeUUID="cc1304ea-628a-4fc5-a84a-06ba14759152" >
+     <remarks></remarks>
+    </column>
+    <column id="COL21" populated="true" UUID="a9667999-db62-4337-89b5-587141c8e697" autoIncrement="false" autoIncrementSequenceName="VIAGEM_CPF_seq" defaultValue="" name="CPF" nullable="0" physicalName="CPF" precision="11" primaryKeySeq="2" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="1" userDefinedTypeUUID="67ddc63f-5541-4dd1-9236-632d9d155e80" >
+     <remarks></remarks>
+    </column>
+    <column id="COL22" populated="true" UUID="740cdbf8-e074-40f0-a259-e301b93bc6b5" autoIncrement="false" autoIncrementSequenceName="DESPESA_VALOR_seq" defaultValue="" name="VALOR" nullable="0" physicalName="VALOR" precision="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="6" userDefinedTypeUUID="7e55bcd0-7606-4153-b749-9c397f12c4d8" >
+     <remarks></remarks>
+    </column>
+    </folder>
+    <folder id="FOLTAB183" populated="true" name="Exported Keys" physicalName="Exported Keys" type="3">
+    </folder>
+    <folder id="FOLTAB182" populated="true" name="Imported Keys" physicalName="Imported Keys" type="2">
+    </folder>
+    <folder id="FOLTAB184" populated="true" name="Indices" physicalName="Indices" type="4">
+    <index id="IDX23" populated="true" UUID="364ba9f3-d474-4454-9218-3d985a828590" clustered="false" name="COD_VIAGEM" physicalName="COD_VIAGEM" primaryKeyIndex="true" unique="false" >
+     <index-column id="IDC24" populated="true" UUID="dfb57f47-60c1-4c69-b284-b62018e75c6d" ascendingOrDescending="UNSPECIFIED" column-ref="COL19" name="COD_VIAGEM" physicalName="COD_VIAGEM" />
+     <index-column id="IDC25" populated="true" UUID="f05b9fbb-79e2-4e52-8db9-5045df69b542" ascendingOrDescending="UNSPECIFIED" column-ref="COL20" name="NUM_CONTA" physicalName="NUM_CONTA" />
+     <index-column id="IDC26" populated="true" UUID="cb6efda6-f073-4246-bf8f-8838a0e23ca1" ascendingOrDescending="UNSPECIFIED" column-ref="COL21" name="CPF" physicalName="CPF" />
+    </index>
+   </folder>
+  </table>
+  <relationships>
+   <relationship id="REL27" populated="true" UUID="463ec9a8-bbdd-4739-b1fd-5d8206e18864" deferrability="7" deleteRule="3" fk-table-ref="TAB8" fkCardinality="7" identifying="true" name="VENDEDOR_VIAGEM_fk" physicalName="VENDEDOR_VIAGEM_fk" pk-table-ref="TAB1" pkCardinality="2" updateRule="3" >
+    <column-mapping id="CMP28" populated="true" UUID="a20c15c1-df58-4b5a-8b68-2d19c10eb727" fk-column-ref="COL10" name="Column Mapping" physicalName="Column Mapping" pk-column-ref="COL2" />
+   </relationship>
+   <relationship id="REL29" populated="true" UUID="3573232e-770e-439a-bb4b-2869db70a1da" deferrability="7" deleteRule="3" fk-table-ref="TAB18" fkCardinality="7" identifying="true" name="VIAGEM_DESPESA_fk" physicalName="VIAGEM_DESPESA_fk" pk-table-ref="TAB8" pkCardinality="2" updateRule="3" >
+    <column-mapping id="CMP30" populated="true" UUID="0777f392-c7d9-43f5-a421-7c65e5119123" fk-column-ref="COL19" name="Column Mapping" physicalName="Column Mapping" pk-column-ref="COL9" />
+    <column-mapping id="CMP31" populated="true" UUID="ca97b66b-fb92-4f29-8aa1-5c30c3124bdd" fk-column-ref="COL21" name="Column Mapping" physicalName="Column Mapping" pk-column-ref="COL10" />
+   </relationship>
+  </relationships>
+ </target-database>
+ <ddl-generator type="ca.sqlpower.architect.ddl.GenericDDLGenerator" allow-connection="true"> </ddl-generator>
+ <liquibase-settings useSeparateChangeSets="false" generateId="false" idStart="1"/>
+ <create-kettle-job-settings filePath="" jobName="" schemaName="" kettleJoinType="0" savingToFile="true" />
+ <play-pen zoom="1.9999999999999993" viewportX="0" viewportY="0" relationship-style="rectilinear" names-displayLogicalNames="true" showPrimaryTag="true" showForeignTag="true" showAlternateTag="true" columnVisibility="ALL" relationshipLabelVisibility="true">
+  <table-pane table-ref="TAB1" x="51" y="20" bgColor="0xeeeeee" fgColor="0x000000" rounded="false" dashed="false"/>
+  <table-pane table-ref="TAB8" x="51" y="165" bgColor="0xeeeeee" fgColor="0x000000" rounded="false" dashed="false"/>
+  <table-pane table-ref="TAB18" x="51" y="324" bgColor="0xeeeeee" fgColor="0x000000" rounded="false" dashed="false"/>
+  <table-link relationship-ref="REL27" pkConnection="0.504" fkConnection="0.49130434782608695" rLineColor="0x000000" pkLabelText="" fkLabelText="" orientation="132"/>
+  <table-link relationship-ref="REL29" pkConnection="0.5739130434782609" fkConnection="0.4419642857142857" rLineColor="0x000000" pkLabelText="" fkLabelText="" orientation="132"/>
+ </play-pen>
+ <critic-manager>
+  <critic-grouping platformType="Generic" enabled="true">
+   <critic-settings class="ca.sqlpower.architect.ddl.critic.impl.PrimaryKeyCritic" severity="ERROR"/>
+   <critic-settings class="ca.sqlpower.architect.ddl.critic.impl.RelationshipMappingTypeCritic" severity="ERROR"/>
+   <critic-settings class="ca.sqlpower.architect.ddl.critic.impl.EmptyRelationshipCritic" severity="ERROR"/>
+   <critic-settings class="ca.sqlpower.architect.ddl.critic.impl.AlphaNumericNameCritic" severity="ERROR"/>
+   <critic-settings class="ca.sqlpower.architect.ddl.critic.impl.AlphaNumericSequenceNameCritic" severity="ERROR"/>
+   <critic-settings class="ca.sqlpower.architect.ddl.critic.impl.SetDefaultOnColumnWithNoDefaultCritic" severity="ERROR"/>
+   <critic-settings class="ca.sqlpower.architect.ddl.critic.impl.SetNullOnNonNullableColumnCritic" severity="ERROR"/>
+   <critic-settings class="ca.sqlpower.architect.ddl.critic.impl.DuplicateNameCritic" severity="ERROR"/>
+  </critic-grouping>
+  <critic-grouping platformType="DB2" enabled="true">
+   <critic-settings class="ca.sqlpower.architect.ddl.critic.impl.DB2UnsupportedFeaturesCritic" severity="ERROR"/>
+  </critic-grouping>
+  <critic-grouping platformType="H2" enabled="true">
+   <critic-settings class="ca.sqlpower.architect.ddl.critic.impl.H2UnsupportedFeaturesCritic" severity="ERROR"/>
+  </critic-grouping>
+  <critic-grouping platformType="HSQLDB" enabled="true">
+   <critic-settings class="ca.sqlpower.architect.ddl.critic.impl.HSQLDBUnsupportedFeaturesCritic" severity="ERROR"/>
+  </critic-grouping>
+  <critic-grouping platformType="MySQL" enabled="true">
+   <critic-settings class="ca.sqlpower.architect.ddl.critic.impl.MySQLCommentCritic" severity="ERROR"/>
+   <critic-settings class="ca.sqlpower.architect.ddl.critic.impl.MySQLReservedWordsCritic" severity="ERROR"/>
+   <critic-settings class="ca.sqlpower.architect.ddl.critic.impl.MySQLUnsupportedFeaturesCritic" severity="ERROR"/>
+  </critic-grouping>
+  <critic-grouping platformType="Oracle" enabled="true">
+   <critic-settings class="ca.sqlpower.architect.ddl.critic.impl.OraclePhysicalNameCritic" severity="ERROR"/>
+   <critic-settings class="ca.sqlpower.architect.ddl.critic.impl.OracleReservedWordsCritic" severity="ERROR"/>
+   <critic-settings class="ca.sqlpower.architect.ddl.critic.impl.OracleUnsupportedFeaturesCritic" severity="ERROR"/>
+  </critic-grouping>
+  <critic-grouping platformType="PostgreSQL" enabled="true">
+   <critic-settings class="ca.sqlpower.architect.ddl.critic.impl.PostgreSQLReservedWordsCritic" severity="ERROR"/>
+  </critic-grouping>
+  <critic-grouping platformType="SQL Server" enabled="true">
+   <critic-settings class="ca.sqlpower.architect.ddl.critic.impl.SQLServerUnsupportedFeaturesCritic" severity="ERROR"/>
+   <critic-settings class="ca.sqlpower.architect.ddl.critic.impl.SQLServerReservedWordsCritic" severity="ERROR"/>
+  </critic-grouping>
+  <critic-grouping platformType="SQL Server 2000" enabled="true">
+   <critic-settings class="ca.sqlpower.architect.ddl.critic.impl.SQLServer2000UnsupportedFeaturesCritic" severity="ERROR"/>
+  </critic-grouping>
+  <critic-grouping platformType="SQL Server 2005" enabled="true">
+   <critic-settings class="ca.sqlpower.architect.ddl.critic.impl.SQLServer2005UnsupportedFeaturesCritic" severity="ERROR"/>
+  </critic-grouping>
+ </critic-manager>
+ <profiles topNCount="10">
+  </profiles>
+  <olap>
+  </olap>
+  <olap-gui>
+  </olap-gui>
+</architect-project>

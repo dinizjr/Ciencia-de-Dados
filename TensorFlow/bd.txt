@@ -1,0 +1,6 @@
+renda mensal - quantitativo racional
+número de palavras de um texto - quantitativo racional
+número de matrícula - qualitativo nominal
+data de nascimento - quantitativo intervalar
+código postal - qualitativo nominal
+posição em uma corrida - qualitativo ordinal

@@ -1,0 +1,3 @@
+conda install -c conda-forge nodejs 
+conda install -c conda-forge/label/gcc7 nodejs
+jupyter labextension install @jupyterlab/plotly-extension

@@ -1,0 +1,3 @@
+http://minerandodados.com.br/index.php/2017/12/21/arrays-com-numpy/
+
+http://www.estruturas.ufpr.br/disciplinas/pos-graduacao/introducao-a-computacao-cientifica-com-python/introducao-python/2-1-o-objeto-array-do-numpy/

@@ -1,0 +1,23 @@
+https://plot.ly/python/ipython-notebook-tutorial/
+
+https://plot.ly/python/getting-started/#initialization-for-online-plotting
+
+https://plot.ly/settings/api#/
+
+FB2qE6nFqcR0LnWQFYe6
+
+import plotly
+plotly.tools.set_credentials_file(username='diniz_scientist', api_key='FB2qE6nFqcR0LnWQFYe6')
+
+import plotly
+import plotly.offline as py
+import plotly.graph_objs as go
+import numpy as np
+import pandas as pd
+
+High five! You successfully sent some data to your account on plotly. View your plot in your browser at https://plot.ly/~diniz_scientist/0 or inside your plot.ly account where it is named 'jupyter-table1'
+
+https://plot.ly/nodejs/line-and-scatter/
+https://plot.ly/python/histograms/
+
+https://medium.com/@plotlygraphs/introducing-plotly-py-3-0-0-7bb1333f69c6

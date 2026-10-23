@@ -1,0 +1,2449 @@
+
+
+
+  <!DOCTYPE html>
+<!--[if IE 7]> <html lang="pt_BR" class="ie ie7"> <![endif]-->
+<!--[if IE 8]> <html lang="pt_BR" class="ie ie8"> <![endif]-->
+<!--[if IE 9]> <html lang="pt_BR" class="ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html lang="pt_BR"> <!--<![endif]-->
+  <head>
+    <!--[if lte ie 8]><script type="text/javascript" src="/fanstatic/vendor/:version:2018-07-10T14:56:28.90/html5.min.js"></script><![endif]-->
+<link rel="stylesheet" type="text/css" href="/fanstatic/vendor/:version:2018-07-10T14:56:28.90/select2/select2.css" />
+<link rel="stylesheet" type="text/css" href="/fanstatic/css/:version:2018-07-10T14:56:28.89/main.min.css" />
+<link rel="stylesheet" type="text/css" href="/fanstatic/vendor/:version:2018-07-10T14:56:28.90/font-awesome/css/font-awesome.min.css" />
+<!--[if ie 7]><link rel="stylesheet" type="text/css" href="/fanstatic/vendor/:version:2018-07-10T14:56:28.90/font-awesome/css/font-awesome-ie7.min.css" /><![endif]-->
+<link rel="stylesheet" type="text/css" href="/fanstatic/ckanext-harvest/:version:2018-07-10T14:56:28.97/styles/harvest.css" />
+
+    
+        <meta charset="utf-8" />
+      <meta name="generator" content="ckan 2.6.3" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" value="O Portal Brasileiro de Dados Abertos (dados.gov.br) é o sítio eletrônico de referência para a busca e o acesso aos dados públicos, seus metadados, informações, aplicativos e serviços relacionados." />
+      
+    <title>Conjuntos de dados - Portal Brasileiro de Dados Abertos</title>
+
+    
+    <link rel="shortcut icon" href="/images/icons/ckan.ico" />
+    
+  
+        
+      
+    
+
+        <!-- CSS Basic UI - Governo Brasileiro -->
+        <link rel="stylesheet" href="/css/application.css" />
+
+        <!-- CSS Bootstrap 3 - Grid and Responsive -->
+        <link rel="stylesheet" href="/css/bootstrap3-grid.min.css" />
+        <link rel="stylesheet" href="/css/bootstrap3-responsive.min.css" />
+
+        <!-- JS jQuery 3 -->
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+
+        
+          <!-- Semantic UI -->
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.10/semantic.min.css" />
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.10/semantic.min.js"></script>
+        
+
+        <!-- CSS Main CSS - dados.gov.br -->
+        <link rel="stylesheet" href="/css/extra.min.css" />
+       <style> 
+	    body > header.masthead #site_logo h1 a {
+               background-image: none;
+            }
+
+            body > header.masthead #site_logo h1 a span {
+               display: block;
+            }
+        </style>
+
+        <!-- CSS Font Awesome -->
+        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+        <!-- Favicon -->
+        <link rel="apple-touch-icon" sizes="57x57" href="/img/favicon/apple-icon-57x57.png">
+        <link rel="apple-touch-icon" sizes="60x60" href="/img/favicon/apple-icon-60x60.png">
+        <link rel="apple-touch-icon" sizes="72x72" href="/img/favicon/apple-icon-72x72.png">
+        <link rel="apple-touch-icon" sizes="76x76" href="/img/favicon/apple-icon-76x76.png">
+        <link rel="apple-touch-icon" sizes="114x114" href="/img/favicon/apple-icon-114x114.png">
+        <link rel="apple-touch-icon" sizes="120x120" href="/img/favicon/apple-icon-120x120.png">
+        <link rel="apple-touch-icon" sizes="144x144" href="/img/favicon/apple-icon-144x144.png">
+        <link rel="apple-touch-icon" sizes="152x152" href="/img/favicon/apple-icon-152x152.png">
+        <link rel="apple-touch-icon" sizes="180x180" href="/img/favicon/apple-icon-180x180.png">
+        <link rel="icon" type="image/png" sizes="192x192"  href="/img/favicon/android-icon-192x192.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="/img/favicon/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="96x96" href="/img/favicon/favicon-96x96.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/img/favicon/favicon-16x16.png">
+        <link rel="manifest" href="/img/favicon/manifest.json">
+        <meta name="msapplication-TileColor" content="#ffffff">
+        <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+        <meta name="theme-color" content="#ffffff">
+      
+  
+
+
+    
+      
+      
+    
+    
+  </head>
+
+  
+  <body data-site-root="http://dados.gov.br/" data-locale-root="http://dados.gov.br/" >
+
+    
+    <div class="hide"><a href="#content">Pular para o conteúdo</a></div>
+  
+
+  
+    
+<div id="barra-brasil">
+    <a href="http://brasil.gov.br" style="background:#7F7F7F; height: 20px; padding:4px 0 4px 10px; display: block; font-family:sans,sans-serif; text-decoration:none; color:white; ">Portal do Governo Brasileiro</a>
+</div>
+
+  
+
+<header class="masthead">
+  
+    
+  
+  <div class="container">
+    
+    <ul id="accessibility">
+      <li>
+        <a id="link-conteudo" href="#content" accesskey="1">
+          Ir para o conteúdo
+          <span>1</span>
+        </a>
+      </li>
+      <li>
+        <a id="link-navegacao" href="#menu-horizontal" accesskey="2">
+          Ir para o menu
+          <span>2</span>
+        </a>
+      </li>
+      <li>
+        <a id="link-buscar" href="#search" accesskey="3">
+          Ir para a busca
+          <span>3</span>
+        </a>
+      </li>
+      <li>
+        <a id="link-rodape" href="#footer" onclick="window.scrollTo(0,document.body.scrollHeight)" accesskey="4">
+          Ir para o rodapé
+          <span>4</span>
+        </a>
+      </li>
+    </ul>
+    
+    
+    <hgroup id="site_logo" class="header-text-logo-tagline">
+
+      
+          <h1>
+            <a href="/" title="Portal Brasileiro de Dados Abertos"><span id="portal-title">dados.gov.br</span></a>
+          </h1>
+          <h2><span id="portal-description">Portal Brasileiro de Dados Abertos</span></h2>
+      
+
+    </hgroup>
+
+
+      
+
+
+
+
+  <form action="/dataset" class="search-form " method="get" data-module="select-switch">
+    
+      <div class="search-input control-group ">
+        <input type="text" class="search" name="q" value="" autocomplete="off" placeholder="Pesquisar conjuntos de dados...">
+        
+        <button type="submit" value="search">
+          <i class="icon-search"></i>
+          <span>Enviar</span>
+        </button>
+        
+      </div>
+    
+
+    
+      
+    
+  </form>
+
+    
+    <ul id="news">
+      <li id="feed"><a rel="feed" href="/feed/" title="Inscrever-se no feed de notícias">feed</a></li>
+      <li id="twitter"><a href="http://twitter.com/dadosgovbr" title="Microblog no Twitter">twitter</a></li>
+      <li id="github"><a href="https://github.com/dadosgovbr" title="Códigos fonte de projetos do dados.gov.br no Github">Códigos fonte de projetos do dados.gov.br no Github</a></li>
+     </ul>
+    
+
+    <div class="content hidden">
+
+      
+        <form class="section site-search simple-input" action="/dataset" method="get">
+          <div class="field">
+            <label for="field-sitewide-search">Buscar conjunto de dados</label>
+            <input id="field-sitewide-search" type="text" name="q" placeholder="Pesquisar conjuntos de dados..." />
+            <button class="btn-search" type="submit"><i class="icon-search"></i></button>
+          </div>
+        </form>
+      
+
+    </div>
+    </div>
+    <div id="barra-menu">
+    </div>
+      
+        <nav id="menu-horizontal" class="section navigation">
+          <ul class="barra-apoio">
+           
+            		<li class="first link-dados"><a href="/dataset/">Dados</a></li>
+            		<li class="link-organizacoes"><a href="/organization/">Organizações</a></li>
+            		<!--<li class="link-aplicativos"><a href="/pagina/aplicativos/">Aplicativos</a></li>-->
+            		<li class="link-aplicativos"><a href="/aplicativos/">Aplicativos</a></li>
+            		<li class="link-inventarios"><a href="/inventarios/">Inventários</a></li>
+            		<li class="link-concursos"><a href="/concursos/">Concursos</a></li> 
+                <li class="link-wiki"><a href="http://wiki.dados.gov.br/"><abbr style="border: none;" title="Infraestrutura Nacional de Dados Abertos">INDA</abbr></a></li>
+                <li class="link-perguntas-frequentes"><a href="/pagina/faq/">Perguntas frequentes</a></li>
+                <li class="link-contato"><a href="/pagina/contato/">Contato</a></li>
+                <li class="link-sobre"><a href="/pagina/sobre/">Sobre o portal</a></li>
+          </ul>
+        </nav>
+      
+</header>
+
+  
+    <div role="main">
+      <div id="content" class="container">
+        
+          
+            <div class="flash-messages">
+              
+                
+              
+            </div>
+          
+
+          
+            <div class="toolbar">
+              
+                
+                  <ol class="breadcrumb">
+                    
+<li class="home"><a href="/"><i class="icon-home"></i><span> Início</span></a></li>
+                    
+    <li class="active"><a href="/dataset">Conjuntos de dados</a></li>
+  
+                  </ol>
+                
+              
+            </div>
+          
+
+          <div class="row wrapper">
+
+            
+            
+            
+
+            
+              <div class="primary span9">
+                
+                
+    <section class="module">
+      <div class="module-content">
+        
+          
+        
+        
+          
+          
+          
+
+
+
+
+
+
+
+<form id="dataset-search-form" class="search-form" method="get" data-module="select-switch">
+
+  
+    <div class="search-input control-group search-giant">
+      <input type="text" class="search" name="q" value="" autocomplete="off" placeholder="Buscar conjunto de dados...">
+      
+      <button type="submit" value="search">
+        <i class="fa fa-search"></i>
+        <span>Enviar</span>
+      </button>
+      
+    </div>
+  
+
+  
+    
+  
+
+  
+    
+      <div class="form-select control-group control-order-by">
+        <label for="field-order-by">Ordenar por</label>
+        <select id="field-order-by" name="sort">
+          
+            
+              <option value="score desc, metadata_modified desc" selected="selected">Relevância</option>
+            
+          
+            
+              <option value="title_string asc">Nome Crescente</option>
+            
+          
+            
+              <option value="title_string desc">Nome Descrescente</option>
+            
+          
+            
+              <option value="metadata_modified desc">Modificada pela última vez</option>
+            
+          
+            
+          
+        </select>
+        
+        <button class="btn js-hide" type="submit">Ir</button>
+        
+      </div>
+    
+  
+
+  
+    
+
+      
+
+      <h3>
+              
+
+  
+  
+  
+  
+  
+  
+
+5.744 conjuntos de dados encontrado(s)
+              
+                  
+              
+           
+      </h3>
+    
+  
+
+  
+    
+      <p class="filter-list">
+        
+      </p>     
+      <a class="show-filters btn">Filtrar Resultados</a>
+    
+  
+
+</form>
+
+
+
+
+        
+        
+          
+
+  
+    <ul class="dataset-list unstyled">
+    	
+	      
+	        
+
+
+
+
+
+
+  <li class="dataset-item">
+    
+      <div class="dataset-content">
+        
+          <h3 class="dataset-heading">
+            
+              
+            
+            
+              <a href="/dataset/carreiras-do-poder-executivo-federal">Carreiras do Poder Executivo Federal</a>
+            
+            
+              
+              
+            
+          </h3>
+        
+        
+          
+        
+        
+          
+            <div>As informações disponíveis nesta consulta referem-se aos servidores ativos do Poder Executivo Federal, não incluindo portanto, dados sobre servidores aposentados, pensionistas...</div>
+          
+        
+      </div>
+      
+        
+          
+            <ul class="dataset-resources unstyled">
+              
+                
+                <li>
+                  <a href="/dataset/carreiras-do-poder-executivo-federal" class="label" data-format="txt">TXT</a>
+                </li>
+                
+              
+            </ul>
+          
+        
+      
+    
+  </li>
+
+	      
+	        
+
+
+
+
+
+
+  <li class="dataset-item">
+    
+      <div class="dataset-content">
+        
+          <h3 class="dataset-heading">
+            
+              
+            
+            
+              <a href="/dataset/http-repositorio-dados-gov-br-segrt-2017_gsiste-csvgratificacao-gsiste">Gastos de Pessoal com GSISTE</a>
+            
+            
+              
+              
+            
+          </h3>
+        
+        
+          
+        
+        
+          
+            <div>As informações disponíveis nesta consulta referem-se aos servidores ativos do Poder Executivo Federal, não incluindo portanto, dados sobre servidores aposentados, pensionistas...</div>
+          
+        
+      </div>
+      
+        
+          
+            <ul class="dataset-resources unstyled">
+              
+                
+                <li>
+                  <a href="/dataset/http-repositorio-dados-gov-br-segrt-2017_gsiste-csvgratificacao-gsiste" class="label" data-format="csv">CSV</a>
+                </li>
+                
+                <li>
+                  <a href="/dataset/http-repositorio-dados-gov-br-segrt-2017_gsiste-csvgratificacao-gsiste" class="label" data-format="txt">TXT</a>
+                </li>
+                
+              
+            </ul>
+          
+        
+      
+    
+  </li>
+
+	      
+	        
+
+
+
+
+
+
+  <li class="dataset-item">
+    
+      <div class="dataset-content">
+        
+          <h3 class="dataset-heading">
+            
+              
+            
+            
+              <a href="/dataset/direcao-e-assessoramento-superiores-das">Direção e Assessoramento Superiores - DAS</a>
+            
+            
+              
+              
+            
+          </h3>
+        
+        
+          
+        
+        
+          
+            <div>Os cargos integrantes do Grupo a que se refere este decreto nº 71.235, de 10 de outubro de 1969 distribuir-se-ão, em 4 (quatro) níveis, de Direção geral de órgãos da Presidência...</div>
+          
+        
+      </div>
+      
+        
+          
+            <ul class="dataset-resources unstyled">
+              
+                
+                <li>
+                  <a href="/dataset/direcao-e-assessoramento-superiores-das" class="label" data-format="csv">CSV</a>
+                </li>
+                
+                <li>
+                  <a href="/dataset/direcao-e-assessoramento-superiores-das" class="label" data-format="txt">TXT</a>
+                </li>
+                
+              
+            </ul>
+          
+        
+      
+    
+  </li>
+
+	      
+	        
+
+
+
+
+
+
+  <li class="dataset-item">
+    
+      <div class="dataset-content">
+        
+          <h3 class="dataset-heading">
+            
+              
+            
+            
+              <a href="/dataset/repositorio-dados-gov-br-segrt-afastrem-082017-csv">Afastamento Remunerado</a>
+            
+            
+              
+              
+            
+          </h3>
+        
+        
+          
+        
+        
+          
+            <div>O servidor público federal dispõe de modalidades de afastamentos e de licenças que estão previstas por legislação específica e relacionadas pela necessidade do servidor e da...</div>
+          
+        
+      </div>
+      
+        
+          
+            <ul class="dataset-resources unstyled">
+              
+                
+                <li>
+                  <a href="/dataset/repositorio-dados-gov-br-segrt-afastrem-082017-csv" class="label" data-format="csv">CSV</a>
+                </li>
+                
+                <li>
+                  <a href="/dataset/repositorio-dados-gov-br-segrt-afastrem-082017-csv" class="label" data-format="txt">TXT</a>
+                </li>
+                
+              
+            </ul>
+          
+        
+      
+    
+  </li>
+
+	      
+	        
+
+
+
+
+
+
+  <li class="dataset-item">
+    
+      <div class="dataset-content">
+        
+          <h3 class="dataset-heading">
+            
+              
+            
+            
+              <a href="/dataset/repositorio-dados-gov-br-segrt-abonop-082017-csvabonop-082017-csv">Gastos de pessoal com abono de permanência</a>
+            
+            
+              
+              
+            
+          </h3>
+        
+        
+          
+        
+        
+          
+            <div>O abono de permanência é um benefício pecuniário concedido ao servidor que opte por permanecer em atividade após ter cumprido todos os requisitos para aposentadoria voluntária,...</div>
+          
+        
+      </div>
+      
+        
+          
+            <ul class="dataset-resources unstyled">
+              
+                
+                <li>
+                  <a href="/dataset/repositorio-dados-gov-br-segrt-abonop-082017-csvabonop-082017-csv" class="label" data-format="csv">CSV</a>
+                </li>
+                
+                <li>
+                  <a href="/dataset/repositorio-dados-gov-br-segrt-abonop-082017-csvabonop-082017-csv" class="label" data-format="txt">TXT</a>
+                </li>
+                
+              
+            </ul>
+          
+        
+      
+    
+  </li>
+
+	      
+	        
+
+
+
+
+
+
+  <li class="dataset-item">
+    
+      <div class="dataset-content">
+        
+          <h3 class="dataset-heading">
+            
+              
+            
+            
+              <a href="/dataset/dominios-gov-br">Domínios Gov.br</a>
+            
+            
+              
+              
+            
+          </h3>
+        
+        
+          
+        
+        
+          
+            <div>Informações sobre os domínios Gov.br registrados no Registro.br e autorizados pelo Ministério do Planejamento. 
+Contém todos os domínios autorizados e seus respectivos...</div>
+          
+        
+      </div>
+      
+        
+          
+            <ul class="dataset-resources unstyled">
+              
+                
+                <li>
+                  <a href="/dataset/dominios-gov-br" class="label" data-format="csv">CSV</a>
+                </li>
+                
+                <li>
+                  <a href="/dataset/dominios-gov-br" class="label" data-format="pdf">PDF</a>
+                </li>
+                
+              
+            </ul>
+          
+        
+      
+    
+  </li>
+
+	      
+	        
+
+
+
+
+
+
+  <li class="dataset-item">
+    
+      <div class="dataset-content">
+        
+          <h3 class="dataset-heading">
+            
+              
+            
+            
+              <a href="/dataset/dirigentes-das-empresas-estatais-e-subsidiarias">[Portal da Transparência] - Dirigentes das Empresas Estatais e Subsidiárias</a>
+            
+            
+              
+              
+            
+          </h3>
+        
+        
+          
+        
+        
+          
+            <div>Base de dados contendo os Ocupantes de Cargos de Gerência e Direção em Empresas Estatais e suas Subsidiárias.
+Os dados representam um subconjunto do Cadastro de Pessoas Expostas...</div>
+          
+        
+      </div>
+      
+        
+          
+            <ul class="dataset-resources unstyled">
+              
+                
+                <li>
+                  <a href="/dataset/dirigentes-das-empresas-estatais-e-subsidiarias" class="label" data-format="pdf">PDF</a>
+                </li>
+                
+                <li>
+                  <a href="/dataset/dirigentes-das-empresas-estatais-e-subsidiarias" class="label" data-format="zip+csv">zip+csv</a>
+                </li>
+                
+              
+            </ul>
+          
+        
+      
+    
+  </li>
+
+	      
+	        
+
+
+
+
+
+
+  <li class="dataset-item">
+    
+      <div class="dataset-content">
+        
+          <h3 class="dataset-heading">
+            
+              
+            
+            
+              <a href="/dataset/http-www-portaltransparencia-gov-br-download-de-dados-ceaf">CEAF - Cadastro de Expulsões da Administração Federal</a>
+            
+            
+              
+              
+            
+          </h3>
+        
+        
+          
+        
+        
+          
+            <div>Banco de dados que reúne as penalidades expulsivas aplicadas (demissão, cassação de aposentadoria e destituição de cargo em comissão ou função comissionada), no âmbito do Poder...</div>
+          
+        
+      </div>
+      
+        
+          
+            <ul class="dataset-resources unstyled">
+              
+                
+                <li>
+                  <a href="/dataset/http-www-portaltransparencia-gov-br-download-de-dados-ceaf" class="label" data-format="zip+csv">zip+csv</a>
+                </li>
+                
+                <li>
+                  <a href="/dataset/http-www-portaltransparencia-gov-br-download-de-dados-ceaf" class="label" data-format="pdf">PDF</a>
+                </li>
+                
+              
+            </ul>
+          
+        
+      
+    
+  </li>
+
+	      
+	        
+
+
+
+
+
+
+  <li class="dataset-item">
+    
+      <div class="dataset-content">
+        
+          <h3 class="dataset-heading">
+            
+              
+            
+            
+              <a href="/dataset/cnep">CNEP - Cadastro Nacional de Empresas Punidas</a>
+            
+            
+              
+              
+            
+          </h3>
+        
+        
+          
+        
+        
+          
+            <div>Banco de dados que consolida a relação das empresas que sofreram qualquer das punições previstas na Lei nº 12.846/2013 (Lei Anticorrupção). 
+A Lei Anticorrupção prevê a punição...</div>
+          
+        
+      </div>
+      
+        
+          
+            <ul class="dataset-resources unstyled">
+              
+                
+                <li>
+                  <a href="/dataset/cnep" class="label" data-format="zip+csv">zip+csv</a>
+                </li>
+                
+                <li>
+                  <a href="/dataset/cnep" class="label" data-format="pdf">PDF</a>
+                </li>
+                
+              
+            </ul>
+          
+        
+      
+    
+  </li>
+
+	      
+	        
+
+
+
+
+
+
+  <li class="dataset-item">
+    
+      <div class="dataset-content">
+        
+          <h3 class="dataset-heading">
+            
+              
+            
+            
+              <a href="/dataset/ceis">CEIS - Cadastro Nacional de Empresas Inidôneas e Suspensas</a>
+            
+            
+              
+              
+            
+          </h3>
+        
+        
+          
+        
+        
+          
+            <div>Banco de dados que consolida a relação das empresas e pessoas físicas que sofreram sanções tendo como efeito restrição ao direito de participar de licitações ou de celebrar...</div>
+          
+        
+      </div>
+      
+        
+          
+            <ul class="dataset-resources unstyled">
+              
+                
+                <li>
+                  <a href="/dataset/ceis" class="label" data-format="zip+csv">zip+csv</a>
+                </li>
+                
+                <li>
+                  <a href="/dataset/ceis" class="label" data-format="pdf">PDF</a>
+                </li>
+                
+              
+            </ul>
+          
+        
+      
+    
+  </li>
+
+	      
+	        
+
+
+
+
+
+
+  <li class="dataset-item">
+    
+      <div class="dataset-content">
+        
+          <h3 class="dataset-heading">
+            
+              
+            
+            
+              <a href="/dataset/resgates-do-tesouro-direto">Resgates do Tesouro Direto</a>
+            
+            
+              
+              
+            
+          </h3>
+        
+        
+          
+        
+        
+          
+            <div>Este conjunto de dados apresenta o volume financeiro de resgates ocorridos no Tesouro Direto em determinado mês. Os resgates são divididos em três grupos, os títulos recomprados...</div>
+          
+        
+      </div>
+      
+        
+          
+            <ul class="dataset-resources unstyled">
+              
+                
+                <li>
+                  <a href="/dataset/resgates-do-tesouro-direto" class="label" data-format="pdf">PDF</a>
+                </li>
+                
+                <li>
+                  <a href="/dataset/resgates-do-tesouro-direto" class="label" data-format="csv">CSV</a>
+                </li>
+                
+              
+            </ul>
+          
+        
+      
+    
+  </li>
+
+	      
+	        
+
+
+
+
+
+
+  <li class="dataset-item">
+    
+      <div class="dataset-content">
+        
+          <h3 class="dataset-heading">
+            
+              
+            
+            
+              <a href="/dataset/vendas-do-tesouro-direto">Vendas do Tesouro Direto</a>
+            
+            
+              
+              
+            
+          </h3>
+        
+        
+          
+        
+        
+          
+            <div>Este conjunto de dados traz o volume de vendas diário do programa Tesouro Direto. Os dados de vendas são apresentados também por tipo de título e por data de vencimento do...</div>
+          
+        
+      </div>
+      
+        
+          
+            <ul class="dataset-resources unstyled">
+              
+                
+                <li>
+                  <a href="/dataset/vendas-do-tesouro-direto" class="label" data-format="pdf">PDF</a>
+                </li>
+                
+                <li>
+                  <a href="/dataset/vendas-do-tesouro-direto" class="label" data-format="csv">CSV</a>
+                </li>
+                
+              
+            </ul>
+          
+        
+      
+    
+  </li>
+
+	      
+	        
+
+
+
+
+
+
+  <li class="dataset-item">
+    
+      <div class="dataset-content">
+        
+          <h3 class="dataset-heading">
+            
+              
+            
+            
+              <a href="/dataset/taxas-dos-titulos-ofertados-pelo-tesouro-direto">Taxas dos Títulos Ofertados pelo Tesouro Direto</a>
+            
+            
+              
+              
+            
+          </h3>
+        
+        
+          
+        
+        
+          
+            <div>As taxas e preços dos títulos ofertados pelo Tesouro Direto refletem o mercado secundário de títulos públicos federais. Dessa forma, o investidor pessoa física pode ter acesso...</div>
+          
+        
+      </div>
+      
+        
+          
+            <ul class="dataset-resources unstyled">
+              
+                
+                <li>
+                  <a href="/dataset/taxas-dos-titulos-ofertados-pelo-tesouro-direto" class="label" data-format="pdf">PDF</a>
+                </li>
+                
+                <li>
+                  <a href="/dataset/taxas-dos-titulos-ofertados-pelo-tesouro-direto" class="label" data-format="csv">CSV</a>
+                </li>
+                
+              
+            </ul>
+          
+        
+      
+    
+  </li>
+
+	      
+	        
+
+
+
+
+
+
+  <li class="dataset-item">
+    
+      <div class="dataset-content">
+        
+          <h3 class="dataset-heading">
+            
+              
+            
+            
+              <a href="/dataset/unidades2">Unidades</a>
+            
+            
+              
+              
+            
+          </h3>
+        
+        
+          
+        
+        
+          
+            <div>Relação de unidades da UFCSPA.</div>
+          
+        
+      </div>
+      
+        
+          
+            <ul class="dataset-resources unstyled">
+              
+                
+                <li>
+                  <a href="/dataset/unidades2" class="label" data-format="csv">CSV</a>
+                </li>
+                
+                <li>
+                  <a href="/dataset/unidades2" class="label" data-format="odt">ODT</a>
+                </li>
+                
+              
+            </ul>
+          
+        
+      
+    
+  </li>
+
+	      
+	        
+
+
+
+
+
+
+  <li class="dataset-item">
+    
+      <div class="dataset-content">
+        
+          <h3 class="dataset-heading">
+            
+              
+            
+            
+              <a href="/dataset/funcoes1">Funções Gratificadas</a>
+            
+            
+              
+              
+            
+          </h3>
+        
+        
+          
+        
+        
+          
+            <div>Relação de Cargos de Direção, Funções Gratificadas e Funções de Coordenação de servidores da UFCSPA.</div>
+          
+        
+      </div>
+      
+        
+          
+            <ul class="dataset-resources unstyled">
+              
+                
+                <li>
+                  <a href="/dataset/funcoes1" class="label" data-format="csv">CSV</a>
+                </li>
+                
+                <li>
+                  <a href="/dataset/funcoes1" class="label" data-format="odt">ODT</a>
+                </li>
+                
+              
+            </ul>
+          
+        
+      
+    
+  </li>
+
+	      
+	        
+
+
+
+
+
+
+  <li class="dataset-item">
+    
+      <div class="dataset-content">
+        
+          <h3 class="dataset-heading">
+            
+              
+            
+            
+              <a href="/dataset/matriculas-da-graduacao-e-pos-graduacao">Matrículas da Graduação e Pós-graduação</a>
+            
+            
+              
+              
+            
+          </h3>
+        
+        
+          
+        
+        
+          
+            <div>Relação de matrículas de graduação e pós-graduação da UFCSPA.</div>
+          
+        
+      </div>
+      
+        
+          
+            <ul class="dataset-resources unstyled">
+              
+                
+                <li>
+                  <a href="/dataset/matriculas-da-graduacao-e-pos-graduacao" class="label" data-format="csv">CSV</a>
+                </li>
+                
+                <li>
+                  <a href="/dataset/matriculas-da-graduacao-e-pos-graduacao" class="label" data-format="odt">ODT</a>
+                </li>
+                
+              
+            </ul>
+          
+        
+      
+    
+  </li>
+
+	      
+	        
+
+
+
+
+
+
+  <li class="dataset-item">
+    
+      <div class="dataset-content">
+        
+          <h3 class="dataset-heading">
+            
+              
+            
+            
+              <a href="/dataset/eventos-de-extensao">Eventos de Extensão</a>
+            
+            
+              
+              
+            
+          </h3>
+        
+        
+          
+        
+        
+          
+            <div>Relação de Eventos de Extensão aprovados da UFCSPA.</div>
+          
+        
+      </div>
+      
+        
+          
+            <ul class="dataset-resources unstyled">
+              
+                
+                <li>
+                  <a href="/dataset/eventos-de-extensao" class="label" data-format="csv">CSV</a>
+                </li>
+                
+                <li>
+                  <a href="/dataset/eventos-de-extensao" class="label" data-format="odt">ODT</a>
+                </li>
+                
+              
+            </ul>
+          
+        
+      
+    
+  </li>
+
+	      
+	        
+
+
+
+
+
+
+  <li class="dataset-item">
+    
+      <div class="dataset-content">
+        
+          <h3 class="dataset-heading">
+            
+              
+            
+            
+              <a href="/dataset/programas-de-extensao">Programas de Extensão</a>
+            
+            
+              
+              
+            
+          </h3>
+        
+        
+          
+        
+        
+          
+            <div>Relação de Programas de Extensão aprovados da UFCSPA.</div>
+          
+        
+      </div>
+      
+        
+          
+            <ul class="dataset-resources unstyled">
+              
+                
+                <li>
+                  <a href="/dataset/programas-de-extensao" class="label" data-format="csv">CSV</a>
+                </li>
+                
+                <li>
+                  <a href="/dataset/programas-de-extensao" class="label" data-format="odt">ODT</a>
+                </li>
+                
+              
+            </ul>
+          
+        
+      
+    
+  </li>
+
+	      
+	        
+
+
+
+
+
+
+  <li class="dataset-item">
+    
+      <div class="dataset-content">
+        
+          <h3 class="dataset-heading">
+            
+              
+            
+            
+              <a href="/dataset/projetos-de-extensao1">Projetos de Extensão</a>
+            
+            
+              
+              
+            
+          </h3>
+        
+        
+          
+        
+        
+          
+            <div>Relação de Projetos de Extensão aprovados da UFCSPA.</div>
+          
+        
+      </div>
+      
+        
+          
+            <ul class="dataset-resources unstyled">
+              
+                
+                <li>
+                  <a href="/dataset/projetos-de-extensao1" class="label" data-format="csv">CSV</a>
+                </li>
+                
+                <li>
+                  <a href="/dataset/projetos-de-extensao1" class="label" data-format="odt">ODT</a>
+                </li>
+                
+              
+            </ul>
+          
+        
+      
+    
+  </li>
+
+	      
+	        
+
+
+
+
+
+
+  <li class="dataset-item">
+    
+      <div class="dataset-content">
+        
+          <h3 class="dataset-heading">
+            
+              
+            
+            
+              <a href="/dataset/processos-internos">Processos Internos</a>
+            
+            
+              
+              
+            
+          </h3>
+        
+        
+          
+        
+        
+          
+            <div>Relação de processos internos da UFCSPA. </div>
+          
+        
+      </div>
+      
+        
+          
+            <ul class="dataset-resources unstyled">
+              
+                
+                <li>
+                  <a href="/dataset/processos-internos" class="label" data-format="csv">CSV</a>
+                </li>
+                
+                <li>
+                  <a href="/dataset/processos-internos" class="label" data-format="odt">ODT</a>
+                </li>
+                
+              
+            </ul>
+          
+        
+      
+    
+  </li>
+
+	      
+	    
+    </ul>
+  
+
+        
+      </div>
+
+      
+        <div class='pagination pagination-centered'><ul> <li class="active"><a href="/dataset?page=1">1</a></li> <li><a href="/dataset?page=2">2</a></li> <li><a href="/dataset?page=3">3</a></li> <li class="disabled"><a href="#">...</a></li> <li><a href="/dataset?page=288">288</a></li> <li><a href="/dataset?page=2">»</a></li></ul></div>
+      
+    </section>
+
+    
+    <section class="module">
+      <div class="module-content">
+        
+        <small>
+          
+          
+          
+             Você também pode ter acesso a esses registros usando a <a href="/api/3">API</a> (veja <a href="http://docs.ckan.org/en/ckan-2.6.3/api/">Documentação da API</a>). 
+        </small>
+        
+      </div>
+    </section>
+    
+  
+              </div>
+            
+
+            
+              <aside class="secondary span3">
+                
+                
+  <div class="filters">
+    <div>
+      
+        
+
+  
+  
+    
+      
+      
+        <section class="module module-narrow module-shallow">
+          
+            <h2 class="module-heading">
+              <i class="icon-medium icon-filter"></i>
+              
+              Organizações
+            </h2>
+          
+          
+            
+            
+              <nav>
+                <ul class="unstyled nav nav-simple nav-facet">
+                  
+                    
+                    
+                    
+                    
+                      <li class="nav-item">
+                        <a href="/dataset?organization=banco-central-do-brasil-bcb" title="Banco Central do Brasil - BCB">
+                          <span>Banco Central do Br... (3100)</span>
+                        </a>
+                      </li>
+                  
+                    
+                    
+                    
+                    
+                      <li class="nav-item">
+                        <a href="/dataset?organization=instituto-brasileiro-de-geografia-e-estatistica-ibge" title="Instituto Brasileiro de Geografia e Estatística - IBGE">
+                          <span>Instituto Brasileir... (393)</span>
+                        </a>
+                      </li>
+                  
+                    
+                    
+                    
+                    
+                      <li class="nav-item">
+                        <a href="/dataset?organization=estado-de-alagoas-al" title="">
+                          <span>Estado de Alagoas - AL (219)</span>
+                        </a>
+                      </li>
+                  
+                    
+                    
+                    
+                    
+                      <li class="nav-item">
+                        <a href="/dataset?organization=ministerio-da-saude-ms" title="Ministério da Saúde - MS">
+                          <span>Ministério da Saúde... (137)</span>
+                        </a>
+                      </li>
+                  
+                    
+                    
+                    
+                    
+                      <li class="nav-item">
+                        <a href="/dataset?organization=ministerio-da-fazenda-mf" title="Ministério da Fazenda - MF">
+                          <span>Ministério da Fazen... (124)</span>
+                        </a>
+                      </li>
+                  
+                    
+                    
+                    
+                    
+                      <li class="nav-item">
+                        <a href="/dataset?organization=previdencia" title="">
+                          <span>Previdência Social (112)</span>
+                        </a>
+                      </li>
+                  
+                    
+                    
+                    
+                    
+                      <li class="nav-item">
+                        <a href="/dataset?organization=ministerio-do-planejamento-desenvolvimento-e-gestao-mp" title="Ministério do Planejamento, Desenvolvimento e Gestão - MP">
+                          <span>Ministério do Plane... (81)</span>
+                        </a>
+                      </li>
+                  
+                    
+                    
+                    
+                    
+                      <li class="nav-item">
+                        <a href="/dataset?organization=secretaria-de-governo-segov-pr" title="Secretaria de Governo - SEGOV/PR">
+                          <span>Secretaria de Gover... (80)</span>
+                        </a>
+                      </li>
+                  
+                    
+                    
+                    
+                    
+                      <li class="nav-item">
+                        <a href="/dataset?organization=universidade-federal-de-ouro-preto-ufop" title="Universidade Federal de Ouro Preto - UFOP">
+                          <span>Universidade Federa... (66)</span>
+                        </a>
+                      </li>
+                  
+                    
+                    
+                    
+                    
+                      <li class="nav-item">
+                        <a href="/dataset?organization=universidade-federal-do-rio-grande-do-norte-ufrn" title="Universidade Federal do Rio Grande do Norte - UFRN">
+                          <span>Universidade Federa... (58)</span>
+                        </a>
+                      </li>
+                  
+                </ul>
+              </nav>
+
+              <p class="module-footer">
+                
+                  
+                    <a href="/dataset?_organization_limit=0" class="read-more">Mostrar mais Organizações</a>
+                  
+                
+              </p>
+            
+            
+          
+        </section>
+      
+    
+  
+
+      
+        
+
+  
+  
+    
+      
+      
+        <section class="module module-narrow module-shallow">
+          
+            <h2 class="module-heading">
+              <i class="icon-medium icon-filter"></i>
+              
+              Grupos
+            </h2>
+          
+          
+            
+            
+              <nav>
+                <ul class="unstyled nav nav-simple nav-facet">
+                  
+                    
+                    
+                    
+                    
+                      <li class="nav-item">
+                        <a href="/dataset?groups=governo-politica" title="">
+                          <span>Governo e Política (44)</span>
+                        </a>
+                      </li>
+                  
+                    
+                    
+                    
+                    
+                      <li class="nav-item">
+                        <a href="/dataset?groups=saude" title="">
+                          <span>Saúde (27)</span>
+                        </a>
+                      </li>
+                  
+                    
+                    
+                    
+                    
+                      <li class="nav-item">
+                        <a href="/dataset?groups=educacao" title="">
+                          <span>Educação (19)</span>
+                        </a>
+                      </li>
+                  
+                    
+                    
+                    
+                    
+                      <li class="nav-item">
+                        <a href="/dataset?groups=agricultura-extrativismo-e-pesca" title="Agricultura, extrativismo e pesca">
+                          <span>Agricultura, extrat... (16)</span>
+                        </a>
+                      </li>
+                  
+                    
+                    
+                    
+                    
+                      <li class="nav-item">
+                        <a href="/dataset?groups=economia-financas" title="">
+                          <span>Economia e Finanças (12)</span>
+                        </a>
+                      </li>
+                  
+                    
+                    
+                    
+                    
+                      <li class="nav-item">
+                        <a href="/dataset?groups=pessoa-familia-e-sociedade" title="Pessoa, Familia e Sociedade">
+                          <span>Pessoa, Familia e S... (12)</span>
+                        </a>
+                      </li>
+                  
+                    
+                    
+                    
+                    
+                      <li class="nav-item">
+                        <a href="/dataset?groups=dados-em-destaque" title="Conjuntos de dados em destaque">
+                          <span>Conjuntos de dados ... (10)</span>
+                        </a>
+                      </li>
+                  
+                    
+                    
+                    
+                    
+                      <li class="nav-item">
+                        <a href="/dataset?groups=equipamentos-publicos" title="">
+                          <span>Equipamentos Públicos (8)</span>
+                        </a>
+                      </li>
+                  
+                    
+                    
+                    
+                    
+                      <li class="nav-item">
+                        <a href="/dataset?groups=pgi" title="Plataforma de Gestão de Indicadores">
+                          <span>Plataforma de Gestã... (8)</span>
+                        </a>
+                      </li>
+                  
+                    
+                    
+                    
+                    
+                      <li class="nav-item">
+                        <a href="/dataset?groups=cultura-lazer-esporte" title="Cultura, Lazer e Esporte">
+                          <span>Cultura, Lazer e Es... (6)</span>
+                        </a>
+                      </li>
+                  
+                </ul>
+              </nav>
+
+              <p class="module-footer">
+                
+                  
+                    <a href="/dataset?_groups_limit=0" class="read-more">Mostrar mais Grupos</a>
+                  
+                
+              </p>
+            
+            
+          
+        </section>
+      
+    
+  
+
+      
+        
+
+  
+  
+    
+      
+      
+        <section class="module module-narrow module-shallow">
+          
+            <h2 class="module-heading">
+              <i class="icon-medium icon-filter"></i>
+              
+              Etiquetas
+            </h2>
+          
+          
+            
+            
+              <nav>
+                <ul class="unstyled nav nav-simple nav-facet">
+                  
+                    
+                    
+                    
+                    
+                      <li class="nav-item">
+                        <a href="/dataset?tags=inclus%C3%A3o+financeira" title="">
+                          <span>inclusão financeira (1991)</span>
+                        </a>
+                      </li>
+                  
+                    
+                    
+                    
+                    
+                      <li class="nav-item">
+                        <a href="/dataset?tags=indicadores+de+cr%C3%A9dito" title="">
+                          <span>indicadores de crédito (834)</span>
+                        </a>
+                      </li>
+                  
+                    
+                    
+                    
+                    
+                      <li class="nav-item">
+                        <a href="/dataset?tags=INDE" title="">
+                          <span>INDE (679)</span>
+                        </a>
+                      </li>
+                  
+                    
+                    
+                    
+                    
+                      <li class="nav-item">
+                        <a href="/dataset?tags=Cartografia" title="">
+                          <span>Cartografia (654)</span>
+                        </a>
+                      </li>
+                  
+                    
+                    
+                    
+                    
+                      <li class="nav-item">
+                        <a href="/dataset?tags=Geoespacial" title="">
+                          <span>Geoespacial (654)</span>
+                        </a>
+                      </li>
+                  
+                    
+                    
+                    
+                    
+                      <li class="nav-item">
+                        <a href="/dataset?tags=Geoservi%C3%A7o" title="">
+                          <span>Geoserviço (654)</span>
+                        </a>
+                      </li>
+                  
+                    
+                    
+                    
+                    
+                      <li class="nav-item">
+                        <a href="/dataset?tags=Indicador" title="">
+                          <span>Indicador (170)</span>
+                        </a>
+                      </li>
+                  
+                    
+                    
+                    
+                    
+                      <li class="nav-item">
+                        <a href="/dataset?tags=PGI" title="">
+                          <span>PGI (165)</span>
+                        </a>
+                      </li>
+                  
+                    
+                    
+                    
+                    
+                      <li class="nav-item">
+                        <a href="/dataset?tags=finan%C3%A7as+p%C3%BAblicas" title="">
+                          <span>finanças públicas (125)</span>
+                        </a>
+                      </li>
+                  
+                    
+                    
+                    
+                    
+                      <li class="nav-item">
+                        <a href="/dataset?tags=Alagoas" title="">
+                          <span>Alagoas (121)</span>
+                        </a>
+                      </li>
+                  
+                </ul>
+              </nav>
+
+              <p class="module-footer">
+                
+                  
+                    <a href="/dataset?_tags_limit=0" class="read-more">Mostrar mais Etiquetas</a>
+                  
+                
+              </p>
+            
+            
+          
+        </section>
+      
+    
+  
+
+      
+        
+
+  
+  
+    
+      
+      
+        <section class="module module-narrow module-shallow">
+          
+            <h2 class="module-heading">
+              <i class="icon-medium icon-filter"></i>
+              
+              Formatos
+            </h2>
+          
+          
+            
+            
+              <nav>
+                <ul class="unstyled nav nav-simple nav-facet">
+                  
+                    
+                    
+                    
+                    
+                      <li class="nav-item">
+                        <a href="/dataset?res_format=CSV" title="">
+                          <span>CSV (4927)</span>
+                        </a>
+                      </li>
+                  
+                    
+                    
+                    
+                    
+                      <li class="nav-item">
+                        <a href="/dataset?res_format=HTML" title="">
+                          <span>HTML (3928)</span>
+                        </a>
+                      </li>
+                  
+                    
+                    
+                    
+                    
+                      <li class="nav-item">
+                        <a href="/dataset?res_format=JSON" title="">
+                          <span>JSON (3520)</span>
+                        </a>
+                      </li>
+                  
+                    
+                    
+                    
+                    
+                      <li class="nav-item">
+                        <a href="/dataset?res_format=wsdl" title="">
+                          <span>wsdl (3063)</span>
+                        </a>
+                      </li>
+                  
+                    
+                    
+                    
+                    
+                      <li class="nav-item">
+                        <a href="/dataset?res_format=PDF" title="">
+                          <span>PDF (785)</span>
+                        </a>
+                      </li>
+                  
+                    
+                    
+                    
+                    
+                      <li class="nav-item">
+                        <a href="/dataset?res_format=KML" title="">
+                          <span>KML (696)</span>
+                        </a>
+                      </li>
+                  
+                    
+                    
+                    
+                    
+                      <li class="nav-item">
+                        <a href="/dataset?res_format=ZIP+SHP" title="">
+                          <span>ZIP SHP (653)</span>
+                        </a>
+                      </li>
+                  
+                    
+                    
+                    
+                    
+                      <li class="nav-item">
+                        <a href="/dataset?res_format=GeoJSON" title="">
+                          <span>GeoJSON (611)</span>
+                        </a>
+                      </li>
+                  
+                    
+                    
+                    
+                    
+                      <li class="nav-item">
+                        <a href="/dataset?res_format=XML" title="">
+                          <span>XML (371)</span>
+                        </a>
+                      </li>
+                  
+                    
+                    
+                    
+                    
+                      <li class="nav-item">
+                        <a href="/dataset?res_format=XLSX" title="">
+                          <span>XLSX (133)</span>
+                        </a>
+                      </li>
+                  
+                </ul>
+              </nav>
+
+              <p class="module-footer">
+                
+                  
+                    <a href="/dataset?_res_format_limit=0" class="read-more">Mostrar mais Formatos</a>
+                  
+                
+              </p>
+            
+            
+          
+        </section>
+      
+    
+  
+
+      
+        
+
+  
+  
+    
+      
+      
+        <section class="module module-narrow module-shallow">
+          
+            <h2 class="module-heading">
+              <i class="icon-medium icon-filter"></i>
+              
+              Licenças
+            </h2>
+          
+          
+            
+            
+              <nav>
+                <ul class="unstyled nav nav-simple nav-facet">
+                  
+                    
+                    
+                    
+                    
+                      <li class="nav-item">
+                        <a href="/dataset?license_id=odc-odbl" title="Licença Aberta para Bases de Dados (ODbL) do Open Data Commons">
+                          <span>Licença Aberta para... (3353)</span>
+                        </a>
+                      </li>
+                  
+                    
+                    
+                    
+                    
+                      <li class="nav-item">
+                        <a href="/dataset?license_id=notspecified" title="Licença não especificada">
+                          <span>Licença não especif... (775)</span>
+                        </a>
+                      </li>
+                  
+                    
+                    
+                    
+                    
+                      <li class="nav-item">
+                        <a href="/dataset?license_id=cc-by" title="Creative Commons Atribuição">
+                          <span>Creative Commons At... (761)</span>
+                        </a>
+                      </li>
+                  
+                    
+                    
+                    
+                    
+                      <li class="nav-item">
+                        <a href="/dataset?license_id=other-pd" title="Outra (Domínio Público)">
+                          <span>Outra (Domínio Públ... (263)</span>
+                        </a>
+                      </li>
+                  
+                    
+                    
+                    
+                    
+                      <li class="nav-item">
+                        <a href="/dataset?license_id=other-open" title="">
+                          <span>Outra (Aberta) (226)</span>
+                        </a>
+                      </li>
+                  
+                    
+                    
+                    
+                    
+                      <li class="nav-item">
+                        <a href="/dataset?license_id=cc-by-sa" title="Creative Commons Atribuição e Compartilhamento pela mesma Licença">
+                          <span>Creative Commons At... (167)</span>
+                        </a>
+                      </li>
+                  
+                    
+                    
+                    
+                    
+                      <li class="nav-item">
+                        <a href="/dataset?license_id=cc-nc" title="Creative Commons Não-Comercial (Qualquer)">
+                          <span>Creative Commons Nã... (108)</span>
+                        </a>
+                      </li>
+                  
+                    
+                    
+                    
+                    
+                      <li class="nav-item">
+                        <a href="/dataset?license_id=cc-zero" title="Creative Commons CCZero">
+                          <span>Creative Commons CC... (19)</span>
+                        </a>
+                      </li>
+                  
+                    
+                    
+                    
+                    
+                      <li class="nav-item">
+                        <a href="/dataset?license_id=odc-pddl" title="Licença e Dedicação ao Domínio Público do Open Data Commons (PDDL)">
+                          <span>Licença e Dedicação... (5)</span>
+                        </a>
+                      </li>
+                  
+                    
+                    
+                    
+                    
+                      <li class="nav-item">
+                        <a href="/dataset?license_id=odc-by" title="Licença de Atribuição do Open Data Commons">
+                          <span>Licença de Atribuiç... (2)</span>
+                        </a>
+                      </li>
+                  
+                </ul>
+              </nav>
+
+              <p class="module-footer">
+                
+                  
+                    <a href="/dataset?_license_id_limit=0" class="read-more">Mostrar mais Licenças</a>
+                  
+                
+              </p>
+            
+            
+          
+        </section>
+      
+    
+  
+
+      
+    </div>
+    <a class="close no-text hide-filters"><i class="icon-remove-sign"></i><span class="text">close</span></a>
+  </div>
+
+  
+              </aside>
+            
+          </div>
+        
+      </div>
+    </div>
+  
+    
+
+<div class="container">
+  
+  <div class="footer outer">
+    <div class="footer inner bs3">
+      <footer>
+        <!-- Navegação do Rodapé -->
+        <div class="row">
+          <div class="col-sm-6 col-md-3" id="portal">
+            <h3> O Portal </h3>
+            <ul>
+              <li>
+                <a href="/dataset/"> Cat&aacute;logo </a>
+              </li>
+              <li>
+                <a href="/organization/"> Organizações </a>
+              </li>
+              <li>
+                <a href="/pagina/cadastrar-organizacao/"> Catalogue seus dados </a>
+              </li>
+              <li>
+                <a href="/pagina/mapa-do-site/"> Mapa do site </a>
+              </li>
+              <li>
+                <a href="/pagina/sobre/"> Sobre o portal </a>
+              </li>
+              <li>
+                <a href="/pagina/faq/"> Perguntas frequentes </a>
+              </li>
+              <li>
+                <a href="/pagina/dev/"> Desenvolvimento do portal </a>
+              </li>
+              <li>
+                <a href="/pagina/agradecimentos/"> Agradecimentos </a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-sm-6 col-md-3" id="comunidade">
+            <h3> Comunidade </h3>
+            <ul>
+              <li>
+                <a href="/pagina/comunidade"> Comunidades </a>
+              </li>
+              <li>
+                <a target="_blank" href="http://twitter.com/dadosgovbr"> Twitter </a>
+              </li>
+              <li>
+                <a target="_blank" href="http://identi.ca/dadosgovbr"> Identi.ca </a>
+              </li>
+              <li>
+                <a target="_blank" href="https://groups.google.com/forum/#!forum/inda-br"> Lista de discussão </a>
+              </li>
+              <li>
+                <a href="/pagina/ferramentas-colaboracao/"> Ferramentas de colabora&ccedil;&atilde;o </a>
+              </li>
+              <li>
+                <a href="/revision/list"> &Uacute;ltimas alterações </a>
+              </li>
+              <li>
+                <a href="/pagina/sugira-dados/"> Sugira dados </a>
+              </li>
+              <li>
+                <a href="/pagina/agenda/"> Agenda </a>
+              </li>
+              <li>
+                <a href="/pagina/contato/"> Sugest&otilde;es </a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-sm-12 visible-sm" style="text-align: center">
+            <hr class="divisor">
+          </div>
+          <div class="col-sm-6 col-md-3" id="manuais">
+            <h3> Manuais </h3>
+            <ul>
+              <li>
+                <a href="/pagina/cartilha-publicacao-dados-abertos/"> Cartilha de publicação de dados </a>
+              </li>
+              <li>
+                <a target="_blank" href="http://wiki.gtinda.ibge.gov.br/GetFile.aspx?File=%2fGT3-Tecnologia%2fArquitetura%20Tecnica%20Referencial%20de%20Abertura%20de%20Dados%20v1%20edicao_duke.odt"> Arquitetura Técnica Referencial </a>
+              </li>
+              <li>
+                <a target="_blank" href="http://wiki.dados.gov.br/Capacitacao-para-Catalogacao-de-Dados.ashx">Manual de Catalogação</a>
+              </li>
+              <li>
+                <a target="_blank" href="http://www.w3c.br/pub/Materiais/PublicacoesW3C/Manual_Dados_Abertos_WEB.pdf"> Manual de Dados Abertos <abbr title="World Wide Web Consortium">W3C</abbr></a>
+              </li>
+              <li>
+                <a target="_blank" href="http://www.w3c.br/pub/Materiais/PublicacoesW3C/manual_dados_abertos_desenvolvedores_web.pdf"> Manual do desenvolvedor <abbr title="World Wide Web Consortium">W3C</abbr></a>
+              </li>
+              <li>
+                <a target="_blank" href="http://www.w3c.br/pub/Materiais/PublicacoesW3C/encarte_manual_desenvolvedores_web.pdf"> Cartilha do desenvolvedor <abbr title="World Wide Web Consortium">W3C</abbr> </a>
+              </li>
+              <li>
+                <a target="_blank" href="http://opendatahandbook.org/guide/pt_BR/"> Guia de Dados Abertos <abbr title="Open Knowledge International">OKI</abbr> </a>
+              </li>
+              <li>
+                <a target="_blank" href="http://www.planejamento.gov.br/secretarias/upload/arquivo/governo-aberto/copy_of_manual_elaboracao_plano_dados_abertos.pdf/@@download/file/manual_elaboracao_plano_dados_abertos.pdf"> Manual para Elaboração de Planos de Dados Abertos </a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-sm-6 col-md-3" id="about">
+            <h3> Saiba mais </h3>
+            <ul>
+              <li>
+                <a href="/pagina/dados-abertos/"> O que são dados abertos? </a>
+              </li>
+              <li>
+                <a target="_blank" href="http://www.acessoainformacao.gov.br/"> Lei de acesso a informação </a>
+              </li>
+              <li>
+                <a target="_blank" href="http://wiki.gtinda.ibge.gov.br/"> Wiki da <abbr title="Infraestrutura Nacional de Dados Abertos">INDA</abbr> </a>
+              </li>
+              <li>
+                <a href="/pagina/instrucao-normativa-da-inda/"> Instrução Normativa da <abbr title="Infraestrutura Nacional de Dados Abertos">INDA</abbr> </a>
+              </li>
+              <li>
+                <a target="_blank" href="http://www.opengovpartnership.org/"> Parceria para Governo Aberto </a>
+              </li>
+              <li>
+                <a href="/pagina/outras-iniciativas/"> Outras iniciativas </a>
+              </li>
+              <li>
+                <a target="_blank" href="http://i3gov.planejamento.gov.br/"> Indicadores de governo </a>
+              </li>
+              <li>
+                <a target="_blank" href="http://paineis.cgu.gov.br/dadosabertos/index.htm"> Painel de Monitoramento </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <!-- FIM Navegação do Rodapé -->
+
+
+        <div id="colophon">
+          Desenvolvido pela <a target="_blank" href="http://www.planejamento.gov.br/acesso-a-informacao/institucional/unidades/sti">Secretaria de Tecnologia da Informação</a>, <a target="_blank" href="http://www.planejamento.gov.br/">Ministério do Planejamento, Desenvolvimento e Gestão</a>.
+          <a rel="license" target="_blank" href="http://creativecommons.org/licenses/by-sa/3.0/deed.pt_BR">
+            <br />
+            <img alt="Licença Creative Commons" src="https://i.creativecommons.org/l/by-sa/3.0/80x15.png" /></a>
+            Todo conteúdo licenciado sob uma  Licença <a rel="license" target="_blank" href="http://creativecommons.org/licenses/by-sa/3.0/deed.pt_BR">
+              Creative Commons Attribution-ShareAlike 3.0 Unported</a>.
+              <br/>
+              Logotipo Licenciado sob <a href="http://www.softwarepublico.gov.br/lpm" target="_blank">Licença Pública de Marca</a>.
+        </div>
+
+        <!-- Logos "Acesso a informação", "CKAN" e "Governo Brasileiro" -->
+        <div class="row" id="footer-logos">
+          <div class="col-xs-6">
+            <div class="acesso-brasil-rodape">
+              <a href="http://www.acessoainformacao.gov.br/" class="logo-acesso">
+                <img src="/img/acesso-a-informacao2.png" alt="Acesso a Informação"/>
+              </a>
+            </div>
+
+            <div class="attribution">
+              
+              <p><strong>Impulsionado por</strong> <a class="hide-text ckan-footer-logo" href="http://ckan.org">CKAN</a></p>
+              
+            </div>
+          </div><!-- /.col-xs-6 -->
+
+
+          <div class="col-xs-6">
+            
+          </div><!-- /.col-xs-6 -->
+
+        </div><!-- /.row -->
+
+      </footer>
+    </div>
+  </div>
+  
+</div>
+
+    
+    
+    
+</div>
+
+
+
+  <script src="https://barra.brasil.gov.br/barra.js" type="text/javascript"></script>
+
+
+  <!-- GA -->
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-27511850-1', 'auto');
+  ga('send', 'pageview');
+  </script>
+  <!-- End GA -->
+  
+    
+    
+    
+  
+
+      
+      
+
+      
+
+      
+  <script>document.getElementsByTagName('html')[0].className += ' js';</script>
+<script type="text/javascript" src="/fanstatic/vendor/:version:2018-07-10T14:56:28.90/jquery.min.js"></script>
+<script type="text/javascript" src="/fanstatic/vendor/:version:2018-07-10T14:56:28.90/:bundle:bootstrap/js/bootstrap.min.js;jed.min.js;moment-with-locales.js;select2/select2.min.js"></script>
+<script type="text/javascript" src="/fanstatic/base/:version:2018-07-10T14:56:28.89/:bundle:plugins/jquery.inherit.min.js;plugins/jquery.proxy-all.min.js;plugins/jquery.url-helpers.min.js;plugins/jquery.date-helpers.min.js;plugins/jquery.slug.min.js;plugins/jquery.slug-preview.min.js;plugins/jquery.truncator.min.js;plugins/jquery.masonry.min.js;plugins/jquery.form-warning.min.js;sandbox.min.js;module.min.js;pubsub.min.js;client.min.js;notify.min.js;i18n.min.js;main.min.js;modules/select-switch.min.js;modules/slug-preview.min.js;modules/basic-form.min.js;modules/confirm-action.min.js;modules/api-info.min.js;modules/autocomplete.min.js;modules/custom-fields.min.js;modules/data-viewer.min.js;modules/table-selectable-rows.min.js;modules/resource-form.min.js;modules/resource-upload-field.min.js;modules/resource-reorder.min.js;modules/resource-view-reorder.min.js;modules/follow.min.js;modules/activity-stream.min.js;modules/dashboard.min.js;modules/resource-view-embed.min.js;view-filters.min.js;modules/resource-view-filters-form.min.js;modules/resource-view-filters.min.js;modules/table-toggle-more.min.js;modules/dataset-visibility.min.js;modules/media-grid.min.js;modules/image-upload.min.js"></script></body>
+</html>

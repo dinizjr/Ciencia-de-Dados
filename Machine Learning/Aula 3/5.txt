@@ -1,0 +1,1 @@
+Porque o adaline demora para chegar em um valor de peso para a reta ótima, então todos os treinamentos chegarão numa reta ótima com os valores de pesos corrigidos bem próximos.

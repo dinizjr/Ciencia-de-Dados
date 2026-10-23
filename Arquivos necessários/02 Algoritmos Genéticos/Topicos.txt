@@ -1,0 +1,15 @@
+busca populacional
+
+modelagem/representações (altera o espaço de busca e o conceito de vizinhança)
+
+pressão seleção
+
+convergencia
+explor x exploit
+
+
+
+____________________________________
+build and block
+teoria do esquema
+filhos factiveis (order based) OCX PMX

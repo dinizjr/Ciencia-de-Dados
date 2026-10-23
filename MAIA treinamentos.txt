@@ -1,0 +1,27 @@
+Boa noite pessoal, peço desculpas pela demora.
+Separei os próximos passos por área (Software, Hardware e Geral), sendo a "Geral" uma área em comum, que todos os membros devem cumprir. Peço para que cada um informe
+ a área que irá estudar nesse momento (Software ou Hardware), logo teremos a parte mecânica também.
+No primeiro momento não iremos colocar um prazo para que terminem essas atividades, mas teremos nosso acompanhamento semanal com cada pessoa.
+Em um futuro próximo utilizaremos uma ferramenta para o acompanhamento das atividades.
+Software:
+        - Estudar Jupyter Notebook: https://medium.com/codingthesmartway-com-blog/getting-started-with-jupyter-notebook-for-python-4e7082bd5d46
+        - Estudar o básico de Python: https://bit.ly/2EMnIKv (Clicar no botão Download e abrir com o Jupyter Notebook)
+        - Iniciar curso de robótica com IA da Udacity (gratuito): https://www.udacity.com/course/artificial-intelligence-for-robotics--cs373 
+Hardware:
+        - Controlar um carro RC com plataforma arduino (iniciante): https://www.filipeflop.com/blog/motor-dc-arduino-ponte-h-l298n/
+        - Controlar um carro BLDC com plataforma arduino (intermediário): https://www.arduinoecia.com.br/2015/07/como-ligar-motor-brushless-arduino.html
+
+Geral:      
+        - Estudar como funciona um veículo autônomo (básico): https://towardsdatascience.com/self-driving-cars-the-guide-f1f427b9656b
+        - Estudar como funciona um veículo autônomo (intermediário): https://www.cs.ru.nl/E.Poll/papers/2018wasa.pdf
+
+Para as atividades de Hardware, temos todos os componentes no laboratório, podemos marcar um dia para todos trabalharem juntos, e talvez já iniciar um dos minicursos de hardware.
+Estaremos sempre disponíveis para tirar dúvidas pelo WhatsApp ou pessoalmente na sala D14.
+
+Mecânica:
+- Desmontagem da carenagem
+- Engenharia reversa dimensional
+- Adaptação do acionamento do freio
+- Controle e calibração do freio
+- Adaptação da coluna de direção
+- Controle e calibração da direção

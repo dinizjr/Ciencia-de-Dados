@@ -1,0 +1,13 @@
+Primeiro, o erro quadrático médio é próximo da variação, no entanto, você calcula a média do valor da variação pelo número de observações. De certa forma, é um valor médio // médio // esperado da variância // dispersão dos valores dos dados.
+
+Em qualquer capacidade em que você esteja calculando o MSE (provavelmente para ver se os dados podem ser usados ??para provar algo significativo, estimativa de melhor ajuste ou não), você geralmente sempre quer um MSE menor, não importa o quê.
+
+Um MSE maior significa que os valores dos dados estão dispersos amplamente em torno de seu momento central (média), e um MSE menor significa o contrário e é definitivamente a escolha preferida e / ou desejada, pois mostra que os valores dos dados estão dispersos próximo ao momento central (significar); o que geralmente é ótimo. Ele reflete na distribuição dos seus valores de dados e é centralizado, e não distorcido, e acima de tudo, que possui erros menores (erros medidos pela dispersão dos valores dos dados a partir de sua média).
+
+Você costuma usar o MSE para comparar diferentes estimadores, medindo e comparando os valores dos diferentes valores de MSE dos estimadores entre si. Ainda é o mesmo; quanto menores os valores de MSE, melhor
+
+nas estatísticas, o erro quadrático médio (MSE) ou o desvio quadrático médio (MSD) de um estimador (de um procedimento para estimar uma quantidade não observada) mede a média dos quadrados dos erros - ou seja, a diferença quadrática média entre a estimativa valores e o valor real. MSE é uma função de risco, correspondente ao valor esperado da perda de erro ao quadrado. O fato de o MSE quase sempre ser estritamente positivo (e não zero) é por causa da aleatoriedade ou porque o estimador não leva em conta as informações que poderiam produzir uma estimativa mais precisa. [1]
+
+O MSE é uma medida da qualidade de um estimador - sempre é não negativo, e valores mais próximos de zero são melhores.
+
+O MSE é o segundo momento (sobre a origem) do erro e, portanto, incorpora tanto a variação do estimador (quão amplamente distribuídas as estimativas são de uma amostra de dados para outra) quanto seu viés (a que distância está o valor médio estimado da verdade). Para um estimador imparcial, o MSE é a variação do estimador. Como a variação, o MSE tem as mesmas unidades de medida que o quadrado da quantidade que está sendo estimada. Em uma analogia ao desvio padrão, pegar a raiz quadrada de MSE produz o erro quadrático médio quadrático ou o desvio quadrático médio quadrático (RMSE ou RMSD), que possui as mesmas unidades que a quantidade estimada; para um estimador imparcial, o RMSE é a raiz quadrada da variação, conhecida como erro padrão.

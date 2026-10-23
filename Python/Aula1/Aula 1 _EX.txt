@@ -1,0 +1,89 @@
+-----------EX 1
+def max(a, b, c):
+    if a<b:
+        if b<c:
+            return c
+        else:
+            return b
+    else:
+        if a<c:
+            return c
+        else:
+            return a
+
+
+
+print(max(12, -8, 3))
+------------EX 2
+
+	def even_odd(numbers):
+    numbers.sort()
+    odd = []
+    even = []
+
+    for number in numbers:
+        if(number % 2 == 0):
+            even.append(number)
+        else:
+            odd.append(number)
+
+    ret = (even, odd)
+    return ret
+
+
+num=[0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+print(even_odd(num))
+
+-------------EX 3
+def intervalSum(x,y):
+    sum = 0
+    if x > y:
+        z = x
+        x = y
+        y = z
+
+    for i in range(x, y + 1):
+        sum = sum + i
+
+    return sum
+
+print(intervalSum(9, 9))
+
+------------EX 4
+def fatorialWhile(n):
+    i = 1
+    n_fat = 1
+
+    while i <= n:
+        n_fat = n_fat * i
+        i = i + 1
+
+    return n_fat
+
+def fatorialFor(n):
+    n_fat = 1
+
+    for i in range(2, n + 1):
+        n_fat = n_fat * i
+
+    return n_fat
+
+
+print(fatorialWhile(0))
+print(fatorialWhile(1))
+print(fatorialWhile(5))
+print(fatorialFor(0))
+print(fatorialFor(1))
+print(fatorialFor(5))
+
+-----------EXAMPLE
+x = 100
+y = 1
+for n in range(x, y, -5):
+    print(n)
+
+
+list=['a', 'b', 'c']
+for letra in list:
+    print(letra
+

@@ -1,0 +1,892 @@
+;IdPassageiro;Sobreviveu;Classe;Nome;Sexo;Idade;Tarifa;Cabine;Embarque
+0;1;Não;3;Braund, Mr. Owen Harris;Homem;22.0;7.25;;S
+1;2;Sim;1;Cumings, Mrs. John Bradley (Florence Briggs Thayer);Mulher;38.0;71.2833;C85;C
+2;3;Sim;3;Heikkinen, Miss. Laina;Mulher;26.0;7.925;;S
+3;4;Sim;1;Futrelle, Mrs. Jacques Heath (Lily May Peel);Mulher;35.0;53.1;C123;S
+4;5;Não;3;Allen, Mr. William Henry;Homem;35.0;8.05;;S
+5;6;Não;3;Moran, Mr. James;Homem;;8.4583;;Q
+6;7;Não;1;McCarthy, Mr. Timothy J;Homem;54.0;51.8625;E46;S
+7;8;Não;3;Palsson, Master. Gosta Leonard;Homem;2.0;21.075;;S
+8;9;Sim;3;Johnson, Mrs. Oscar W (Elisabeth Vilhelmina Berg);Mulher;27.0;11.1333;;S
+9;10;Sim;2;Nasser, Mrs. Nicholas (Adele Achem);Mulher;14.0;30.0708;;C
+10;11;Sim;3;Sandstrom, Miss. Marguerite Rut;Mulher;4.0;16.7;G6;S
+11;12;Sim;1;Bonnell, Miss. Elizabeth;Mulher;58.0;26.55;C103;S
+12;13;Não;3;Saundercock, Mr. William Henry;Homem;20.0;8.05;;S
+13;14;Não;3;Andersson, Mr. Anders Johan;Homem;39.0;31.275;;S
+14;15;Não;3;Vestrom, Miss. Hulda Amanda Adolfina;Mulher;14.0;7.8542;;S
+15;16;Sim;2;Hewlett, Mrs. (Mary D Kingcome) ;Mulher;55.0;16.0;;S
+16;17;Não;3;Rice, Master. Eugene;Homem;2.0;29.125;;Q
+17;18;Sim;2;Williams, Mr. Charles Eugene;Homem;;13.0;;S
+18;19;Não;3;Vander Planke, Mrs. Julius (Emelia Maria Vandemoortele);Mulher;31.0;18.0;;S
+19;20;Sim;3;Masselmani, Mrs. Fatima;Mulher;;7.225;;C
+20;21;Não;2;Fynney, Mr. Joseph J;Homem;35.0;26.0;;S
+21;22;Sim;2;Beesley, Mr. Lawrence;Homem;34.0;13.0;D56;S
+22;23;Sim;3;McGowan, Miss. Anna "Annie";Mulher;15.0;8.0292;;Q
+23;24;Sim;1;Sloper, Mr. William Thompson;Homem;28.0;35.5;A6;S
+24;25;Não;3;Palsson, Miss. Torborg Danira;Mulher;8.0;21.075;;S
+25;26;Sim;3;Asplund, Mrs. Carl Oscar (Selma Augusta Emilia Johansson);Mulher;38.0;31.3875;;S
+26;27;Não;3;Emir, Mr. Farred Chehab;Homem;;7.225;;C
+27;28;Não;1;Fortune, Mr. Charles Alexander;Homem;19.0;263.0;C23 C25 C27;S
+28;29;Sim;3;O'Dwyer, Miss. Ellen "Nellie";Mulher;;7.8792;;Q
+29;30;Não;3;Todoroff, Mr. Lalio;Homem;;7.8958;;S
+30;31;Não;1;Uruchurtu, Don. Manuel E;Homem;40.0;27.7208;;C
+31;32;Sim;1;Spencer, Mrs. William Augustus (Marie Eugenie);Mulher;;146.5208;B78;C
+32;33;Sim;3;Glynn, Miss. Mary Agatha;Mulher;;7.75;;Q
+33;34;Não;2;Wheadon, Mr. Edward H;Homem;66.0;10.5;;S
+34;35;Não;1;Meyer, Mr. Edgar Joseph;Homem;28.0;82.1708;;C
+35;36;Não;1;Holverson, Mr. Alexander Oskar;Homem;42.0;52.0;;S
+36;37;Sim;3;Mamee, Mr. Hanna;Homem;;7.2292;;C
+37;38;Não;3;Cann, Mr. Ernest Charles;Homem;21.0;8.05;;S
+38;39;Não;3;Vander Planke, Miss. Augusta Maria;Mulher;18.0;18.0;;S
+39;40;Sim;3;Nicola-Yarred, Miss. Jamila;Mulher;14.0;11.2417;;C
+40;41;Não;3;Ahlin, Mrs. Johan (Johanna Persdotter Larsson);Mulher;40.0;9.475;;S
+41;42;Não;2;Turpin, Mrs. William John Robert (Dorothy Ann Wonnacott);Mulher;27.0;21.0;;S
+42;43;Não;3;Kraeff, Mr. Theodor;Homem;;7.8958;;C
+43;44;Sim;2;Laroche, Miss. Simonne Marie Anne Andree;Mulher;3.0;41.5792;;C
+44;45;Sim;3;Devaney, Miss. Margaret Delia;Mulher;19.0;7.8792;;Q
+45;46;Não;3;Rogers, Mr. William John;Homem;;8.05;;S
+46;47;Não;3;Lennon, Mr. Denis;Homem;;15.5;;Q
+47;48;Sim;3;O'Driscoll, Miss. Bridget;Mulher;;7.75;;Q
+48;49;Não;3;Samaan, Mr. Youssef;Homem;;21.6792;;C
+49;50;Não;3;Arnold-Franchi, Mrs. Josef (Josefine Franchi);Mulher;18.0;17.8;;S
+50;51;Não;3;Panula, Master. Juha Niilo;Homem;7.0;39.6875;;S
+51;52;Não;3;Nosworthy, Mr. Richard Cater;Homem;21.0;7.8;;S
+52;53;Sim;1;Harper, Mrs. Henry Sleeper (Myna Haxtun);Mulher;49.0;76.7292;D33;C
+53;54;Sim;2;Faunthorpe, Mrs. Lizzie (Elizabeth Anne Wilkinson);Mulher;29.0;26.0;;S
+54;55;Não;1;Ostby, Mr. Engelhart Cornelius;Homem;65.0;61.9792;B30;C
+55;56;Sim;1;Woolner, Mr. Hugh;Homem;;35.5;C52;S
+56;57;Sim;2;Rugg, Miss. Emily;Mulher;21.0;10.5;;S
+57;58;Não;3;Novel, Mr. Mansouer;Homem;28.5;7.2292;;C
+58;59;Sim;2;West, Miss. Constance Mirium;Mulher;5.0;27.75;;S
+59;60;Não;3;Goodwin, Master. William Frederick;Homem;11.0;46.9;;S
+60;61;Não;3;Sirayanian, Mr. Orsen;Homem;22.0;7.2292;;C
+61;62;Sim;1;Icard, Miss. Amelie;Mulher;38.0;80.0;B28;
+62;63;Não;1;Harris, Mr. Henry Birkhardt;Homem;45.0;83.475;C83;S
+63;64;Não;3;Skoog, Master. Harald;Homem;4.0;27.9;;S
+64;65;Não;1;Stewart, Mr. Albert A;Homem;;27.7208;;C
+65;66;Sim;3;Moubarek, Master. Gerios;Homem;;15.2458;;C
+66;67;Sim;2;Nye, Mrs. (Elizabeth Ramell);Mulher;29.0;10.5;F33;S
+67;68;Não;3;Crease, Mr. Ernest James;Homem;19.0;8.1583;;S
+68;69;Sim;3;Andersson, Miss. Erna Alexandra;Mulher;17.0;7.925;;S
+69;70;Não;3;Kink, Mr. Vincenz;Homem;26.0;8.6625;;S
+70;71;Não;2;Jenkin, Mr. Stephen Curnow;Homem;32.0;10.5;;S
+71;72;Não;3;Goodwin, Miss. Lillian Amy;Mulher;16.0;46.9;;S
+72;73;Não;2;Hood, Mr. Ambrose Jr;Homem;21.0;73.5;;S
+73;74;Não;3;Chronopoulos, Mr. Apostolos;Homem;26.0;14.4542;;C
+74;75;Sim;3;Bing, Mr. Lee;Homem;32.0;56.4958;;S
+75;76;Não;3;Moen, Mr. Sigurd Hansen;Homem;25.0;7.65;F G73;S
+76;77;Não;3;Staneff, Mr. Ivan;Homem;;7.8958;;S
+77;78;Não;3;Moutal, Mr. Rahamin Haim;Homem;;8.05;;S
+78;79;Sim;2;Caldwell, Master. Alden Gates;Homem;0.83;29.0;;S
+79;80;Sim;3;Dowdell, Miss. Elizabeth;Mulher;30.0;12.475;;S
+80;81;Não;3;Waelens, Mr. Achille;Homem;22.0;9.0;;S
+81;82;Sim;3;Sheerlinck, Mr. Jan Baptist;Homem;29.0;9.5;;S
+82;83;Sim;3;McDermott, Miss. Brigdet Delia;Mulher;;7.7875;;Q
+83;84;Não;1;Carrau, Mr. Francisco M;Homem;28.0;47.1;;S
+84;85;Sim;2;Ilett, Miss. Bertha;Mulher;17.0;10.5;;S
+85;86;Sim;3;Backstrom, Mrs. Karl Alfred (Maria Mathilda Gustafsson);Mulher;33.0;15.85;;S
+86;87;Não;3;Ford, Mr. William Neal;Homem;16.0;34.375;;S
+87;88;Não;3;Slocovski, Mr. Selman Francis;Homem;;8.05;;S
+88;89;Sim;1;Fortune, Miss. Mabel Helen;Mulher;23.0;263.0;C23 C25 C27;S
+89;90;Não;3;Celotti, Mr. Francesco;Homem;24.0;8.05;;S
+90;91;Não;3;Christmann, Mr. Emil;Homem;29.0;8.05;;S
+91;92;Não;3;Andreasson, Mr. Paul Edvin;Homem;20.0;7.8542;;S
+92;93;Não;1;Chaffee, Mr. Herbert Fuller;Homem;46.0;61.175;E31;S
+93;94;Não;3;Dean, Mr. Bertram Frank;Homem;26.0;20.575;;S
+94;95;Não;3;Coxon, Mr. Daniel;Homem;59.0;7.25;;S
+95;96;Não;3;Shorney, Mr. Charles Joseph;Homem;;8.05;;S
+96;97;Não;1;Goldschmidt, Mr. George B;Homem;71.0;34.6542;A5;C
+97;98;Sim;1;Greenfield, Mr. William Bertram;Homem;23.0;63.3583;D10 D12;C
+98;99;Sim;2;Doling, Mrs. John T (Ada Julia Bone);Mulher;34.0;23.0;;S
+99;100;Não;2;Kantor, Mr. Sinai;Homem;34.0;26.0;;S
+100;101;Não;3;Petranec, Miss. Matilda;Mulher;28.0;7.8958;;S
+101;102;Não;3;Petroff, Mr. Pastcho ("Pentcho");Homem;;7.8958;;S
+102;103;Não;1;White, Mr. Richard Frasar;Homem;21.0;77.2875;D26;S
+103;104;Não;3;Johansson, Mr. Gustaf Joel;Homem;33.0;8.6542;;S
+104;105;Não;3;Gustafsson, Mr. Anders Vilhelm;Homem;37.0;7.925;;S
+105;106;Não;3;Mionoff, Mr. Stoytcho;Homem;28.0;7.8958;;S
+106;107;Sim;3;Salkjelsvik, Miss. Anna Kristine;Mulher;21.0;7.65;;S
+107;108;Sim;3;Moss, Mr. Albert Johan;Homem;;7.775;;S
+108;109;Não;3;Rekic, Mr. Tido;Homem;38.0;7.8958;;S
+109;110;Sim;3;Moran, Miss. Bertha;Mulher;;24.15;;Q
+110;111;Não;1;Porter, Mr. Walter Chamberlain;Homem;47.0;52.0;C110;S
+111;112;Não;3;Zabour, Miss. Hileni;Mulher;14.5;14.4542;;C
+112;113;Não;3;Barton, Mr. David John;Homem;22.0;8.05;;S
+113;114;Não;3;Jussila, Miss. Katriina;Mulher;20.0;9.825;;S
+114;115;Não;3;Attalah, Miss. Malake;Mulher;17.0;14.4583;;C
+115;116;Não;3;Pekoniemi, Mr. Edvard;Homem;21.0;7.925;;S
+116;117;Não;3;Connors, Mr. Patrick;Homem;70.5;7.75;;Q
+117;118;Não;2;Turpin, Mr. William John Robert;Homem;29.0;21.0;;S
+118;119;Não;1;Baxter, Mr. Quigg Edmond;Homem;24.0;247.5208;B58 B60;C
+119;120;Não;3;Andersson, Miss. Ellis Anna Maria;Mulher;2.0;31.275;;S
+120;121;Não;2;Hickman, Mr. Stanley George;Homem;21.0;73.5;;S
+121;122;Não;3;Moore, Mr. Leonard Charles;Homem;;8.05;;S
+122;123;Não;2;Nasser, Mr. Nicholas;Homem;32.5;30.0708;;C
+123;124;Sim;2;Webber, Miss. Susan;Mulher;32.5;13.0;E101;S
+124;125;Não;1;White, Mr. Percival Wayland;Homem;54.0;77.2875;D26;S
+125;126;Sim;3;Nicola-Yarred, Master. Elias;Homem;12.0;11.2417;;C
+126;127;Não;3;McMahon, Mr. Martin;Homem;;7.75;;Q
+127;128;Sim;3;Madsen, Mr. Fridtjof Arne;Homem;24.0;7.1417;;S
+128;129;Sim;3;Peter, Miss. Anna;Mulher;;22.3583;F E69;C
+129;130;Não;3;Ekstrom, Mr. Johan;Homem;45.0;6.975;;S
+130;131;Não;3;Drazenoic, Mr. Jozef;Homem;33.0;7.8958;;C
+131;132;Não;3;Coelho, Mr. Domingos Fernandeo;Homem;20.0;7.05;;S
+132;133;Não;3;Robins, Mrs. Alexander A (Grace Charity Laury);Mulher;47.0;14.5;;S
+133;134;Sim;2;Weisz, Mrs. Leopold (Mathilde Francoise Pede);Mulher;29.0;26.0;;S
+134;135;Não;2;Sobey, Mr. Samuel James Hayden;Homem;25.0;13.0;;S
+135;136;Não;2;Richard, Mr. Emile;Homem;23.0;15.0458;;C
+136;137;Sim;1;Newsom, Miss. Helen Monypeny;Mulher;19.0;26.2833;D47;S
+137;138;Não;1;Futrelle, Mr. Jacques Heath;Homem;37.0;53.1;C123;S
+138;139;Não;3;Osen, Mr. Olaf Elon;Homem;16.0;9.2167;;S
+139;140;Não;1;Giglio, Mr. Victor;Homem;24.0;79.2;B86;C
+140;141;Não;3;Boulos, Mrs. Joseph (Sultana);Mulher;;15.2458;;C
+141;142;Sim;3;Nysten, Miss. Anna Sofia;Mulher;22.0;7.75;;S
+142;143;Sim;3;Hakkarainen, Mrs. Pekka Pietari (Elin Matilda Dolck);Mulher;24.0;15.85;;S
+143;144;Não;3;Burke, Mr. Jeremiah;Homem;19.0;6.75;;Q
+144;145;Não;2;Andrew, Mr. Edgardo Samuel;Homem;18.0;11.5;;S
+145;146;Não;2;Nicholls, Mr. Joseph Charles;Homem;19.0;36.75;;S
+146;147;Sim;3;Andersson, Mr. August Edvard ("Wennerstrom");Homem;27.0;7.7958;;S
+147;148;Não;3;Ford, Miss. Robina Maggie "Ruby";Mulher;9.0;34.375;;S
+148;149;Não;2;Navratil, Mr. Michel ("Louis M Hoffman");Homem;36.5;26.0;F2;S
+149;150;Não;2;Byles, Rev. Thomas Roussel Davids;Homem;42.0;13.0;;S
+150;151;Não;2;Bateman, Rev. Robert James;Homem;51.0;12.525;;S
+151;152;Sim;1;Pears, Mrs. Thomas (Edith Wearne);Mulher;22.0;66.6;C2;S
+152;153;Não;3;Meo, Mr. Alfonzo;Homem;55.5;8.05;;S
+153;154;Não;3;van Billiard, Mr. Austin Blyler;Homem;40.5;14.5;;S
+154;155;Não;3;Olsen, Mr. Ole Martin;Homem;;7.3125;;S
+155;156;Não;1;Williams, Mr. Charles Duane;Homem;51.0;61.3792;;C
+156;157;Sim;3;Gilnagh, Miss. Katherine "Katie";Mulher;16.0;7.7333;;Q
+157;158;Não;3;Corn, Mr. Harry;Homem;30.0;8.05;;S
+158;159;Não;3;Smiljanic, Mr. Mile;Homem;;8.6625;;S
+159;160;Não;3;Sage, Master. Thomas Henry;Homem;;69.55;;S
+160;161;Não;3;Cribb, Mr. John Hatfield;Homem;44.0;16.1;;S
+161;162;Sim;2;Watt, Mrs. James (Elizabeth "Bessie" Inglis Milne);Mulher;40.0;15.75;;S
+162;163;Não;3;Bengtsson, Mr. John Viktor;Homem;26.0;7.775;;S
+163;164;Não;3;Calic, Mr. Jovo;Homem;17.0;8.6625;;S
+164;165;Não;3;Panula, Master. Eino Viljami;Homem;1.0;39.6875;;S
+165;166;Sim;3;Goldsmith, Master. Frank John William "Frankie";Homem;9.0;20.525;;S
+166;167;Sim;1;Chibnall, Mrs. (Edith Martha Bowerman);Mulher;;55.0;E33;S
+167;168;Não;3;Skoog, Mrs. William (Anna Bernhardina Karlsson);Mulher;45.0;27.9;;S
+168;169;Não;1;Baumann, Mr. John D;Homem;;25.925;;S
+169;170;Não;3;Ling, Mr. Lee;Homem;28.0;56.4958;;S
+170;171;Não;1;Van der hoef, Mr. Wyckoff;Homem;61.0;33.5;B19;S
+171;172;Não;3;Rice, Master. Arthur;Homem;4.0;29.125;;Q
+172;173;Sim;3;Johnson, Miss. Eleanor Ileen;Mulher;1.0;11.1333;;S
+173;174;Não;3;Sivola, Mr. Antti Wilhelm;Homem;21.0;7.925;;S
+174;175;Não;1;Smith, Mr. James Clinch;Homem;56.0;30.6958;A7;C
+175;176;Não;3;Klasen, Mr. Klas Albin;Homem;18.0;7.8542;;S
+176;177;Não;3;Lefebre, Master. Henry Forbes;Homem;;25.4667;;S
+177;178;Não;1;Isham, Miss. Ann Elizabeth;Mulher;50.0;28.7125;C49;C
+178;179;Não;2;Hale, Mr. Reginald;Homem;30.0;13.0;;S
+179;180;Não;3;Leonard, Mr. Lionel;Homem;36.0;0.0;;S
+180;181;Não;3;Sage, Miss. Constance Gladys;Mulher;;69.55;;S
+181;182;Não;2;Pernot, Mr. Rene;Homem;;15.05;;C
+182;183;Não;3;Asplund, Master. Clarence Gustaf Hugo;Homem;9.0;31.3875;;S
+183;184;Sim;2;Becker, Master. Richard F;Homem;1.0;39.0;F4;S
+184;185;Sim;3;Kink-Heilmann, Miss. Luise Gretchen;Mulher;4.0;22.025;;S
+185;186;Não;1;Rood, Mr. Hugh Roscoe;Homem;;50.0;A32;S
+186;187;Sim;3;O'Brien, Mrs. Thomas (Johanna "Hannah" Godfrey);Mulher;;15.5;;Q
+187;188;Sim;1;Romaine, Mr. Charles Hallace ("Mr C Rolmane");Homem;45.0;26.55;;S
+188;189;Não;3;Bourke, Mr. John;Homem;40.0;15.5;;Q
+189;190;Não;3;Turcin, Mr. Stjepan;Homem;36.0;7.8958;;S
+190;191;Sim;2;Pinsky, Mrs. (Rosa);Mulher;32.0;13.0;;S
+191;192;Não;2;Carbines, Mr. William;Homem;19.0;13.0;;S
+192;193;Sim;3;Andersen-Jensen, Miss. Carla Christine Nielsine;Mulher;19.0;7.8542;;S
+193;194;Sim;2;Navratil, Master. Michel M;Homem;3.0;26.0;F2;S
+194;195;Sim;1;Brown, Mrs. James Joseph (Margaret Tobin);Mulher;44.0;27.7208;B4;C
+195;196;Sim;1;Lurette, Miss. Elise;Mulher;58.0;146.5208;B80;C
+196;197;Não;3;Mernagh, Mr. Robert;Homem;;7.75;;Q
+197;198;Não;3;Olsen, Mr. Karl Siegwart Andreas;Homem;42.0;8.4042;;S
+198;199;Sim;3;Madigan, Miss. Margaret "Maggie";Mulher;;7.75;;Q
+199;200;Não;2;Yrois, Miss. Henriette ("Mrs Harbeck");Mulher;24.0;13.0;;S
+200;201;Não;3;Vande Walle, Mr. Nestor Cyriel;Homem;28.0;9.5;;S
+201;202;Não;3;Sage, Mr. Frederick;Homem;;69.55;;S
+202;203;Não;3;Johanson, Mr. Jakob Alfred;Homem;34.0;6.4958;;S
+203;204;Não;3;Youseff, Mr. Gerious;Homem;45.5;7.225;;C
+204;205;Sim;3;Cohen, Mr. Gurshon "Gus";Homem;18.0;8.05;;S
+205;206;Não;3;Strom, Miss. Telma Matilda;Mulher;2.0;10.4625;G6;S
+206;207;Não;3;Backstrom, Mr. Karl Alfred;Homem;32.0;15.85;;S
+207;208;Sim;3;Albimona, Mr. Nassef Cassem;Homem;26.0;18.7875;;C
+208;209;Sim;3;Carr, Miss. Helen "Ellen";Mulher;16.0;7.75;;Q
+209;210;Sim;1;Blank, Mr. Henry;Homem;40.0;31.0;A31;C
+210;211;Não;3;Ali, Mr. Ahmed;Homem;24.0;7.05;;S
+211;212;Sim;2;Cameron, Miss. Clear Annie;Mulher;35.0;21.0;;S
+212;213;Não;3;Perkin, Mr. John Henry;Homem;22.0;7.25;;S
+213;214;Não;2;Givard, Mr. Hans Kristensen;Homem;30.0;13.0;;S
+214;215;Não;3;Kiernan, Mr. Philip;Homem;;7.75;;Q
+215;216;Sim;1;Newell, Miss. Madeleine;Mulher;31.0;113.275;D36;C
+216;217;Sim;3;Honkanen, Miss. Eliina;Mulher;27.0;7.925;;S
+217;218;Não;2;Jacobsohn, Mr. Sidney Samuel;Homem;42.0;27.0;;S
+218;219;Sim;1;Bazzani, Miss. Albina;Mulher;32.0;76.2917;D15;C
+219;220;Não;2;Harris, Mr. Walter;Homem;30.0;10.5;;S
+220;221;Sim;3;Sunderland, Mr. Victor Francis;Homem;16.0;8.05;;S
+221;222;Não;2;Bracken, Mr. James H;Homem;27.0;13.0;;S
+222;223;Não;3;Green, Mr. George Henry;Homem;51.0;8.05;;S
+223;224;Não;3;Nenkoff, Mr. Christo;Homem;;7.8958;;S
+224;225;Sim;1;Hoyt, Mr. Frederick Maxfield;Homem;38.0;90.0;C93;S
+225;226;Não;3;Berglund, Mr. Karl Ivar Sven;Homem;22.0;9.35;;S
+226;227;Sim;2;Mellors, Mr. William John;Homem;19.0;10.5;;S
+227;228;Não;3;Lovell, Mr. John Hall ("Henry");Homem;20.5;7.25;;S
+228;229;Não;2;Fahlstrom, Mr. Arne Jonas;Homem;18.0;13.0;;S
+229;230;Não;3;Lefebre, Miss. Mathilde;Mulher;;25.4667;;S
+230;231;Sim;1;Harris, Mrs. Henry Birkhardt (Irene Wallach);Mulher;35.0;83.475;C83;S
+231;232;Não;3;Larsson, Mr. Bengt Edvin;Homem;29.0;7.775;;S
+232;233;Não;2;Sjostedt, Mr. Ernst Adolf;Homem;59.0;13.5;;S
+233;234;Sim;3;Asplund, Miss. Lillian Gertrud;Mulher;5.0;31.3875;;S
+234;235;Não;2;Leyson, Mr. Robert William Norman;Homem;24.0;10.5;;S
+235;236;Não;3;Harknett, Miss. Alice Phoebe;Mulher;;7.55;;S
+236;237;Não;2;Hold, Mr. Stephen;Homem;44.0;26.0;;S
+237;238;Sim;2;Collyer, Miss. Marjorie "Lottie";Mulher;8.0;26.25;;S
+238;239;Não;2;Pengelly, Mr. Frederick William;Homem;19.0;10.5;;S
+239;240;Não;2;Hunt, Mr. George Henry;Homem;33.0;12.275;;S
+240;241;Não;3;Zabour, Miss. Thamine;Mulher;;14.4542;;C
+241;242;Sim;3;Murphy, Miss. Katherine "Kate";Mulher;;15.5;;Q
+242;243;Não;2;Coleridge, Mr. Reginald Charles;Homem;29.0;10.5;;S
+243;244;Não;3;Maenpaa, Mr. Matti Alexanteri;Homem;22.0;7.125;;S
+244;245;Não;3;Attalah, Mr. Sleiman;Homem;30.0;7.225;;C
+245;246;Não;1;Minahan, Dr. William Edward;Homem;44.0;90.0;C78;Q
+246;247;Não;3;Lindahl, Miss. Agda Thorilda Viktoria;Mulher;25.0;7.775;;S
+247;248;Sim;2;Hamalainen, Mrs. William (Anna);Mulher;24.0;14.5;;S
+248;249;Sim;1;Beckwith, Mr. Richard Leonard;Homem;37.0;52.5542;D35;S
+249;250;Não;2;Carter, Rev. Ernest Courtenay;Homem;54.0;26.0;;S
+250;251;Não;3;Reed, Mr. James George;Homem;;7.25;;S
+251;252;Não;3;Strom, Mrs. Wilhelm (Elna Matilda Persson);Mulher;29.0;10.4625;G6;S
+252;253;Não;1;Stead, Mr. William Thomas;Homem;62.0;26.55;C87;S
+253;254;Não;3;Lobb, Mr. William Arthur;Homem;30.0;16.1;;S
+254;255;Não;3;Rosblom, Mrs. Viktor (Helena Wilhelmina);Mulher;41.0;20.2125;;S
+255;256;Sim;3;Touma, Mrs. Darwis (Hanne Youssef Razi);Mulher;29.0;15.2458;;C
+256;257;Sim;1;Thorne, Mrs. Gertrude Maybelle;Mulher;;79.2;;C
+257;258;Sim;1;Cherry, Miss. Gladys;Mulher;30.0;86.5;B77;S
+258;259;Sim;1;Ward, Miss. Anna;Mulher;35.0;512.3292;;C
+259;260;Sim;2;Parrish, Mrs. (Lutie Davis);Mulher;50.0;26.0;;S
+260;261;Não;3;Smith, Mr. Thomas;Homem;;7.75;;Q
+261;262;Sim;3;Asplund, Master. Edvin Rojj Felix;Homem;3.0;31.3875;;S
+262;263;Não;1;Taussig, Mr. Emil;Homem;52.0;79.65;E67;S
+263;264;Não;1;Harrison, Mr. William;Homem;40.0;0.0;B94;S
+264;265;Não;3;Henry, Miss. Delia;Mulher;;7.75;;Q
+265;266;Não;2;Reeves, Mr. David;Homem;36.0;10.5;;S
+266;267;Não;3;Panula, Mr. Ernesti Arvid;Homem;16.0;39.6875;;S
+267;268;Sim;3;Persson, Mr. Ernst Ulrik;Homem;25.0;7.775;;S
+268;269;Sim;1;Graham, Mrs. William Thompson (Edith Junkins);Mulher;58.0;153.4625;C125;S
+269;270;Sim;1;Bissette, Miss. Amelia;Mulher;35.0;135.6333;C99;S
+270;271;Não;1;Cairns, Mr. Alexander;Homem;;31.0;;S
+271;272;Sim;3;Tornquist, Mr. William Henry;Homem;25.0;0.0;;S
+272;273;Sim;2;Mellinger, Mrs. (Elizabeth Anne Maidment);Mulher;41.0;19.5;;S
+273;274;Não;1;Natsch, Mr. Charles H;Homem;37.0;29.7;C118;C
+274;275;Sim;3;Healy, Miss. Hanora "Nora";Mulher;;7.75;;Q
+275;276;Sim;1;Andrews, Miss. Kornelia Theodosia;Mulher;63.0;77.9583;D7;S
+276;277;Não;3;Lindblom, Miss. Augusta Charlotta;Mulher;45.0;7.75;;S
+277;278;Não;2;Parkes, Mr. Francis "Frank";Homem;;0.0;;S
+278;279;Não;3;Rice, Master. Eric;Homem;7.0;29.125;;Q
+279;280;Sim;3;Abbott, Mrs. Stanton (Rosa Hunt);Mulher;35.0;20.25;;S
+280;281;Não;3;Duane, Mr. Frank;Homem;65.0;7.75;;Q
+281;282;Não;3;Olsson, Mr. Nils Johan Goransson;Homem;28.0;7.8542;;S
+282;283;Não;3;de Pelsmaeker, Mr. Alfons;Homem;16.0;9.5;;S
+283;284;Sim;3;Dorking, Mr. Edward Arthur;Homem;19.0;8.05;;S
+284;285;Não;1;Smith, Mr. Richard William;Homem;;26.0;A19;S
+285;286;Não;3;Stankovic, Mr. Ivan;Homem;33.0;8.6625;;C
+286;287;Sim;3;de Mulder, Mr. Theodore;Homem;30.0;9.5;;S
+287;288;Não;3;Naidenoff, Mr. Penko;Homem;22.0;7.8958;;S
+288;289;Sim;2;Hosono, Mr. Masabumi;Homem;42.0;13.0;;S
+289;290;Sim;3;Connolly, Miss. Kate;Mulher;22.0;7.75;;Q
+290;291;Sim;1;Barber, Miss. Ellen "Nellie";Mulher;26.0;78.85;;S
+291;292;Sim;1;Bishop, Mrs. Dickinson H (Helen Walton);Mulher;19.0;91.0792;B49;C
+292;293;Não;2;Levy, Mr. Rene Jacques;Homem;36.0;12.875;D;C
+293;294;Não;3;Haas, Miss. Aloisia;Mulher;24.0;8.85;;S
+294;295;Não;3;Mineff, Mr. Ivan;Homem;24.0;7.8958;;S
+295;296;Não;1;Lewy, Mr. Ervin G;Homem;;27.7208;;C
+296;297;Não;3;Hanna, Mr. Mansour;Homem;23.5;7.2292;;C
+297;298;Não;1;Allison, Miss. Helen Loraine;Mulher;2.0;151.55;C22 C26;S
+298;299;Sim;1;Saalfeld, Mr. Adolphe;Homem;;30.5;C106;S
+299;300;Sim;1;Baxter, Mrs. James (Helene DeLaudeniere Chaput);Mulher;50.0;247.5208;B58 B60;C
+300;301;Sim;3;Kelly, Miss. Anna Katherine "Annie Kate";Mulher;;7.75;;Q
+301;302;Sim;3;McCoy, Mr. Bernard;Homem;;23.25;;Q
+302;303;Não;3;Johnson, Mr. William Cahoone Jr;Homem;19.0;0.0;;S
+303;304;Sim;2;Keane, Miss. Nora A;Mulher;;12.35;E101;Q
+304;305;Não;3;Williams, Mr. Howard Hugh "Harry";Homem;;8.05;;S
+305;306;Sim;1;Allison, Master. Hudson Trevor;Homem;0.92;151.55;C22 C26;S
+306;307;Sim;1;Fleming, Miss. Margaret;Mulher;;110.8833;;C
+307;308;Sim;1;Penasco y Castellana, Mrs. Victor de Satode (Maria Josefa Perez de Soto y Vallejo);Mulher;17.0;108.9;C65;C
+308;309;Não;2;Abelson, Mr. Samuel;Homem;30.0;24.0;;C
+309;310;Sim;1;Francatelli, Miss. Laura Mabel;Mulher;30.0;56.9292;E36;C
+310;311;Sim;1;Hays, Miss. Margaret Bechstein;Mulher;24.0;83.1583;C54;C
+311;312;Sim;1;Ryerson, Miss. Emily Borie;Mulher;18.0;262.375;B57 B59 B63 B66;C
+312;313;Não;2;Lahtinen, Mrs. William (Anna Sylfven);Mulher;26.0;26.0;;S
+313;314;Não;3;Hendekovic, Mr. Ignjac;Homem;28.0;7.8958;;S
+314;315;Não;2;Hart, Mr. Benjamin;Homem;43.0;26.25;;S
+315;316;Sim;3;Nilsson, Miss. Helmina Josefina;Mulher;26.0;7.8542;;S
+316;317;Sim;2;Kantor, Mrs. Sinai (Miriam Sternin);Mulher;24.0;26.0;;S
+317;318;Não;2;Moraweck, Dr. Ernest;Homem;54.0;14.0;;S
+318;319;Sim;1;Wick, Miss. Mary Natalie;Mulher;31.0;164.8667;C7;S
+319;320;Sim;1;Spedden, Mrs. Frederic Oakley (Margaretta Corning Stone);Mulher;40.0;134.5;E34;C
+320;321;Não;3;Dennis, Mr. Samuel;Homem;22.0;7.25;;S
+321;322;Não;3;Danoff, Mr. Yoto;Homem;27.0;7.8958;;S
+322;323;Sim;2;Slayter, Miss. Hilda Mary;Mulher;30.0;12.35;;Q
+323;324;Sim;2;Caldwell, Mrs. Albert Francis (Sylvia Mae Harbaugh);Mulher;22.0;29.0;;S
+324;325;Não;3;Sage, Mr. George John Jr;Homem;;69.55;;S
+325;326;Sim;1;Young, Miss. Marie Grice;Mulher;36.0;135.6333;C32;C
+326;327;Não;3;Nysveen, Mr. Johan Hansen;Homem;61.0;6.2375;;S
+327;328;Sim;2;Ball, Mrs. (Ada E Hall);Mulher;36.0;13.0;D;S
+328;329;Sim;3;Goldsmith, Mrs. Frank John (Emily Alice Brown);Mulher;31.0;20.525;;S
+329;330;Sim;1;Hippach, Miss. Jean Gertrude;Mulher;16.0;57.9792;B18;C
+330;331;Sim;3;McCoy, Miss. Agnes;Mulher;;23.25;;Q
+331;332;Não;1;Partner, Mr. Austen;Homem;45.5;28.5;C124;S
+332;333;Não;1;Graham, Mr. George Edward;Homem;38.0;153.4625;C91;S
+333;334;Não;3;Vander Planke, Mr. Leo Edmondus;Homem;16.0;18.0;;S
+334;335;Sim;1;Frauenthal, Mrs. Henry William (Clara Heinsheimer);Mulher;;133.65;;S
+335;336;Não;3;Denkoff, Mr. Mitto;Homem;;7.8958;;S
+336;337;Não;1;Pears, Mr. Thomas Clinton;Homem;29.0;66.6;C2;S
+337;338;Sim;1;Burns, Miss. Elizabeth Margaret;Mulher;41.0;134.5;E40;C
+338;339;Sim;3;Dahl, Mr. Karl Edwart;Homem;45.0;8.05;;S
+339;340;Não;1;Blackwell, Mr. Stephen Weart;Homem;45.0;35.5;T;S
+340;341;Sim;2;Navratil, Master. Edmond Roger;Homem;2.0;26.0;F2;S
+341;342;Sim;1;Fortune, Miss. Alice Elizabeth;Mulher;24.0;263.0;C23 C25 C27;S
+342;343;Não;2;Collander, Mr. Erik Gustaf;Homem;28.0;13.0;;S
+343;344;Não;2;Sedgwick, Mr. Charles Frederick Waddington;Homem;25.0;13.0;;S
+344;345;Não;2;Fox, Mr. Stanley Hubert;Homem;36.0;13.0;;S
+345;346;Sim;2;Brown, Miss. Amelia "Mildred";Mulher;24.0;13.0;F33;S
+346;347;Sim;2;Smith, Miss. Marion Elsie;Mulher;40.0;13.0;;S
+347;348;Sim;3;Davison, Mrs. Thomas Henry (Mary E Finck);Mulher;;16.1;;S
+348;349;Sim;3;Coutts, Master. William Loch "William";Homem;3.0;15.9;;S
+349;350;Não;3;Dimic, Mr. Jovan;Homem;42.0;8.6625;;S
+350;351;Não;3;Odahl, Mr. Nils Martin;Homem;23.0;9.225;;S
+351;352;Não;1;Williams-Lambert, Mr. Fletcher Fellows;Homem;;35.0;C128;S
+352;353;Não;3;Elias, Mr. Tannous;Homem;15.0;7.2292;;C
+353;354;Não;3;Arnold-Franchi, Mr. Josef;Homem;25.0;17.8;;S
+354;355;Não;3;Yousif, Mr. Wazli;Homem;;7.225;;C
+355;356;Não;3;Vanden Steen, Mr. Leo Peter;Homem;28.0;9.5;;S
+356;357;Sim;1;Bowerman, Miss. Elsie Edith;Mulher;22.0;55.0;E33;S
+357;358;Não;2;Funk, Miss. Annie Clemmer;Mulher;38.0;13.0;;S
+358;359;Sim;3;McGovern, Miss. Mary;Mulher;;7.8792;;Q
+359;360;Sim;3;Mockler, Miss. Helen Mary "Ellie";Mulher;;7.8792;;Q
+360;361;Não;3;Skoog, Mr. Wilhelm;Homem;40.0;27.9;;S
+361;362;Não;2;del Carlo, Mr. Sebastiano;Homem;29.0;27.7208;;C
+362;363;Não;3;Barbara, Mrs. (Catherine David);Mulher;45.0;14.4542;;C
+363;364;Não;3;Asim, Mr. Adola;Homem;35.0;7.05;;S
+364;365;Não;3;O'Brien, Mr. Thomas;Homem;;15.5;;Q
+365;366;Não;3;Adahl, Mr. Mauritz Nils Martin;Homem;30.0;7.25;;S
+366;367;Sim;1;Warren, Mrs. Frank Manley (Anna Sophia Atkinson);Mulher;60.0;75.25;D37;C
+367;368;Sim;3;Moussa, Mrs. (Mantoura Boulos);Mulher;;7.2292;;C
+368;369;Sim;3;Jermyn, Miss. Annie;Mulher;;7.75;;Q
+369;370;Sim;1;Aubart, Mme. Leontine Pauline;Mulher;24.0;69.3;B35;C
+370;371;Sim;1;Harder, Mr. George Achilles;Homem;25.0;55.4417;E50;C
+371;372;Não;3;Wiklund, Mr. Jakob Alfred;Homem;18.0;6.4958;;S
+372;373;Não;3;Beavan, Mr. William Thomas;Homem;19.0;8.05;;S
+373;374;Não;1;Ringhini, Mr. Sante;Homem;22.0;135.6333;;C
+374;375;Não;3;Palsson, Miss. Stina Viola;Mulher;3.0;21.075;;S
+375;376;Sim;1;Meyer, Mrs. Edgar Joseph (Leila Saks);Mulher;;82.1708;;C
+376;377;Sim;3;Landergren, Miss. Aurora Adelia;Mulher;22.0;7.25;;S
+377;378;Não;1;Widener, Mr. Harry Elkins;Homem;27.0;211.5;C82;C
+378;379;Não;3;Betros, Mr. Tannous;Homem;20.0;4.0125;;C
+379;380;Não;3;Gustafsson, Mr. Karl Gideon;Homem;19.0;7.775;;S
+380;381;Sim;1;Bidois, Miss. Rosalie;Mulher;42.0;227.525;;C
+381;382;Sim;3;Nakid, Miss. Maria ("Mary");Mulher;1.0;15.7417;;C
+382;383;Não;3;Tikkanen, Mr. Juho;Homem;32.0;7.925;;S
+383;384;Sim;1;Holverson, Mrs. Alexander Oskar (Mary Aline Towner);Mulher;35.0;52.0;;S
+384;385;Não;3;Plotcharsky, Mr. Vasil;Homem;;7.8958;;S
+385;386;Não;2;Davies, Mr. Charles Henry;Homem;18.0;73.5;;S
+386;387;Não;3;Goodwin, Master. Sidney Leonard;Homem;1.0;46.9;;S
+387;388;Sim;2;Buss, Miss. Kate;Mulher;36.0;13.0;;S
+388;389;Não;3;Sadlier, Mr. Matthew;Homem;;7.7292;;Q
+389;390;Sim;2;Lehmann, Miss. Bertha;Mulher;17.0;12.0;;C
+390;391;Sim;1;Carter, Mr. William Ernest;Homem;36.0;120.0;B96 B98;S
+391;392;Sim;3;Jansson, Mr. Carl Olof;Homem;21.0;7.7958;;S
+392;393;Não;3;Gustafsson, Mr. Johan Birger;Homem;28.0;7.925;;S
+393;394;Sim;1;Newell, Miss. Marjorie;Mulher;23.0;113.275;D36;C
+394;395;Sim;3;Sandstrom, Mrs. Hjalmar (Agnes Charlotta Bengtsson);Mulher;24.0;16.7;G6;S
+395;396;Não;3;Johansson, Mr. Erik;Homem;22.0;7.7958;;S
+396;397;Não;3;Olsson, Miss. Elina;Mulher;31.0;7.8542;;S
+397;398;Não;2;McKane, Mr. Peter David;Homem;46.0;26.0;;S
+398;399;Não;2;Pain, Dr. Alfred;Homem;23.0;10.5;;S
+399;400;Sim;2;Trout, Mrs. William H (Jessie L);Mulher;28.0;12.65;;S
+400;401;Sim;3;Niskanen, Mr. Juha;Homem;39.0;7.925;;S
+401;402;Não;3;Adams, Mr. John;Homem;26.0;8.05;;S
+402;403;Não;3;Jussila, Miss. Mari Aina;Mulher;21.0;9.825;;S
+403;404;Não;3;Hakkarainen, Mr. Pekka Pietari;Homem;28.0;15.85;;S
+404;405;Não;3;Oreskovic, Miss. Marija;Mulher;20.0;8.6625;;S
+405;406;Não;2;Gale, Mr. Shadrach;Homem;34.0;21.0;;S
+406;407;Não;3;Widegren, Mr. Carl/Charles Peter;Homem;51.0;7.75;;S
+407;408;Sim;2;Richards, Master. William Rowe;Homem;3.0;18.75;;S
+408;409;Não;3;Birkeland, Mr. Hans Martin Monsen;Homem;21.0;7.775;;S
+409;410;Não;3;Lefebre, Miss. Ida;Mulher;;25.4667;;S
+410;411;Não;3;Sdycoff, Mr. Todor;Homem;;7.8958;;S
+411;412;Não;3;Hart, Mr. Henry;Homem;;6.8583;;Q
+412;413;Sim;1;Minahan, Miss. Daisy E;Mulher;33.0;90.0;C78;Q
+413;414;Não;2;Cunningham, Mr. Alfred Fleming;Homem;;0.0;;S
+414;415;Sim;3;Sundman, Mr. Johan Julian;Homem;44.0;7.925;;S
+415;416;Não;3;Meek, Mrs. Thomas (Annie Louise Rowley);Mulher;;8.05;;S
+416;417;Sim;2;Drew, Mrs. James Vivian (Lulu Thorne Christian);Mulher;34.0;32.5;;S
+417;418;Sim;2;Silven, Miss. Lyyli Karoliina;Mulher;18.0;13.0;;S
+418;419;Não;2;Matthews, Mr. William John;Homem;30.0;13.0;;S
+419;420;Não;3;Van Impe, Miss. Catharina;Mulher;10.0;24.15;;S
+420;421;Não;3;Gheorgheff, Mr. Stanio;Homem;;7.8958;;C
+421;422;Não;3;Charters, Mr. David;Homem;21.0;7.7333;;Q
+422;423;Não;3;Zimmerman, Mr. Leo;Homem;29.0;7.875;;S
+423;424;Não;3;Danbom, Mrs. Ernst Gilbert (Anna Sigrid Maria Brogren);Mulher;28.0;14.4;;S
+424;425;Não;3;Rosblom, Mr. Viktor Richard;Homem;18.0;20.2125;;S
+425;426;Não;3;Wiseman, Mr. Phillippe;Homem;;7.25;;S
+426;427;Sim;2;Clarke, Mrs. Charles V (Ada Maria Winfield);Mulher;28.0;26.0;;S
+427;428;Sim;2;Phillips, Miss. Kate Florence ("Mrs Kate Louise Phillips Marshall");Mulher;19.0;26.0;;S
+428;429;Não;3;Flynn, Mr. James;Homem;;7.75;;Q
+429;430;Sim;3;Pickard, Mr. Berk (Berk Trembisky);Homem;32.0;8.05;E10;S
+430;431;Sim;1;Bjornstrom-Steffansson, Mr. Mauritz Hakan;Homem;28.0;26.55;C52;S
+431;432;Sim;3;Thorneycroft, Mrs. Percival (Florence Kate White);Mulher;;16.1;;S
+432;433;Sim;2;Louch, Mrs. Charles Alexander (Alice Adelaide Slow);Mulher;42.0;26.0;;S
+433;434;Não;3;Kallio, Mr. Nikolai Erland;Homem;17.0;7.125;;S
+434;435;Não;1;Silvey, Mr. William Baird;Homem;50.0;55.9;E44;S
+435;436;Sim;1;Carter, Miss. Lucile Polk;Mulher;14.0;120.0;B96 B98;S
+436;437;Não;3;Ford, Miss. Doolina Margaret "Daisy";Mulher;21.0;34.375;;S
+437;438;Sim;2;Richards, Mrs. Sidney (Emily Hocking);Mulher;24.0;18.75;;S
+438;439;Não;1;Fortune, Mr. Mark;Homem;64.0;263.0;C23 C25 C27;S
+439;440;Não;2;Kvillner, Mr. Johan Henrik Johannesson;Homem;31.0;10.5;;S
+440;441;Sim;2;Hart, Mrs. Benjamin (Esther Ada Bloomfield);Mulher;45.0;26.25;;S
+441;442;Não;3;Hampe, Mr. Leon;Homem;20.0;9.5;;S
+442;443;Não;3;Petterson, Mr. Johan Emil;Homem;25.0;7.775;;S
+443;444;Sim;2;Reynaldo, Ms. Encarnacion;Mulher;28.0;13.0;;S
+444;445;Sim;3;Johannesen-Bratthammer, Mr. Bernt;Homem;;8.1125;;S
+445;446;Sim;1;Dodge, Master. Washington;Homem;4.0;81.8583;A34;S
+446;447;Sim;2;Mellinger, Miss. Madeleine Violet;Mulher;13.0;19.5;;S
+447;448;Sim;1;Seward, Mr. Frederic Kimber;Homem;34.0;26.55;;S
+448;449;Sim;3;Baclini, Miss. Marie Catherine;Mulher;5.0;19.2583;;C
+449;450;Sim;1;Peuchen, Major. Arthur Godfrey;Homem;52.0;30.5;C104;S
+450;451;Não;2;West, Mr. Edwy Arthur;Homem;36.0;27.75;;S
+451;452;Não;3;Hagland, Mr. Ingvald Olai Olsen;Homem;;19.9667;;S
+452;453;Não;1;Foreman, Mr. Benjamin Laventall;Homem;30.0;27.75;C111;C
+453;454;Sim;1;Goldenberg, Mr. Samuel L;Homem;49.0;89.1042;C92;C
+454;455;Não;3;Peduzzi, Mr. Joseph;Homem;;8.05;;S
+455;456;Sim;3;Jalsevac, Mr. Ivan;Homem;29.0;7.8958;;C
+456;457;Não;1;Millet, Mr. Francis Davis;Homem;65.0;26.55;E38;S
+457;458;Sim;1;Kenyon, Mrs. Frederick R (Marion);Mulher;;51.8625;D21;S
+458;459;Sim;2;Toomey, Miss. Ellen;Mulher;50.0;10.5;;S
+459;460;Não;3;O'Connor, Mr. Maurice;Homem;;7.75;;Q
+460;461;Sim;1;Anderson, Mr. Harry;Homem;48.0;26.55;E12;S
+461;462;Não;3;Morley, Mr. William;Homem;34.0;8.05;;S
+462;463;Não;1;Gee, Mr. Arthur H;Homem;47.0;38.5;E63;S
+463;464;Não;2;Milling, Mr. Jacob Christian;Homem;48.0;13.0;;S
+464;465;Não;3;Maisner, Mr. Simon;Homem;;8.05;;S
+465;466;Não;3;Goncalves, Mr. Manuel Estanslas;Homem;38.0;7.05;;S
+466;467;Não;2;Campbell, Mr. William;Homem;;0.0;;S
+467;468;Não;1;Smart, Mr. John Montgomery;Homem;56.0;26.55;;S
+468;469;Não;3;Scanlan, Mr. James;Homem;;7.725;;Q
+469;470;Sim;3;Baclini, Miss. Helene Barbara;Mulher;0.75;19.2583;;C
+470;471;Não;3;Keefe, Mr. Arthur;Homem;;7.25;;S
+471;472;Não;3;Cacic, Mr. Luka;Homem;38.0;8.6625;;S
+472;473;Sim;2;West, Mrs. Edwy Arthur (Ada Mary Worth);Mulher;33.0;27.75;;S
+473;474;Sim;2;Jerwan, Mrs. Amin S (Marie Marthe Thuillard);Mulher;23.0;13.7917;D;C
+474;475;Não;3;Strandberg, Miss. Ida Sofia;Mulher;22.0;9.8375;;S
+475;476;Não;1;Clifford, Mr. George Quincy;Homem;;52.0;A14;S
+476;477;Não;2;Renouf, Mr. Peter Henry;Homem;34.0;21.0;;S
+477;478;Não;3;Braund, Mr. Lewis Richard;Homem;29.0;7.0458;;S
+478;479;Não;3;Karlsson, Mr. Nils August;Homem;22.0;7.5208;;S
+479;480;Sim;3;Hirvonen, Miss. Hildur E;Mulher;2.0;12.2875;;S
+480;481;Não;3;Goodwin, Master. Harold Victor;Homem;9.0;46.9;;S
+481;482;Não;2;Frost, Mr. Anthony Wood "Archie";Homem;;0.0;;S
+482;483;Não;3;Rouse, Mr. Richard Henry;Homem;50.0;8.05;;S
+483;484;Sim;3;Turkula, Mrs. (Hedwig);Mulher;63.0;9.5875;;S
+484;485;Sim;1;Bishop, Mr. Dickinson H;Homem;25.0;91.0792;B49;C
+485;486;Não;3;Lefebre, Miss. Jeannie;Mulher;;25.4667;;S
+486;487;Sim;1;Hoyt, Mrs. Frederick Maxfield (Jane Anne Forby);Mulher;35.0;90.0;C93;S
+487;488;Não;1;Kent, Mr. Edward Austin;Homem;58.0;29.7;B37;C
+488;489;Não;3;Somerton, Mr. Francis William;Homem;30.0;8.05;;S
+489;490;Sim;3;Coutts, Master. Eden Leslie "Neville";Homem;9.0;15.9;;S
+490;491;Não;3;Hagland, Mr. Konrad Mathias Reiersen;Homem;;19.9667;;S
+491;492;Não;3;Windelov, Mr. Einar;Homem;21.0;7.25;;S
+492;493;Não;1;Molson, Mr. Harry Markland;Homem;55.0;30.5;C30;S
+493;494;Não;1;Artagaveytia, Mr. Ramon;Homem;71.0;49.5042;;C
+494;495;Não;3;Stanley, Mr. Edward Roland;Homem;21.0;8.05;;S
+495;496;Não;3;Yousseff, Mr. Gerious;Homem;;14.4583;;C
+496;497;Sim;1;Eustis, Miss. Elizabeth Mussey;Mulher;54.0;78.2667;D20;C
+497;498;Não;3;Shellard, Mr. Frederick William;Homem;;15.1;;S
+498;499;Não;1;Allison, Mrs. Hudson J C (Bessie Waldo Daniels);Mulher;25.0;151.55;C22 C26;S
+499;500;Não;3;Svensson, Mr. Olof;Homem;24.0;7.7958;;S
+500;501;Não;3;Calic, Mr. Petar;Homem;17.0;8.6625;;S
+501;502;Não;3;Canavan, Miss. Mary;Mulher;21.0;7.75;;Q
+502;503;Não;3;O'Sullivan, Miss. Bridget Mary;Mulher;;7.6292;;Q
+503;504;Não;3;Laitinen, Miss. Kristina Sofia;Mulher;37.0;9.5875;;S
+504;505;Sim;1;Maioni, Miss. Roberta;Mulher;16.0;86.5;B79;S
+505;506;Não;1;Penasco y Castellana, Mr. Victor de Satode;Homem;18.0;108.9;C65;C
+506;507;Sim;2;Quick, Mrs. Frederick Charles (Jane Richards);Mulher;33.0;26.0;;S
+507;508;Sim;1;Bradley, Mr. George ("George Arthur Brayton");Homem;;26.55;;S
+508;509;Não;3;Olsen, Mr. Henry Margido;Homem;28.0;22.525;;S
+509;510;Sim;3;Lang, Mr. Fang;Homem;26.0;56.4958;;S
+510;511;Sim;3;Daly, Mr. Eugene Patrick;Homem;29.0;7.75;;Q
+511;512;Não;3;Webber, Mr. James;Homem;;8.05;;S
+512;513;Sim;1;McGough, Mr. James Robert;Homem;36.0;26.2875;E25;S
+513;514;Sim;1;Rothschild, Mrs. Martin (Elizabeth L. Barrett);Mulher;54.0;59.4;;C
+514;515;Não;3;Coleff, Mr. Satio;Homem;24.0;7.4958;;S
+515;516;Não;1;Walker, Mr. William Anderson;Homem;47.0;34.0208;D46;S
+516;517;Sim;2;Lemore, Mrs. (Amelia Milley);Mulher;34.0;10.5;F33;S
+517;518;Não;3;Ryan, Mr. Patrick;Homem;;24.15;;Q
+518;519;Sim;2;Angle, Mrs. William A (Florence "Mary" Agnes Hughes);Mulher;36.0;26.0;;S
+519;520;Não;3;Pavlovic, Mr. Stefo;Homem;32.0;7.8958;;S
+520;521;Sim;1;Perreault, Miss. Anne;Mulher;30.0;93.5;B73;S
+521;522;Não;3;Vovk, Mr. Janko;Homem;22.0;7.8958;;S
+522;523;Não;3;Lahoud, Mr. Sarkis;Homem;;7.225;;C
+523;524;Sim;1;Hippach, Mrs. Louis Albert (Ida Sophia Fischer);Mulher;44.0;57.9792;B18;C
+524;525;Não;3;Kassem, Mr. Fared;Homem;;7.2292;;C
+525;526;Não;3;Farrell, Mr. James;Homem;40.5;7.75;;Q
+526;527;Sim;2;Ridsdale, Miss. Lucy;Mulher;50.0;10.5;;S
+527;528;Não;1;Farthing, Mr. John;Homem;;221.7792;C95;S
+528;529;Não;3;Salonen, Mr. Johan Werner;Homem;39.0;7.925;;S
+529;530;Não;2;Hocking, Mr. Richard George;Homem;23.0;11.5;;S
+530;531;Sim;2;Quick, Miss. Phyllis May;Mulher;2.0;26.0;;S
+531;532;Não;3;Toufik, Mr. Nakli;Homem;;7.2292;;C
+532;533;Não;3;Elias, Mr. Joseph Jr;Homem;17.0;7.2292;;C
+533;534;Sim;3;Peter, Mrs. Catherine (Catherine Rizk);Mulher;;22.3583;;C
+534;535;Não;3;Cacic, Miss. Marija;Mulher;30.0;8.6625;;S
+535;536;Sim;2;Hart, Miss. Eva Miriam;Mulher;7.0;26.25;;S
+536;537;Não;1;Butt, Major. Archibald Willingham;Homem;45.0;26.55;B38;S
+537;538;Sim;1;LeRoy, Miss. Bertha;Mulher;30.0;106.425;;C
+538;539;Não;3;Risien, Mr. Samuel Beard;Homem;;14.5;;S
+539;540;Sim;1;Frolicher, Miss. Hedwig Margaritha;Mulher;22.0;49.5;B39;C
+540;541;Sim;1;Crosby, Miss. Harriet R;Mulher;36.0;71.0;B22;S
+541;542;Não;3;Andersson, Miss. Ingeborg Constanzia;Mulher;9.0;31.275;;S
+542;543;Não;3;Andersson, Miss. Sigrid Elisabeth;Mulher;11.0;31.275;;S
+543;544;Sim;2;Beane, Mr. Edward;Homem;32.0;26.0;;S
+544;545;Não;1;Douglas, Mr. Walter Donald;Homem;50.0;106.425;C86;C
+545;546;Não;1;Nicholson, Mr. Arthur Ernest;Homem;64.0;26.0;;S
+546;547;Sim;2;Beane, Mrs. Edward (Ethel Clarke);Mulher;19.0;26.0;;S
+547;548;Sim;2;Padro y Manent, Mr. Julian;Homem;;13.8625;;C
+548;549;Não;3;Goldsmith, Mr. Frank John;Homem;33.0;20.525;;S
+549;550;Sim;2;Davies, Master. John Morgan Jr;Homem;8.0;36.75;;S
+550;551;Sim;1;Thayer, Mr. John Borland Jr;Homem;17.0;110.8833;C70;C
+551;552;Não;2;Sharp, Mr. Percival James R;Homem;27.0;26.0;;S
+552;553;Não;3;O'Brien, Mr. Timothy;Homem;;7.8292;;Q
+553;554;Sim;3;Leeni, Mr. Fahim ("Philip Zenni");Homem;22.0;7.225;;C
+554;555;Sim;3;Ohman, Miss. Velin;Mulher;22.0;7.775;;S
+555;556;Não;1;Wright, Mr. George;Homem;62.0;26.55;;S
+556;557;Sim;1;Duff Gordon, Lady. (Lucille Christiana Sutherland) ("Mrs Morgan");Mulher;48.0;39.6;A16;C
+557;558;Não;1;Robbins, Mr. Victor;Homem;;227.525;;C
+558;559;Sim;1;Taussig, Mrs. Emil (Tillie Mandelbaum);Mulher;39.0;79.65;E67;S
+559;560;Sim;3;de Messemaeker, Mrs. Guillaume Joseph (Emma);Mulher;36.0;17.4;;S
+560;561;Não;3;Morrow, Mr. Thomas Rowan;Homem;;7.75;;Q
+561;562;Não;3;Sivic, Mr. Husein;Homem;40.0;7.8958;;S
+562;563;Não;2;Norman, Mr. Robert Douglas;Homem;28.0;13.5;;S
+563;564;Não;3;Simmons, Mr. John;Homem;;8.05;;S
+564;565;Não;3;Meanwell, Miss. (Marion Ogden);Mulher;;8.05;;S
+565;566;Não;3;Davies, Mr. Alfred J;Homem;24.0;24.15;;S
+566;567;Não;3;Stoytcheff, Mr. Ilia;Homem;19.0;7.8958;;S
+567;568;Não;3;Palsson, Mrs. Nils (Alma Cornelia Berglund);Mulher;29.0;21.075;;S
+568;569;Não;3;Doharr, Mr. Tannous;Homem;;7.2292;;C
+569;570;Sim;3;Jonsson, Mr. Carl;Homem;32.0;7.8542;;S
+570;571;Sim;2;Harris, Mr. George;Homem;62.0;10.5;;S
+571;572;Sim;1;Appleton, Mrs. Edward Dale (Charlotte Lamson);Mulher;53.0;51.4792;C101;S
+572;573;Sim;1;Flynn, Mr. John Irwin ("Irving");Homem;36.0;26.3875;E25;S
+573;574;Sim;3;Kelly, Miss. Mary;Mulher;;7.75;;Q
+574;575;Não;3;Rush, Mr. Alfred George John;Homem;16.0;8.05;;S
+575;576;Não;3;Patchett, Mr. George;Homem;19.0;14.5;;S
+576;577;Sim;2;Garside, Miss. Ethel;Mulher;34.0;13.0;;S
+577;578;Sim;1;Silvey, Mrs. William Baird (Alice Munger);Mulher;39.0;55.9;E44;S
+578;579;Não;3;Caram, Mrs. Joseph (Maria Elias);Mulher;;14.4583;;C
+579;580;Sim;3;Jussila, Mr. Eiriik;Homem;32.0;7.925;;S
+580;581;Sim;2;Christy, Miss. Julie Rachel;Mulher;25.0;30.0;;S
+581;582;Sim;1;Thayer, Mrs. John Borland (Marian Longstreth Morris);Mulher;39.0;110.8833;C68;C
+582;583;Não;2;Downton, Mr. William James;Homem;54.0;26.0;;S
+583;584;Não;1;Ross, Mr. John Hugo;Homem;36.0;40.125;A10;C
+584;585;Não;3;Paulner, Mr. Uscher;Homem;;8.7125;;C
+585;586;Sim;1;Taussig, Miss. Ruth;Mulher;18.0;79.65;E68;S
+586;587;Não;2;Jarvis, Mr. John Denzil;Homem;47.0;15.0;;S
+587;588;Sim;1;Frolicher-Stehli, Mr. Maxmillian;Homem;60.0;79.2;B41;C
+588;589;Não;3;Gilinski, Mr. Eliezer;Homem;22.0;8.05;;S
+589;590;Não;3;Murdlin, Mr. Joseph;Homem;;8.05;;S
+590;591;Não;3;Rintamaki, Mr. Matti;Homem;35.0;7.125;;S
+591;592;Sim;1;Stephenson, Mrs. Walter Bertram (Martha Eustis);Mulher;52.0;78.2667;D20;C
+592;593;Não;3;Elsbury, Mr. William James;Homem;47.0;7.25;;S
+593;594;Não;3;Bourke, Miss. Mary;Mulher;;7.75;;Q
+594;595;Não;2;Chapman, Mr. John Henry;Homem;37.0;26.0;;S
+595;596;Não;3;Van Impe, Mr. Jean Baptiste;Homem;36.0;24.15;;S
+596;597;Sim;2;Leitch, Miss. Jessie Wills;Mulher;;33.0;;S
+597;598;Não;3;Johnson, Mr. Alfred;Homem;49.0;0.0;;S
+598;599;Não;3;Boulos, Mr. Hanna;Homem;;7.225;;C
+599;600;Sim;1;Duff Gordon, Sir. Cosmo Edmund ("Mr Morgan");Homem;49.0;56.9292;A20;C
+600;601;Sim;2;Jacobsohn, Mrs. Sidney Samuel (Amy Frances Christy);Mulher;24.0;27.0;;S
+601;602;Não;3;Slabenoff, Mr. Petco;Homem;;7.8958;;S
+602;603;Não;1;Harrington, Mr. Charles H;Homem;;42.4;;S
+603;604;Não;3;Torber, Mr. Ernst William;Homem;44.0;8.05;;S
+604;605;Sim;1;Homer, Mr. Harry ("Mr E Haven");Homem;35.0;26.55;;C
+605;606;Não;3;Lindell, Mr. Edvard Bengtsson;Homem;36.0;15.55;;S
+606;607;Não;3;Karaic, Mr. Milan;Homem;30.0;7.8958;;S
+607;608;Sim;1;Daniel, Mr. Robert Williams;Homem;27.0;30.5;;S
+608;609;Sim;2;Laroche, Mrs. Joseph (Juliette Marie Louise Lafargue);Mulher;22.0;41.5792;;C
+609;610;Sim;1;Shutes, Miss. Elizabeth W;Mulher;40.0;153.4625;C125;S
+610;611;Não;3;Andersson, Mrs. Anders Johan (Alfrida Konstantia Brogren);Mulher;39.0;31.275;;S
+611;612;Não;3;Jardin, Mr. Jose Neto;Homem;;7.05;;S
+612;613;Sim;3;Murphy, Miss. Margaret Jane;Mulher;;15.5;;Q
+613;614;Não;3;Horgan, Mr. John;Homem;;7.75;;Q
+614;615;Não;3;Brocklebank, Mr. William Alfred;Homem;35.0;8.05;;S
+615;616;Sim;2;Herman, Miss. Alice;Mulher;24.0;65.0;;S
+616;617;Não;3;Danbom, Mr. Ernst Gilbert;Homem;34.0;14.4;;S
+617;618;Não;3;Lobb, Mrs. William Arthur (Cordelia K Stanlick);Mulher;26.0;16.1;;S
+618;619;Sim;2;Becker, Miss. Marion Louise;Mulher;4.0;39.0;F4;S
+619;620;Não;2;Gavey, Mr. Lawrence;Homem;26.0;10.5;;S
+620;621;Não;3;Yasbeck, Mr. Antoni;Homem;27.0;14.4542;;C
+621;622;Sim;1;Kimball, Mr. Edwin Nelson Jr;Homem;42.0;52.5542;D19;S
+622;623;Sim;3;Nakid, Mr. Sahid;Homem;20.0;15.7417;;C
+623;624;Não;3;Hansen, Mr. Henry Damsgaard;Homem;21.0;7.8542;;S
+624;625;Não;3;Bowen, Mr. David John "Dai";Homem;21.0;16.1;;S
+625;626;Não;1;Sutton, Mr. Frederick;Homem;61.0;32.3208;D50;S
+626;627;Não;2;Kirkland, Rev. Charles Leonard;Homem;57.0;12.35;;Q
+627;628;Sim;1;Longley, Miss. Gretchen Fiske;Mulher;21.0;77.9583;D9;S
+628;629;Não;3;Bostandyeff, Mr. Guentcho;Homem;26.0;7.8958;;S
+629;630;Não;3;O'Connell, Mr. Patrick D;Homem;;7.7333;;Q
+630;631;Sim;1;Barkworth, Mr. Algernon Henry Wilson;Homem;80.0;30.0;A23;S
+631;632;Não;3;Lundahl, Mr. Johan Svensson;Homem;51.0;7.0542;;S
+632;633;Sim;1;Stahelin-Maeglin, Dr. Max;Homem;32.0;30.5;B50;C
+633;634;Não;1;Parr, Mr. William Henry Marsh;Homem;;0.0;;S
+634;635;Não;3;Skoog, Miss. Mabel;Mulher;9.0;27.9;;S
+635;636;Sim;2;Davis, Miss. Mary;Mulher;28.0;13.0;;S
+636;637;Não;3;Leinonen, Mr. Antti Gustaf;Homem;32.0;7.925;;S
+637;638;Não;2;Collyer, Mr. Harvey;Homem;31.0;26.25;;S
+638;639;Não;3;Panula, Mrs. Juha (Maria Emilia Ojala);Mulher;41.0;39.6875;;S
+639;640;Não;3;Thorneycroft, Mr. Percival;Homem;;16.1;;S
+640;641;Não;3;Jensen, Mr. Hans Peder;Homem;20.0;7.8542;;S
+641;642;Sim;1;Sagesser, Mlle. Emma;Mulher;24.0;69.3;B35;C
+642;643;Não;3;Skoog, Miss. Margit Elizabeth;Mulher;2.0;27.9;;S
+643;644;Sim;3;Foo, Mr. Choong;Homem;;56.4958;;S
+644;645;Sim;3;Baclini, Miss. Eugenie;Mulher;0.75;19.2583;;C
+645;646;Sim;1;Harper, Mr. Henry Sleeper;Homem;48.0;76.7292;D33;C
+646;647;Não;3;Cor, Mr. Liudevit;Homem;19.0;7.8958;;S
+647;648;Sim;1;Simonius-Blumer, Col. Oberst Alfons;Homem;56.0;35.5;A26;C
+648;649;Não;3;Willey, Mr. Edward;Homem;;7.55;;S
+649;650;Sim;3;Stanley, Miss. Amy Zillah Elsie;Mulher;23.0;7.55;;S
+650;651;Não;3;Mitkoff, Mr. Mito;Homem;;7.8958;;S
+651;652;Sim;2;Doling, Miss. Elsie;Mulher;18.0;23.0;;S
+652;653;Não;3;Kalvik, Mr. Johannes Halvorsen;Homem;21.0;8.4333;;S
+653;654;Sim;3;O'Leary, Miss. Hanora "Norah";Mulher;;7.8292;;Q
+654;655;Não;3;Hegarty, Miss. Hanora "Nora";Mulher;18.0;6.75;;Q
+655;656;Não;2;Hickman, Mr. Leonard Mark;Homem;24.0;73.5;;S
+656;657;Não;3;Radeff, Mr. Alexander;Homem;;7.8958;;S
+657;658;Não;3;Bourke, Mrs. John (Catherine);Mulher;32.0;15.5;;Q
+658;659;Não;2;Eitemiller, Mr. George Floyd;Homem;23.0;13.0;;S
+659;660;Não;1;Newell, Mr. Arthur Webster;Homem;58.0;113.275;D48;C
+660;661;Sim;1;Frauenthal, Dr. Henry William;Homem;50.0;133.65;;S
+661;662;Não;3;Badt, Mr. Mohamed;Homem;40.0;7.225;;C
+662;663;Não;1;Colley, Mr. Edward Pomeroy;Homem;47.0;25.5875;E58;S
+663;664;Não;3;Coleff, Mr. Peju;Homem;36.0;7.4958;;S
+664;665;Sim;3;Lindqvist, Mr. Eino William;Homem;20.0;7.925;;S
+665;666;Não;2;Hickman, Mr. Lewis;Homem;32.0;73.5;;S
+666;667;Não;2;Butler, Mr. Reginald Fenton;Homem;25.0;13.0;;S
+667;668;Não;3;Rommetvedt, Mr. Knud Paust;Homem;;7.775;;S
+668;669;Não;3;Cook, Mr. Jacob;Homem;43.0;8.05;;S
+669;670;Sim;1;Taylor, Mrs. Elmer Zebley (Juliet Cummins Wright);Mulher;;52.0;C126;S
+670;671;Sim;2;Brown, Mrs. Thomas William Solomon (Elizabeth Catherine Ford);Mulher;40.0;39.0;;S
+671;672;Não;1;Davidson, Mr. Thornton;Homem;31.0;52.0;B71;S
+672;673;Não;2;Mitchell, Mr. Henry Michael;Homem;70.0;10.5;;S
+673;674;Sim;2;Wilhelms, Mr. Charles;Homem;31.0;13.0;;S
+674;675;Não;2;Watson, Mr. Ennis Hastings;Homem;;0.0;;S
+675;676;Não;3;Edvardsson, Mr. Gustaf Hjalmar;Homem;18.0;7.775;;S
+676;677;Não;3;Sawyer, Mr. Frederick Charles;Homem;24.5;8.05;;S
+677;678;Sim;3;Turja, Miss. Anna Sofia;Mulher;18.0;9.8417;;S
+678;679;Não;3;Goodwin, Mrs. Frederick (Augusta Tyler);Mulher;43.0;46.9;;S
+679;680;Sim;1;Cardeza, Mr. Thomas Drake Martinez;Homem;36.0;512.3292;B51 B53 B55;C
+680;681;Não;3;Peters, Miss. Katie;Mulher;;8.1375;;Q
+681;682;Sim;1;Hassab, Mr. Hammad;Homem;27.0;76.7292;D49;C
+682;683;Não;3;Olsvigen, Mr. Thor Anderson;Homem;20.0;9.225;;S
+683;684;Não;3;Goodwin, Mr. Charles Edward;Homem;14.0;46.9;;S
+684;685;Não;2;Brown, Mr. Thomas William Solomon;Homem;60.0;39.0;;S
+685;686;Não;2;Laroche, Mr. Joseph Philippe Lemercier;Homem;25.0;41.5792;;C
+686;687;Não;3;Panula, Mr. Jaako Arnold;Homem;14.0;39.6875;;S
+687;688;Não;3;Dakic, Mr. Branko;Homem;19.0;10.1708;;S
+688;689;Não;3;Fischer, Mr. Eberhard Thelander;Homem;18.0;7.7958;;S
+689;690;Sim;1;Madill, Miss. Georgette Alexandra;Mulher;15.0;211.3375;B5;S
+690;691;Sim;1;Dick, Mr. Albert Adrian;Homem;31.0;57.0;B20;S
+691;692;Sim;3;Karun, Miss. Manca;Mulher;4.0;13.4167;;C
+692;693;Sim;3;Lam, Mr. Ali;Homem;;56.4958;;S
+693;694;Não;3;Saad, Mr. Khalil;Homem;25.0;7.225;;C
+694;695;Não;1;Weir, Col. John;Homem;60.0;26.55;;S
+695;696;Não;2;Chapman, Mr. Charles Henry;Homem;52.0;13.5;;S
+696;697;Não;3;Kelly, Mr. James;Homem;44.0;8.05;;S
+697;698;Sim;3;Mullens, Miss. Katherine "Katie";Mulher;;7.7333;;Q
+698;699;Não;1;Thayer, Mr. John Borland;Homem;49.0;110.8833;C68;C
+699;700;Não;3;Humblen, Mr. Adolf Mathias Nicolai Olsen;Homem;42.0;7.65;F G63;S
+700;701;Sim;1;Astor, Mrs. John Jacob (Madeleine Talmadge Force);Mulher;18.0;227.525;C62 C64;C
+701;702;Sim;1;Silverthorne, Mr. Spencer Victor;Homem;35.0;26.2875;E24;S
+702;703;Não;3;Barbara, Miss. Saiide;Mulher;18.0;14.4542;;C
+703;704;Não;3;Gallagher, Mr. Martin;Homem;25.0;7.7417;;Q
+704;705;Não;3;Hansen, Mr. Henrik Juul;Homem;26.0;7.8542;;S
+705;706;Não;2;Morley, Mr. Henry Samuel ("Mr Henry Marshall");Homem;39.0;26.0;;S
+706;707;Sim;2;Kelly, Mrs. Florence "Fannie";Mulher;45.0;13.5;;S
+707;708;Sim;1;Calderhead, Mr. Edward Pennington;Homem;42.0;26.2875;E24;S
+708;709;Sim;1;Cleaver, Miss. Alice;Mulher;22.0;151.55;;S
+709;710;Sim;3;Moubarek, Master. Halim Gonios ("William George");Homem;;15.2458;;C
+710;711;Sim;1;Mayne, Mlle. Berthe Antonine ("Mrs de Villiers");Mulher;24.0;49.5042;C90;C
+711;712;Não;1;Klaber, Mr. Herman;Homem;;26.55;C124;S
+712;713;Sim;1;Taylor, Mr. Elmer Zebley;Homem;48.0;52.0;C126;S
+713;714;Não;3;Larsson, Mr. August Viktor;Homem;29.0;9.4833;;S
+714;715;Não;2;Greenberg, Mr. Samuel;Homem;52.0;13.0;;S
+715;716;Não;3;Soholt, Mr. Peter Andreas Lauritz Andersen;Homem;19.0;7.65;F G73;S
+716;717;Sim;1;Endres, Miss. Caroline Louise;Mulher;38.0;227.525;C45;C
+717;718;Sim;2;Troutt, Miss. Edwina Celia "Winnie";Mulher;27.0;10.5;E101;S
+718;719;Não;3;McEvoy, Mr. Michael;Homem;;15.5;;Q
+719;720;Não;3;Johnson, Mr. Malkolm Joackim;Homem;33.0;7.775;;S
+720;721;Sim;2;Harper, Miss. Annie Jessie "Nina";Mulher;6.0;33.0;;S
+721;722;Não;3;Jensen, Mr. Svend Lauritz;Homem;17.0;7.0542;;S
+722;723;Não;2;Gillespie, Mr. William Henry;Homem;34.0;13.0;;S
+723;724;Não;2;Hodges, Mr. Henry Price;Homem;50.0;13.0;;S
+724;725;Sim;1;Chambers, Mr. Norman Campbell;Homem;27.0;53.1;E8;S
+725;726;Não;3;Oreskovic, Mr. Luka;Homem;20.0;8.6625;;S
+726;727;Sim;2;Renouf, Mrs. Peter Henry (Lillian Jefferys);Mulher;30.0;21.0;;S
+727;728;Sim;3;Mannion, Miss. Margareth;Mulher;;7.7375;;Q
+728;729;Não;2;Bryhl, Mr. Kurt Arnold Gottfrid;Homem;25.0;26.0;;S
+729;730;Não;3;Ilmakangas, Miss. Pieta Sofia;Mulher;25.0;7.925;;S
+730;731;Sim;1;Allen, Miss. Elisabeth Walton;Mulher;29.0;211.3375;B5;S
+731;732;Não;3;Hassan, Mr. Houssein G N;Homem;11.0;18.7875;;C
+732;733;Não;2;Knight, Mr. Robert J;Homem;;0.0;;S
+733;734;Não;2;Berriman, Mr. William John;Homem;23.0;13.0;;S
+734;735;Não;2;Troupiansky, Mr. Moses Aaron;Homem;23.0;13.0;;S
+735;736;Não;3;Williams, Mr. Leslie;Homem;28.5;16.1;;S
+736;737;Não;3;Ford, Mrs. Edward (Margaret Ann Watson);Mulher;48.0;34.375;;S
+737;738;Sim;1;Lesurer, Mr. Gustave J;Homem;35.0;512.3292;B101;C
+738;739;Não;3;Ivanoff, Mr. Kanio;Homem;;7.8958;;S
+739;740;Não;3;Nankoff, Mr. Minko;Homem;;7.8958;;S
+740;741;Sim;1;Hawksford, Mr. Walter James;Homem;;30.0;D45;S
+741;742;Não;1;Cavendish, Mr. Tyrell William;Homem;36.0;78.85;C46;S
+742;743;Sim;1;Ryerson, Miss. Susan Parker "Suzette";Mulher;21.0;262.375;B57 B59 B63 B66;C
+743;744;Não;3;McNamee, Mr. Neal;Homem;24.0;16.1;;S
+744;745;Sim;3;Stranden, Mr. Juho;Homem;31.0;7.925;;S
+745;746;Não;1;Crosby, Capt. Edward Gifford;Homem;70.0;71.0;B22;S
+746;747;Não;3;Abbott, Mr. Rossmore Edward;Homem;16.0;20.25;;S
+747;748;Sim;2;Sinkkonen, Miss. Anna;Mulher;30.0;13.0;;S
+748;749;Não;1;Marvin, Mr. Daniel Warner;Homem;19.0;53.1;D30;S
+749;750;Não;3;Connaghton, Mr. Michael;Homem;31.0;7.75;;Q
+750;751;Sim;2;Wells, Miss. Joan;Mulher;4.0;23.0;;S
+751;752;Sim;3;Moor, Master. Meier;Homem;6.0;12.475;E121;S
+752;753;Não;3;Vande Velde, Mr. Johannes Joseph;Homem;33.0;9.5;;S
+753;754;Não;3;Jonkoff, Mr. Lalio;Homem;23.0;7.8958;;S
+754;755;Sim;2;Herman, Mrs. Samuel (Jane Laver);Mulher;48.0;65.0;;S
+755;756;Sim;2;Hamalainen, Master. Viljo;Homem;0.67;14.5;;S
+756;757;Não;3;Carlsson, Mr. August Sigfrid;Homem;28.0;7.7958;;S
+757;758;Não;2;Bailey, Mr. Percy Andrew;Homem;18.0;11.5;;S
+758;759;Não;3;Theobald, Mr. Thomas Leonard;Homem;34.0;8.05;;S
+759;760;Sim;1;Rothes, the Countess. of (Lucy Noel Martha Dyer-Edwards);Mulher;33.0;86.5;B77;S
+760;761;Não;3;Garfirth, Mr. John;Homem;;14.5;;S
+761;762;Não;3;Nirva, Mr. Iisakki Antino Aijo;Homem;41.0;7.125;;S
+762;763;Sim;3;Barah, Mr. Hanna Assi;Homem;20.0;7.2292;;C
+763;764;Sim;1;Carter, Mrs. William Ernest (Lucile Polk);Mulher;36.0;120.0;B96 B98;S
+764;765;Não;3;Eklund, Mr. Hans Linus;Homem;16.0;7.775;;S
+765;766;Sim;1;Hogeboom, Mrs. John C (Anna Andrews);Mulher;51.0;77.9583;D11;S
+766;767;Não;1;Brewe, Dr. Arthur Jackson;Homem;;39.6;;C
+767;768;Não;3;Mangan, Miss. Mary;Mulher;30.5;7.75;;Q
+768;769;Não;3;Moran, Mr. Daniel J;Homem;;24.15;;Q
+769;770;Não;3;Gronnestad, Mr. Daniel Danielsen;Homem;32.0;8.3625;;S
+770;771;Não;3;Lievens, Mr. Rene Aime;Homem;24.0;9.5;;S
+771;772;Não;3;Jensen, Mr. Niels Peder;Homem;48.0;7.8542;;S
+772;773;Não;2;Mack, Mrs. (Mary);Mulher;57.0;10.5;E77;S
+773;774;Não;3;Elias, Mr. Dibo;Homem;;7.225;;C
+774;775;Sim;2;Hocking, Mrs. Elizabeth (Eliza Needs);Mulher;54.0;23.0;;S
+775;776;Não;3;Myhrman, Mr. Pehr Fabian Oliver Malkolm;Homem;18.0;7.75;;S
+776;777;Não;3;Tobin, Mr. Roger;Homem;;7.75;F38;Q
+777;778;Sim;3;Emanuel, Miss. Virginia Ethel;Mulher;5.0;12.475;;S
+778;779;Não;3;Kilgannon, Mr. Thomas J;Homem;;7.7375;;Q
+779;780;Sim;1;Robert, Mrs. Edward Scott (Elisabeth Walton McMillan);Mulher;43.0;211.3375;B3;S
+780;781;Sim;3;Ayoub, Miss. Banoura;Mulher;13.0;7.2292;;C
+781;782;Sim;1;Dick, Mrs. Albert Adrian (Vera Gillespie);Mulher;17.0;57.0;B20;S
+782;783;Não;1;Long, Mr. Milton Clyde;Homem;29.0;30.0;D6;S
+783;784;Não;3;Johnston, Mr. Andrew G;Homem;;23.45;;S
+784;785;Não;3;Ali, Mr. William;Homem;25.0;7.05;;S
+785;786;Não;3;Harmer, Mr. Abraham (David Lishin);Homem;25.0;7.25;;S
+786;787;Sim;3;Sjoblom, Miss. Anna Sofia;Mulher;18.0;7.4958;;S
+787;788;Não;3;Rice, Master. George Hugh;Homem;8.0;29.125;;Q
+788;789;Sim;3;Dean, Master. Bertram Vere;Homem;1.0;20.575;;S
+789;790;Não;1;Guggenheim, Mr. Benjamin;Homem;46.0;79.2;B82 B84;C
+790;791;Não;3;Keane, Mr. Andrew "Andy";Homem;;7.75;;Q
+791;792;Não;2;Gaskell, Mr. Alfred;Homem;16.0;26.0;;S
+792;793;Não;3;Sage, Miss. Stella Anna;Mulher;;69.55;;S
+793;794;Não;1;Hoyt, Mr. William Fisher;Homem;;30.6958;;C
+794;795;Não;3;Dantcheff, Mr. Ristiu;Homem;25.0;7.8958;;S
+795;796;Não;2;Otter, Mr. Richard;Homem;39.0;13.0;;S
+796;797;Sim;1;Leader, Dr. Alice (Farnham);Mulher;49.0;25.9292;D17;S
+797;798;Sim;3;Osman, Mrs. Mara;Mulher;31.0;8.6833;;S
+798;799;Não;3;Ibrahim Shawah, Mr. Yousseff;Homem;30.0;7.2292;;C
+799;800;Não;3;Van Impe, Mrs. Jean Baptiste (Rosalie Paula Govaert);Mulher;30.0;24.15;;S
+800;801;Não;2;Ponesell, Mr. Martin;Homem;34.0;13.0;;S
+801;802;Sim;2;Collyer, Mrs. Harvey (Charlotte Annie Tate);Mulher;31.0;26.25;;S
+802;803;Sim;1;Carter, Master. William Thornton II;Homem;11.0;120.0;B96 B98;S
+803;804;Sim;3;Thomas, Master. Assad Alexander;Homem;0.42;8.5167;;C
+804;805;Sim;3;Hedman, Mr. Oskar Arvid;Homem;27.0;6.975;;S
+805;806;Não;3;Johansson, Mr. Karl Johan;Homem;31.0;7.775;;S
+806;807;Não;1;Andrews, Mr. Thomas Jr;Homem;39.0;0.0;A36;S
+807;808;Não;3;Pettersson, Miss. Ellen Natalia;Mulher;18.0;7.775;;S
+808;809;Não;2;Meyer, Mr. August;Homem;39.0;13.0;;S
+809;810;Sim;1;Chambers, Mrs. Norman Campbell (Bertha Griggs);Mulher;33.0;53.1;E8;S
+810;811;Não;3;Alexander, Mr. William;Homem;26.0;7.8875;;S
+811;812;Não;3;Lester, Mr. James;Homem;39.0;24.15;;S
+812;813;Não;2;Slemen, Mr. Richard James;Homem;35.0;10.5;;S
+813;814;Não;3;Andersson, Miss. Ebba Iris Alfrida;Mulher;6.0;31.275;;S
+814;815;Não;3;Tomlin, Mr. Ernest Portage;Homem;30.5;8.05;;S
+815;816;Não;1;Fry, Mr. Richard;Homem;;0.0;B102;S
+816;817;Não;3;Heininen, Miss. Wendla Maria;Mulher;23.0;7.925;;S
+817;818;Não;2;Mallet, Mr. Albert;Homem;31.0;37.0042;;C
+818;819;Não;3;Holm, Mr. John Fredrik Alexander;Homem;43.0;6.45;;S
+819;820;Não;3;Skoog, Master. Karl Thorsten;Homem;10.0;27.9;;S
+820;821;Sim;1;Hays, Mrs. Charles Melville (Clara Jennings Gregg);Mulher;52.0;93.5;B69;S
+821;822;Sim;3;Lulic, Mr. Nikola;Homem;27.0;8.6625;;S
+822;823;Não;1;Reuchlin, Jonkheer. John George;Homem;38.0;0.0;;S
+823;824;Sim;3;Moor, Mrs. (Beila);Mulher;27.0;12.475;E121;S
+824;825;Não;3;Panula, Master. Urho Abraham;Homem;2.0;39.6875;;S
+825;826;Não;3;Flynn, Mr. John;Homem;;6.95;;Q
+826;827;Não;3;Lam, Mr. Len;Homem;;56.4958;;S
+827;828;Sim;2;Mallet, Master. Andre;Homem;1.0;37.0042;;C
+828;829;Sim;3;McCormack, Mr. Thomas Joseph;Homem;;7.75;;Q
+829;830;Sim;1;Stone, Mrs. George Nelson (Martha Evelyn);Mulher;62.0;80.0;B28;
+830;831;Sim;3;Yasbeck, Mrs. Antoni (Selini Alexander);Mulher;15.0;14.4542;;C
+831;832;Sim;2;Richards, Master. George Sibley;Homem;0.83;18.75;;S
+832;833;Não;3;Saad, Mr. Amin;Homem;;7.2292;;C
+833;834;Não;3;Augustsson, Mr. Albert;Homem;23.0;7.8542;;S
+834;835;Não;3;Allum, Mr. Owen George;Homem;18.0;8.3;;S
+835;836;Sim;1;Compton, Miss. Sara Rebecca;Mulher;39.0;83.1583;E49;C
+836;837;Não;3;Pasic, Mr. Jakob;Homem;21.0;8.6625;;S
+837;838;Não;3;Sirota, Mr. Maurice;Homem;;8.05;;S
+838;839;Sim;3;Chip, Mr. Chang;Homem;32.0;56.4958;;S
+839;840;Sim;1;Marechal, Mr. Pierre;Homem;;29.7;C47;C
+840;841;Não;3;Alhomaki, Mr. Ilmari Rudolf;Homem;20.0;7.925;;S
+841;842;Não;2;Mudd, Mr. Thomas Charles;Homem;16.0;10.5;;S
+842;843;Sim;1;Serepeca, Miss. Augusta;Mulher;30.0;31.0;;C
+843;844;Não;3;Lemberopolous, Mr. Peter L;Homem;34.5;6.4375;;C
+844;845;Não;3;Culumovic, Mr. Jeso;Homem;17.0;8.6625;;S
+845;846;Não;3;Abbing, Mr. Anthony;Homem;42.0;7.55;;S
+846;847;Não;3;Sage, Mr. Douglas Bullen;Homem;;69.55;;S
+847;848;Não;3;Markoff, Mr. Marin;Homem;35.0;7.8958;;C
+848;849;Não;2;Harper, Rev. John;Homem;28.0;33.0;;S
+849;850;Sim;1;Goldenberg, Mrs. Samuel L (Edwiga Grabowska);Mulher;;89.1042;C92;C
+850;851;Não;3;Andersson, Master. Sigvard Harald Elias;Homem;4.0;31.275;;S
+851;852;Não;3;Svensson, Mr. Johan;Homem;74.0;7.775;;S
+852;853;Não;3;Boulos, Miss. Nourelain;Mulher;9.0;15.2458;;C
+853;854;Sim;1;Lines, Miss. Mary Conover;Mulher;16.0;39.4;D28;S
+854;855;Não;2;Carter, Mrs. Ernest Courtenay (Lilian Hughes);Mulher;44.0;26.0;;S
+855;856;Sim;3;Aks, Mrs. Sam (Leah Rosen);Mulher;18.0;9.35;;S
+856;857;Sim;1;Wick, Mrs. George Dennick (Mary Hitchcock);Mulher;45.0;164.8667;;S
+857;858;Sim;1;Daly, Mr. Peter Denis ;Homem;51.0;26.55;E17;S
+858;859;Sim;3;Baclini, Mrs. Solomon (Latifa Qurban);Mulher;24.0;19.2583;;C
+859;860;Não;3;Razi, Mr. Raihed;Homem;;7.2292;;C
+860;861;Não;3;Hansen, Mr. Claus Peter;Homem;41.0;14.1083;;S
+861;862;Não;2;Giles, Mr. Frederick Edward;Homem;21.0;11.5;;S
+862;863;Sim;1;Swift, Mrs. Frederick Joel (Margaret Welles Barron);Mulher;48.0;25.9292;D17;S
+863;864;Não;3;Sage, Miss. Dorothy Edith "Dolly";Mulher;;69.55;;S
+864;865;Não;2;Gill, Mr. John William;Homem;24.0;13.0;;S
+865;866;Sim;2;Bystrom, Mrs. (Karolina);Mulher;42.0;13.0;;S
+866;867;Sim;2;Duran y More, Miss. Asuncion;Mulher;27.0;13.8583;;C
+867;868;Não;1;Roebling, Mr. Washington Augustus II;Homem;31.0;50.4958;A24;S
+868;869;Não;3;van Melkebeke, Mr. Philemon;Homem;;9.5;;S
+869;870;Sim;3;Johnson, Master. Harold Theodor;Homem;4.0;11.1333;;S
+870;871;Não;3;Balkic, Mr. Cerin;Homem;26.0;7.8958;;S
+871;872;Sim;1;Beckwith, Mrs. Richard Leonard (Sallie Monypeny);Mulher;47.0;52.5542;D35;S
+872;873;Não;1;Carlsson, Mr. Frans Olof;Homem;33.0;5.0;B51 B53 B55;S
+873;874;Não;3;Vander Cruyssen, Mr. Victor;Homem;47.0;9.0;;S
+874;875;Sim;2;Abelson, Mrs. Samuel (Hannah Wizosky);Mulher;28.0;24.0;;C
+875;876;Sim;3;Najib, Miss. Adele Kiamie "Jane";Mulher;15.0;7.225;;C
+876;877;Não;3;Gustafsson, Mr. Alfred Ossian;Homem;20.0;9.8458;;S
+877;878;Não;3;Petroff, Mr. Nedelio;Homem;19.0;7.8958;;S
+878;879;Não;3;Laleff, Mr. Kristo;Homem;;7.8958;;S
+879;880;Sim;1;Potter, Mrs. Thomas Jr (Lily Alexenia Wilson);Mulher;56.0;83.1583;C50;C
+880;881;Sim;2;Shelley, Mrs. William (Imanita Parrish Hall);Mulher;25.0;26.0;;S
+881;882;Não;3;Markun, Mr. Johann;Homem;33.0;7.8958;;S
+882;883;Não;3;Dahlberg, Miss. Gerda Ulrika;Mulher;22.0;10.5167;;S
+883;884;Não;2;Banfield, Mr. Frederick James;Homem;28.0;10.5;;S
+884;885;Não;3;Sutehall, Mr. Henry Jr;Homem;25.0;7.05;;S
+885;886;Não;3;Rice, Mrs. William (Margaret Norton);Mulher;39.0;29.125;;Q
+886;887;Não;2;Montvila, Rev. Juozas;Homem;27.0;13.0;;S
+887;888;Sim;1;Graham, Miss. Margaret Edith;Mulher;19.0;30.0;B42;S
+888;889;Não;3;Johnston, Miss. Catherine Helen "Carrie";Mulher;;23.45;;S
+889;890;Sim;1;Behr, Mr. Karl Howell;Homem;26.0;30.0;C148;C
+890;891;Não;3;Dooley, Mr. Patrick;Homem;32.0;7.75;;Q

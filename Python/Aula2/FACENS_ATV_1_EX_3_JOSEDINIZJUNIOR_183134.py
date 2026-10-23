@@ -1,0 +1,15 @@
+'''Certas palavras podem ser lidas da tanto da esquerda para a direita, quanto da direita para a esquerda
+que tem o mesmo significado. Essas palavras são denominadas palíndromos. São exemplos de palíndromos:
+arara, ovo, esse, osso. Crie uma função que recebe uma palavra e verifique se trata-se de um palíndromo,
+caso positivo escreva na tela a frase "Temos um palíndromo!", caso contrário escreva "Não foi dessa vez!'''
+
+
+def palindromo(str):
+   semespacos = str.replace(' ', '')
+   minuscula = semespacos.lower()
+   invertida = minuscula[::-1]
+   if invertida == minuscula:
+    return "Temos um palíndromo!"
+   else:
+    return "Não foi dessa vez!"
+print(palindromo("anilina"))

@@ -1,0 +1,1 @@
+https://pt.stackoverflow.com/questions/230565/montando-tabela-a-partir-de-um-csv-agrupada-por-semana-com-python-e-pandas
